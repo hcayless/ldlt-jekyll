@@ -1,0 +1,78 @@
+---
+---
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+a:link {
+  color: #005cb9;
+}
+
+a:visited {
+  color: #005cb9;
+}
+
+a:hover {
+  color: #a33701;
+}
+
+// Navbar styles
+.navbar {
+  background-color: #005cb9;
+}
+
+a.navbar-brand {
+  margin-bottom: 0.75rem;
+  margin-left: 1rem;
+}
+
+.navbar-nav {
+  margin-left: 3rem;
+}
+
+// Home Page
+
+#main {
+  margin-top: 3rem;
+}
+
+#main h1 {
+  color: #a33701;
+}
+
+#main h2 {
+  font-style: italic;
+  font-weight: 100;
+  color: #b7b7b7;
+}
+
+#main h3 {
+  margin-top: 40px;
+  color: #005cb9;
+}
+
+#main-content {
+  margin-top: 2.5rem;
+  width: 75%;
+}
+
+// Footer
+
+footer {
+  background-color: lightgrey;
+  color: darkgrey;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul.nav {
+  display: block;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
