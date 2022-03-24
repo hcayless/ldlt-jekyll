@@ -41,7 +41,7 @@
         <!-- There's a citeStructure for each section of the document we want to a) appear in the ToC,
              b) be output as a separate file. 
         
-             @match selects the document section(s) to be used in resolving citations.
+             @match selects the document section(s) to be used in resolving citations. 
              @use indicates the the string that will be used in citations. -->
         <citeStructure match="//front/div[@type='introduction']" use="'Introduction'">
           <!-- Defines the identifier to use for this structure -->
