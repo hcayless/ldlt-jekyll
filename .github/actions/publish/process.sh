@@ -4,7 +4,7 @@ FILES=$(git diff --name-only $BEFORE..$AFTER | grep "sources/.*\.xml")
 
 convert() {
   echo "Converting $1"
-  DIR=$(basename "$1" | sed 's/\.xml//')
+  DIR=$(basename "$1" | sed 's/\.xml//' | tr "[:upper:]" "[:lower:]")
   if [ ! -d "editionscs/$DIR" ]; then
     mkdir "editions/$DIR"
   fi
