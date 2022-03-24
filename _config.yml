@@ -52,7 +52,7 @@ plugins:
 #   - vendor/ruby/
 # Where things are
 source              : .
-destination         : ./_site
+destination         : ./docs
 # collections_dir     : .
 # plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
 layouts_dir         : _layouts
@@ -61,7 +61,7 @@ includes_dir        : _includes
 sass:
   sass_dir: assets/css
 include             : [".htaccess"]
-exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "sources", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/", "xslt"]
 keep_files          : [".git", ".svn"]
 encoding            : "utf-8"
 markdown_ext        : "markdown,mkdown,mkdn,mkd,md"

@@ -70,7 +70,7 @@ border-top:2px solid @border-color;
 /* Controls */
 div#controls {
   position: fixed;
-  top: 1rem;
+  top: 6rem;
   right: 1rem;
   font-size: 80%;
   width: 18%;
@@ -103,7 +103,14 @@ div#editing li {
 }
 div#editing button {
   font-size: 100%;
-  padding: 4px 4px 0px;
+  margin: 2px 2px 0 0;
+  height: 1.5em;
+}
+div#editing button svg {
+  vertical-align: unset;
+}
+div#citesearch input {
+  width: 6em;
 }
 
 /* Apparatus */
@@ -1253,9 +1260,6 @@ html > body {
 html {
   margin: 0;
   padding: 0;
-  margin-left: 2em;
-  margin-right: 4em;
-  padding: 2.5em;
   font-family: "Lucida Grande", "Cardo", "Arial Unicode MS",
     "Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode",
     "Palatino Linotype", "Titus Cyberbit Basic", "Vusillus Old Face",
@@ -1276,8 +1280,8 @@ div#tei a {
   text-decoration: underline;
 }
 div#tei a:link,
-a:visited,
-a:active {
+div#tei a:visited,
+div#teia:active {
   color: black;
   text-decoration: underline;
 }
