@@ -426,11 +426,17 @@ tei-item > tei-list[type="ordered"] { margin-left: 1em; }
 tei-listapp { display: block; margin: 1em; padding: 1em; }
 
 /* sourceDesc lists */
-tei-listbibl { display: block; list-style-type: none; margin-left: 0.5 em; margin-top: 0.5em; }
+tei-listbibl { display: block; list-style-type: none; margin-left: 0.5 em; margin-top: 0.5em; margin-bottom: 1em; width: 80%; }
 
-tei-listbibl > tei-head { font-size: 120%; font-weight: bold; }
+tei-listbibl > tei-head { font-weight: bold; }
 
-tei-listbibl > tei-bibl { display: list-item; margin-left: 2em; }
+tei-listbibl > tei-bibl { display: list-item; margin-bottom: 1em; text-indent: -3em; padding-left: 3em; }
+
+tei-listbibl > tei-listbibl > tei-head { font-weight: bold; }
+
+tei-listbibl > tei-listbibl > tei-bibl { display: list-item; margin-left: 2em; }
+
+tei-bibl > tei-abbr { font-weight: bold; }
 
 tei-listwit { display: block; list-style-type: none; margin-left: 0.5em; }
 
@@ -460,7 +466,7 @@ tei-origplace { font-weight: bold; }
 tei-origplace:before { font-weight: bold; content: "Place of Origin: "; }
 
 /* p */
-tei-p { display: block; margin-top: 1em; margin-bottom: 1em; text-align: justify; }
+tei-p { display: block; margin-top: 1em; margin-bottom: 1em; text-align: justify; width: 80%; }
 
 tei-text tei-p { position: relative; width: 90%; }
 
@@ -470,7 +476,11 @@ tei-availability > p:first-child { margin-top: 0em; }
 
 tei-performance { display: block; margin-top: 1em; margin-bottom: 1em; }
 
-tei-person { display: block; margin-top: 1em; margin-bottom: 1em; }
+tei-listperson { width: 80%; display: block; }
+
+tei-person { display: block; margin-top: 1em; margin-bottom: 1em; text-indent: -3em; padding-left: 3em; }
+
+tei-person > tei-persname > tei-abbr { font-weight: bold; }
 
 tei-persongrp { display: block; margin-top: 1em; margin-bottom: 1em; }
 
@@ -651,7 +661,7 @@ html > body { margin: 0; padding: 0; }
 
 html { margin: 0; padding: 0; font-family: "Lucida Grande", "Cardo", "Arial Unicode MS", "Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", "Palatino Linotype", "Titus Cyberbit Basic", "Vusillus Old Face", "Alphabetum", "Galatia SIL", "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", "Verdana", "Tahoma"; font-size: 12pt; background-color: white; color: #292929; }
 
-div#tei { margin-left: auto; margin-right: 30vw; width: 70vw; }
+div#tei { margin-right: 30vw; width: 70vw; }
 
 div#tei a { text-decoration: underline; }
 
