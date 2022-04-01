@@ -29,8 +29,3 @@ navigation menu; an interactive apparatus criticus that allows dynamic
 swapping of variant readings into and out of the main text; filters for
 types of variants; and dynamically generated lexical and morphological
 analysis, courtesy of the [Alpheios project](https://alpheios.net/).
-
-Scholars interested in submitting a proposal for an edition should
-contact the appropriate learned society for the era of the text. Each
-society has developed, or is developing, specific policies and
-procedures for reviewing submissions:

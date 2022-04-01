@@ -2,85 +2,88 @@
 ---
 
 html {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 a:link {
-  color: #005cb9;
+    color: #005cb9;
 }
 
 a:visited {
-  color: #005cb9;
+    color: #005cb9;
 }
 
 a:hover {
-  color: #a33701;
+    color: #a33701;
 }
 
 // Navbar styles
 .navbar {
-  background-color: #005cb9;
+    background-color: #005cb9;
 }
 
 a.navbar-brand {
-  margin-bottom: 0.75rem;
-  margin-left: 1rem;
+    margin-bottom: 0.75rem;
+    margin-left: 1rem;
 }
 
 .navbar-nav {
-  margin-left: 3rem;
+    margin-left: 3rem;
 }
 
 // Home Page
-
 #main {
-  margin-top: 3rem;
+    margin-top: 3rem;
 }
 
 #main h1 {
-  color: #a33701;
+    color: #a33701;
 }
 
 #main h2 {
-  font-style: italic;
-  font-weight: 100;
-  color: #b7b7b7;
+    font-style: italic;
+    font-weight: 100;
+    color: #b7b7b7;
 }
 
 #main h3 {
-  margin-top: 40px;
-  color: #005cb9;
+    margin-top: 40px;
+    color: #005cb9;
 }
 
 #main-content {
-  margin-top: 2.5rem;
-  width: 75%;
+    margin-top: 2.5rem;
+    width: 75%;
 }
 
 #main p:first-of-type {
-  margin-top: 3rem;
+    margin-top: 3rem;
 }
 
-#main p {
-  width: 75%;
+#main p,
+#info p {
+    width: 75%;
+}
+
+#info {
+  margin-bottom: 3rem;
 }
 
 // Footer
-
 footer {
-  background-color: lightgrey;
-  color: darkgrey;
+    background-color: lightgrey;
+    color: darkgrey;
 }
 
 .footer {
-  bottom: 0;
-  width: 100%;
+    bottom: 0;
+    width: 100%;
 }
 
 footer ul.nav {
-  display: block;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
+    display: block;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
