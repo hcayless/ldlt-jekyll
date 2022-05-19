@@ -52,7 +52,7 @@ plugins:
 #   - vendor/ruby/
 # Where things are
 source              : .
-destination         : ./_site
+destination         : ./docs
 collections:
   editions:
     output: true
