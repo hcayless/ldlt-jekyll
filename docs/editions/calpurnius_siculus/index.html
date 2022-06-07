@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/tei-html.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script>
+        let citables = {
+            {
+                page.citables
+            }
+        }
+        let resolveCite = function() {
+            window.location = citables[document.querySelector("input[name=getcite]").value.toString()];
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="http://digitallatin.org/"><img src="/assets/images/DLL-logo.png" alt="Digital Latin Library Home" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarToggle">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="https://ldlt.digitallatin.org/">LDLT Home</a>
+                <a class="nav-item nav-link" href="https://ldlt.digitallatin.org/about.html">About</a>
+                <a class="nav-item nav-link" href="https://ldlt.digitallatin.org/editions.html">Editions</a>
+            </div>
+        </div>
+    </div>
+</nav>
+    <div id="mainwrapper" class="d-flex flex-column min-vh-100">
+        <div class="container flex-grow-1">
+            <main role="main">
+                <div id="tei"><tei-titlePage xml:id="titlepage" id="titlepage" data-origname="titlePage">
+        <tei-docTitle data-origname="docTitle">
+          <tei-titlePart data-origname="titlePart">Calpurnius Siculus, <tei-title data-origname="title">Bucolica</tei-title></tei-titlePart>
+        </tei-docTitle>
+        <tei-byline data-origname="byline">Edited by Cesar Giarratano, 1910. New annotations and encoding by Samuel J. Huskey and Hugh A. Cayless, 2017.</tei-byline>
+      </tei-titlePage><div class="toc"><ul><li>Introduction<ul><li><a href="front1.html">I. Calpurnius and Nemesianus</a></li><li><a href="front2.html">II. Overview of the Tradition</a></li><li><a href="front3.html">III. Manuscripts: The First Family (N G)</a></li><li><a href="front4.html">IV. Manuscripts: The Second Family (V)</a></li><li><a href="front5.html">V. The Third Family (P)</a></li><li><a href="front6.html">VI. Two lost manuscripts</a></li></ul></li><li>Bibliography<ul><li><a href="bibliography-manuscripts.html">Manuscripts</a></li><li><a href="bibliography-early-editions.html">Early Editions</a></li><li><a href="bibliography-modern-editions.html">Modern Editions</a></li><li><a href="bibliography-secondary-sources.html">Secondary Sources</a></li><li><a href="bibliography-scholars.html">Scholars Cited by Name</a></li><li><a href="bibliography-abbreviations.html">Other abbreviations used in this edition</a></li></ul></li><li><a href="poem1.html">Poem 1. [Corydon, Ornytus]</a></li><li><a href="poem2.html">Poem 2. [Idas, Astacus, Thyrsis]</a></li><li><a href="poem3.html">Poem 3. [Iollas, Lycidas]</a></li><li><a href="poem4.html">Poem 4. [Meliboeus, Corydon, Amyntas]</a></li><li><a href="poem5.html">Poem 5.</a></li><li><a href="poem6.html">Poem 6. [Astylus, Lycidas, Mnasyllus]</a></li><li><a href="poem7.html">Poem 7. [Lycotas, Corydon]</a></li></ul></div></div>
+<div id="citesearch"><form><label for="getcite">Find citation</label><input type="text" name="getcite" /><button onclick="resolveCite(); return false;">Go</button></form></div>
+
+            </main>
+        </div>
+    </div>
+</body>
+<xsl:result-document href="../index.html" method="html" html-version="5">
+    <xsl:call-template name="index" />
+</xsl:result-document>
+
+</html>

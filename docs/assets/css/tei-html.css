@@ -393,6 +393,8 @@ tei-lg tei-label { position: absolute; left: 4em; font-weight: bold; }
 
 tei-list { display: block; margin-top: 1em; margin-bottom: 1em; list-style-type: none; }
 
+div#tei tei-div tei-list { display: block; margin-top: 1em; margin-bottom: 1em; list-style-type: none; width: 80%; }
+
 tei-item > tei-list { margin-top: 0; }
 
 tei-sourceDesc tei-list { list-style-type: none; }
@@ -622,7 +624,7 @@ tei-table > tei-head { display: table-caption; }
 
 :host(tei-table) > tei-head { display: table-caption; }
 
-tei-teiHeader { display: block; margin-top: 2em; margin-bottom: 2em; }
+tei-teiHeader { display: none; margin-top: 2em; margin-bottom: 2em; }
 
 tei-tei > tei-text { display: block; line-height: 1.5; width: 80%; }
 
@@ -661,7 +663,7 @@ html > body { margin: 0; padding: 0; }
 
 html { margin: 0; padding: 0; font-family: "Lucida Grande", "Cardo", "Arial Unicode MS", "Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", "Palatino Linotype", "Titus Cyberbit Basic", "Vusillus Old Face", "Alphabetum", "Galatia SIL", "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", "Verdana", "Tahoma"; font-size: 12pt; background-color: white; color: #292929; }
 
-div#tei { margin-right: 30vw; width: 70vw; }
+div#tei { margin-top: 3rem; margin-right: 30vw; width: 70vw; }
 
 div#tei a { text-decoration: underline; }
 
