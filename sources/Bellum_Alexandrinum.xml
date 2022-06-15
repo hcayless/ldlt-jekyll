@@ -89,6 +89,70 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>Born digital.</p>
          </sourceDesc>
       </fileDesc>
+     <encodingDesc>
+       <listPrefixDef>
+         <prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1"/>
+       </listPrefixDef>
+       <refsDecl>
+         <!-- There's a citeStructure for each section of the document we want to a) appear in the ToC,
+             b) be output as a separate file. 
+        
+             @match selects the document section(s) to be used in resolving citations. 
+             @use indicates the the string that will be used in citations. -->
+         <citeStructure match="//front/div[@type='preface']" use="head">
+           <!-- Defines the identifier to use for this structure -->
+           <citeData property="dc:identifier" use="@xml:id"/>
+           <!-- Defines the title to be used for this structure (e.g. in a ToC) -->
+           <citeData property="dc:title" use="head"/>
+           <!-- Specifies a function for this structure, in this case, it should be used as an entry in the ToC. -->
+           <citeData property="function" use="'toc-entry'"/>
+           <citeStructure match="./div[@type='section']" use="head" delim=", ">
+             <citeData property="dc:title" use="head"/>
+             <citeData property="dc:identifier" use="@xml:id"/>
+             <citeData property="function" use="'toc-entry'"/>
+             <!-- This structure should be split out into a separate document. -->
+             <citeData property="function" use="'split'"/>
+             <!-- When it is split out, the bibliography should go along with it -->
+             <citeData property="dc:requires" use="//front/div[@type='bibliography']"/>
+           </citeStructure>
+         </citeStructure>
+         <citeStructure match="//front/div[@xml:id='bibliography']" use="head">
+           <citeData property="dc:identifier" use="@xml:id"/>
+           <citeData property="dc:title" use="head"/>
+           <citeData property="function" use="'toc-entry'"/>
+           <citeStructure match="./div[@type='section']" use="head" delim=", ">
+             <citeData property="dc:identifier" use="@xml:id"/>
+             <citeData property="dc:title" use="head"/>
+             <citeData property="function" use="'toc-entry'"/>
+             <citeData property="function" use="'split'"/>
+           </citeStructure>
+         </citeStructure>
+         <citeStructure match="//front/div[@xml:id='conspectus-editionum']" use="head" delim=", ">
+           <citeData property="dc:identifier" use="@xml:id"/>
+           <citeData property="dc:title" use="head"/>
+           <citeData property="function" use="'toc-entry'"/>
+           <citeData property="function" use="'split'"/>
+         </citeStructure>
+         <!-- The @unit attribute marks a citeStructure as a citable unit and makes e.g., 4.100 resolvable to poem 4, line 100. -->
+         <citeStructure match="//body/div[@type='edition']" use="head" unit="book">
+           <citeData property="dc:identifier" use="@xml:id"/>
+           <citeData property="dc:title" use="head"/>
+           <citeData property="function" use="'toc-entry'"/>
+           <citeStructure match="./div[@type='textpart']" use="@n" unit="section">
+             <citeData property="dc:identifier" use="@xml:id"/>
+             <citeData property="dc:title" use="@n"/>
+             <citeData property="function" use="'toc-entry'"/>
+             <citeStructure match="./p" use="@n" delim="." unit="paragraph">    
+               <citeData property="dc:title" use="@n"/>
+              <citeData property="function" use="'toc-entry'"/>
+              <citeData property="function" use="'split'"/>
+              <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
+              <citeStructure match=".//seg" use="@n" delim="." unit="sentence"/>
+            </citeStructure>
+           </citeStructure>           
+         </citeStructure>
+       </refsDecl>
+     </encodingDesc>
    </teiHeader>
    <text>
       <front xml:id="front">
