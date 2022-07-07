@@ -6,6 +6,8 @@ a:visited { color: #005cb9; }
 
 a:hover { color: #a33701; }
 
+a[name] { scroll-margin-top: 87px; }
+
 .navbar { background-color: #005cb9; }
 
 .navbar .container { width: 70%; }

@@ -17,6 +17,10 @@ a:hover {
     color: #a33701;
 }
 
+a[name] {
+    scroll-margin-top: 87px;
+}
+
 // Navbar styles
 .navbar {
     background-color: #005cb9;

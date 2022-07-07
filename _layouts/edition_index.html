@@ -10,11 +10,7 @@
     <link rel="stylesheet" href="/assets/css/tei-html.css" />
     <link rel="stylesheet" href="/assets/css/styles.css">
     <script>
-        let citables = {
-            {
-                page.citables
-            }
-        }
+        let citables = {{ page.citables }}
         let resolveCite = function() {
             window.location = citables[document.querySelector("input[name=getcite]").value.toString()];
         }
