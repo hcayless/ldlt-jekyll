@@ -3,7 +3,7 @@
 type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en-CA">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -99,7 +99,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         
              @match selects the document section(s) to be used in resolving citations. 
              @use indicates the the string that will be used in citations. -->
-         <citeStructure match="//front/div[@type='preface']" use="head">
+         <citeStructure match="//front/div[@xml:id='preface']" use="head">
            <!-- Defines the identifier to use for this structure -->
            <citeData property="dc:identifier" use="@xml:id"/>
            <!-- Defines the title to be used for this structure (e.g. in a ToC) -->
@@ -134,22 +134,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
            <citeData property="function" use="'split'"/>
          </citeStructure>
          <!-- The @unit attribute marks a citeStructure as a citable unit and makes e.g., 4.100 resolvable to poem 4, line 100. -->
-         <citeStructure match="//body/div[@type='edition']" use="head" unit="book">
-           <citeData property="dc:identifier" use="@xml:id"/>
+         <citeStructure match="//div[@type='edition']" use="head">
            <citeData property="dc:title" use="head"/>
            <citeData property="function" use="'toc-entry'"/>
-           <citeStructure match="./div[@type='textpart']" use="@n" unit="section">
-             <citeData property="dc:identifier" use="@xml:id"/>
+           <citeStructure match="p" use="@n" unit="chapter">    
              <citeData property="dc:title" use="@n"/>
+             <citeData property="dc:identifier" use="@n"/>
              <citeData property="function" use="'toc-entry'"/>
-             <citeStructure match="./p" use="@n" delim="." unit="paragraph">    
-               <citeData property="dc:title" use="@n"/>
-              <citeData property="function" use="'toc-entry'"/>
-              <citeData property="function" use="'split'"/>
-              <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
-              <citeStructure match=".//seg" use="@n" delim="." unit="sentence"/>
-            </citeStructure>
-           </citeStructure>           
+             <citeData property="function" use="'split'"/>
+             <citeData property="dc:requires" use="//front/div[@xml:id='bibliography']"/>
+             <citeStructure match=".//seg" use="@n" delim="." unit="part"/>
+           </citeStructure>
          </citeStructure>
        </refsDecl>
      </encodingDesc>
@@ -1506,10 +1501,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="section" xml:id="bibliography-manuscripts">
                <head>Manuscripts</head>
                <listWit xml:id="Common-Source-μ-ν">
-                  <witness xml:id="ω"><abbr type="siglum">ω</abbr>Common source of<listWit>
-                        <witness xml:id="μ"><abbr type="siglum">μ</abbr>Common source of <ref
+                  <witness xml:id="ω"><abbr type="siglum">ω</abbr> Common source of<listWit>
+                        <witness xml:id="μ"><abbr type="siglum">μ</abbr> Common source of <ref
                               target="#M">M</ref> and <ref target="#U">U</ref></witness>
-                        <witness xml:id="ν"><abbr type="siglum">ν</abbr>Common source of <ref
+                        <witness xml:id="ν"><abbr type="siglum">ν</abbr> Common source of <ref
                               target="#S">S</ref> and <ref target="#π">π</ref></witness>
                      </listWit>
                   </witness>
@@ -1517,23 +1512,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listWit>
                   <head>Descendants of μ</head>
                   <!-- Begin children of μ -->
-                  <witness xml:id="M"><abbr type="siglum">M</abbr>Florence, BML Plut. lat 68.8 (s.
+                  <witness xml:id="M"><abbr type="siglum">M</abbr> Florence, BML Plut. lat 68.8 (s.
                         xii<hi rend="superscript">4</hi> or xiii<hi rend="superscript">1</hi>) <ptr
                         type="url"
                         target="http://teca.bmlonline.it/ImageViewer/servlet/ImageViewer?idr=TECA0000807118#page/1/mode/1up"/>
                      <listWit>
                         <head>Hands in M</head>
                         <witness xml:id="Mac"><abbr type="siglum">M<hi rend="superscript"
-                              >ac</hi></abbr>The uncorrected reading in M. Equivalent to
+                              >ac</hi></abbr> The uncorrected reading in M. Equivalent to
                            M.</witness>
                         <witness xml:id="Mc"><abbr type="siglum">M<hi rend="superscript"
-                              >c</hi></abbr>Corrections by the original scribe, who usually recovers
+                              >c</hi></abbr> Corrections by the original scribe, who usually recovers
                            the reading of the exemplar. </witness>
                         <witness xml:id="Mmr"><abbr type="siglum">M<hi rend="superscript"
-                              >mr</hi></abbr>Corrections by one or more later hands (<hi
+                              >mr</hi></abbr> Corrections by one or more later hands (<hi
                               rend="italic">manus recentior</hi>), sometimes recovering the
                            exemplar, sometimes not.</witness>
-                        <witness xml:id="M8"><abbr type="siglum">M*</abbr>An asterisk marks readings
+                        <witness xml:id="M8"><abbr type="siglum">M*</abbr> An asterisk marks readings
                            in M that prompted a correction—not necessarily a successful one—by M<hi
                               rend="superscript">mr</hi>.</witness>
                      </listWit>
@@ -1541,14 +1536,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <!-- End witness M -->
 
                   <!-- Begin witness U -->
-                  <witness xml:id="U"><abbr type="siglum">U</abbr>Vatican, BAV Vat. lat. 3324 (s.
+                  <witness xml:id="U"><abbr type="siglum">U</abbr> Vatican, BAV Vat. lat. 3324 (s.
                         xi<hi rend="superscript">4</hi> or xii<hi rend="superscript">1</hi>) <listWit>
                         <head>Hands in U</head>
                         <witness xml:id="Uac"><abbr type="siglum">U<hi rend="superscript"
-                              >ac</hi></abbr>The uncorrected reading in U. Equivalent to
+                              >ac</hi></abbr> The uncorrected reading in U. Equivalent to
                            U.</witness>
                         <witness xml:id="Uc"><abbr type="siglum">U<hi rend="superscript"
-                              >c</hi></abbr>Corrections by the original scribe or a close
+                              >c</hi></abbr> Corrections by the original scribe or a close
                            contemporary.</witness>
                      </listWit>
                   </witness>
@@ -1560,44 +1555,44 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listWit>
                   <head>Descendants of v</head>
                   <!-- Begin witness S -->
-                  <witness xml:id="S"><abbr type="siglum">S</abbr>Florence, BML Ashburnham 33 (s.
+                  <witness xml:id="S"><abbr type="siglum">S</abbr> Florence, BML Ashburnham 33 (s.
                         x<hi rend="superscript">2–3</hi>)<listWit>
                         <head>Hands in S</head>
                         <witness xml:id="Sac"><abbr type="siglum">S<hi rend="superscript"
-                              >ac</hi></abbr>The uncorrected reading in S, Equivalent to
+                              >ac</hi></abbr> The uncorrected reading in S, Equivalent to
                            S.</witness>
                         <witness xml:id="Sc"><abbr type="siglum">S<hi rend="superscript"
-                              >c</hi></abbr>Corrections made by the original scribe or a close
+                              >c</hi></abbr> Corrections made by the original scribe or a close
                            contemporary. </witness>
                      </listWit>
                   </witness>
 
                   <!-- Begin witness π -->
-                  <witness xml:id="π"><abbr type="siglum">π</abbr>Common source of <ref target="#T"
+                  <witness xml:id="π"><abbr type="siglum">π</abbr> Common source of <ref target="#T"
                         >T</ref> and <ref target="V">V</ref>. <!-- Begin children of π --><listWit>
                         <!-- Begin T -->
-                        <witness xml:id="T"><abbr type="siglum">T</abbr>Paris, BNF lat. 5764 (s.
+                        <witness xml:id="T"><abbr type="siglum">T</abbr> Paris, BNF lat. 5764 (s.
                               xi<hi rend="superscript">3–4</hi>). <ptr type="url"
                               target="http://gallica.bnf.fr/ark:/12148/btv1b10542010c"/><listWit>
                               <head>Hands in T</head>
                               <witness xml:id="Tac"><abbr type="siglum">T<hi rend="superscript"
-                                       >ac</hi></abbr>The uncorrected reading in T, Equivalent to
+                                       >ac</hi></abbr> The uncorrected reading in T, Equivalent to
                                  T.</witness>
                               <witness xml:id="Tc"><abbr type="siglum">T<hi rend="superscript"
-                                       >c</hi></abbr>Corrections made by the original scribe or a
+                                       >c</hi></abbr> Corrections made by the original scribe or a
                                  close contemporary. </witness>
                            </listWit>
                         </witness>
                         <!-- End witness T -->
 
                         <!-- Begin witness V -->
-                        <witness xml:id="V"><abbr type="siglum">V</abbr>Vienna, ÖN 95 (s. xii) <listWit>
+                        <witness xml:id="V"><abbr type="siglum">V</abbr> Vienna, ÖN 95 (s. xii) <listWit>
                               <head>Hands in V</head>
                               <witness xml:id="Vac"><abbr type="siglum">V<hi rend="superscript"
-                                       >ac</hi></abbr>The uncorrected reading in V. Equivalent to
+                                       >ac</hi></abbr> The uncorrected reading in V. Equivalent to
                                  V.</witness>
                               <witness xml:id="Vc"><abbr type="siglum">V<hi rend="superscript"
-                                       >c</hi></abbr>Corrections made by the original scribe or a
+                                       >c</hi></abbr> Corrections made by the original scribe or a
                                  close contemporary. </witness>
                            </listWit></witness>
 
@@ -1611,9 +1606,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <!-- Begin occasionally cited MSS -->
                <listWit>
                   <head>Occasionally cited</head>
-                  <witness xml:id="N"><abbr type="siglum">N</abbr>Naples, BN IV.C.11 (s. xi), cited
+                  <witness xml:id="N"><abbr type="siglum">N</abbr> Naples, BN IV.C.11 (s. xi), cited
                      where <ref target="#S">S</ref> is lacunose.</witness>
-                  <witness xml:id="stigma"><abbr type="siglum">ϛ</abbr>A reading found in one or
+                  <witness xml:id="stigma"><abbr type="siglum">ϛ</abbr> A reading found in one or
                      more later manuscripts.</witness>
                </listWit>
                <!-- End list of occasionally cited MSS -->
@@ -1622,20 +1617,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="section" xml:id="bibliography-early-editions">
                <head>Early Editions</head>
                <listWit xml:id="early-editions">
-                  <witness xml:id="edprin"><abbr type="siglum">ed. pr.</abbr><bibl><editor>G.
+                  <witness xml:id="edprin"><abbr type="siglum">ed. pr.</abbr> <bibl><editor>G.
                            Bussi</editor>, ed. <pubPlace>Romae</pubPlace><publisher>: In domo Petri
                            de Maximis [= Sweynheym and Pannartz]</publisher>. <date>12 May
                            1469</date>. URL: <ptr
                            target="http://daten.digitale-sammlungen.de/~db/0006/bsb00064880/images/"
                         /></bibl></witness>
 
-                  <witness xml:id="Aldus"><abbr type="siglum">Aldus</abbr><bibl><editor>G.
+                  <witness xml:id="Aldus"><abbr type="siglum">Aldus</abbr> <bibl><editor>G.
                            Giocondo</editor>, ed. <pubPlace>Venice</pubPlace>. <date>1513</date>.
                         URL: <ptr
                            target="http://digital.onb.ac.at/OnbViewer/viewer.faces?doc=ABO_%2BZ221957000"
                         /></bibl></witness>
 
-                  <witness xml:id="Beroaldus"><abbr type="siglum">Beroaldus</abbr><bibl><editor>P.
+                  <witness xml:id="Beroaldus"><abbr type="siglum">Beroaldus</abbr> <bibl><editor>P.
                            Beroaldus</editor>, ed. <title>Caii Iulii Caesaris commentarios Belli
                            Gallici, Ciuilis Pompeiani, Alexandrini, Africi, ac Hispaniensis</title>.
                            <pubPlace>Bologna</pubPlace>. <date>1504</date>. URL: <ptr
@@ -1648,29 +1643,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="section" xml:id="bibliography-modern-editions">
                <head>Modern Editions</head>
                <listBibl xml:id="modern-editions">
-                  <bibl xml:id="Andrieu"><abbr type="siglum">Andrieu</abbr><editor>J.
+                  <bibl xml:id="Andrieu"><abbr type="siglum">Andrieu</abbr> <editor>J.
                         Andrieu</editor>, ed. <title>Pseudo-César, Guerre d’Alexandrie</title>.
                         <pubPlace>Paris</pubPlace>. <date>1954</date>.</bibl>
 
-                  <bibl xml:id="Bentley"><abbr type="siglum">Bentley</abbr><editor>T.
+                  <bibl xml:id="Bentley"><abbr type="siglum">Bentley</abbr> <editor>T.
                         Bentley</editor>, ed. <title>Caii Julii Caesaris de bello gallico et ciuili
                         nec non A. Hirtii aliorumque de bellis Alexandrino, Africano, et Hispaniensi
                         commentarii. Notas et animaduersiones addidit Tho. Bentleius. Accessere
                         conjecturae et emendationes Jacobi Jurini</title>.
                         <pubPlace>London</pubPlace>. <date>1742</date>.</bibl>
 
-                  <bibl xml:id="Cellarius"><abbr type="siglum">Cellarius</abbr><editor>C.
+                  <bibl xml:id="Cellarius"><abbr type="siglum">Cellarius</abbr> <editor>C.
                         Cellarius</editor>, ed. <title>C. Iulii Caesaris Commentarii de bello
                         gallico et ciuili. Cum utriusque supplementis ab A. Hirtio vel Oppio
                         adiectis</title>. <pubPlace>Leipzig</pubPlace>. <date>1705</date>.</bibl>
 
-                  <bibl xml:id="Clarke"><abbr type="siglum">Clarke</abbr><editor>S. Clarke</editor>,
+                  <bibl xml:id="Clarke"><abbr type="siglum">Clarke</abbr> <editor>S. Clarke</editor>,
                      ed. <title>C. Julii Caesaris quae extant, accuratissime cum libris editis et
                         mss optimis collata, recognita et correcta. Accesserunt annotationes
                         Samuelis Clarke</title>. <pubPlace>London</pubPlace>. <date>1720</date>
                         (1<hi rend="superscript">st</hi> ed. 1712).</bibl>
 
-                  <bibl xml:id="Dauisius1706"><abbr type="siglum">Dauisius 1706</abbr><editor>J.
+                  <bibl xml:id="Dauisius1706"><abbr type="siglum">Dauisius 1706</abbr> <editor>J.
                         Davies</editor>, ed. <title>C. Julii Caesaris quae exstant omnia ... cum
                         eiusdem animadversionibus ac notis Pet. Ciacconii, Fr. Hotomanni, Joan.
                         Brantii, Dionys. Vossii et aliorum</title>. <pubPlace>Cambridge</pubPlace>.
@@ -1678,14 +1673,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10217527_00001.html"
                      /></bibl>
 
-                  <bibl xml:id="Dauisius1727"><abbr type="siglum">Dauisius 1727</abbr><editor>J.
+                  <bibl xml:id="Dauisius1727"><abbr type="siglum">Dauisius 1727</abbr> <editor>J.
                         Davies</editor>, ed. <title>C. Julii Caesaris et Auli Hirtii quae exstant
                         omnia recensuit ac selectis ... aliorum notis suas addidit Joannes Davisius;
                         accedunt ejusdem secundae curae necnon metaphrasis graeca librorum VII de
                         bello gallico</title>. <pubPlace>Cambridge</pubPlace>.
                      <date>1727</date>.</bibl>
 
-                  <bibl xml:id="Dinter"><abbr type="siglum">Dinter</abbr><editor>B. Dinter</editor>,
+                  <bibl xml:id="Dinter"><abbr type="siglum">Dinter</abbr> <editor>B. Dinter</editor>,
                      ed. <title>C. Iuli Caesaris commentarii cum A. Hirti aliorumque supplementis .
                         III: C. Iuli Caesaris commentarii commentarii de bello Alexandrino,
                         Africano, Hispaniensi. Caesaris Hirtiique fragmenta</title>.
@@ -1693,86 +1688,86 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         target="https://books.google.com/books?id=luswAQAAMAAJ&amp;pg=PP1#v=onepage&amp;q&amp;f=false"
                      /></bibl>
 
-                  <bibl xml:id="Dübner"><abbr type="siglum">Dübner</abbr><editor>F. Dübner</editor>,
+                  <bibl xml:id="Dübner"><abbr type="siglum">Dübner</abbr> <editor>F. Dübner</editor>,
                      ed. <title>C. Julii Caesaris commentarii de bellis Gallico et civili, aliorum,
                         de bellis Alexandrino, Africano et Hispaniensi. Tomus secundus</title>.
                         <pubPlace>Paris</pubPlace>. <date>1867</date>. URL: <ptr
                         target="https://hdl.handle.net/2027/uiug.30112023932624"/></bibl>
 
-                  <bibl xml:id="Du-Pontet"><abbr type="siglum">Du Pontet</abbr><editor>R. Du
+                  <bibl xml:id="Du-Pontet"><abbr type="siglum">Du Pontet</abbr> <editor>R. Du
                         Pontet</editor>, ed. <title>C. Iuli Caesaris Commentariorum. Pars 2</title>.
                         <pubPlace>Oxford</pubPlace>: <publisher>Oxford University Press</publisher>,
                         <date>1900</date>.</bibl>
 
-                  <bibl xml:id="Hoffmann1857"><abbr type="siglum">Hoffmann 1857</abbr><editor>E.
+                  <bibl xml:id="Hoffmann1857"><abbr type="siglum">Hoffmann 1857</abbr> <editor>E.
                         Hoffmann</editor>, ed. <title>C. Iulii Caesaris commentarii cum supplementis
                         A. Hirtii et aliorum. Volumen alterum</title>. <pubPlace>Vienna</pubPlace>.
                         <date>1857</date></bibl>
 
-                  <bibl xml:id="Hoffmann1890"><abbr type="siglum">Hoffmann 1890</abbr><editor>E.
+                  <bibl xml:id="Hoffmann1890"><abbr type="siglum">Hoffmann 1890</abbr> <editor>E.
                         Hoffmann</editor>, ed. <title>C. Iulii Caesaris commentarii cum supplementis
                         A. Hirtii et aliorum. Vol. II: Commentarii de bello ciuili. Accedunt
                         commentarii de bello Alexandrino, Africano, Hispaniensi</title>. New
                      edition. <pubPlace>Vienna</pubPlace>. <date>1890</date>. URL: <ptr
                         target="https://hdl.handle.net/2027/uiug.30112099806678"/>.</bibl>
 
-                  <bibl xml:id="Jungermann"><abbr type="siglum">Jungermann</abbr><editor>G.
+                  <bibl xml:id="Jungermann"><abbr type="siglum">Jungermann</abbr> <editor>G.
                         Jungermann</editor>, ed. <title>C. Iulii Caesaris quae exstant ... praeterea
                         ... notae, adnotationes, commentarii Rhellicani, Glareani, Glandorpii,
                         Camerarii, Bruti, Manutii, Sambuci, Vrsini, Ciacconii, Hotmani,
                         Brantii</title>. <pubPlace>Frankfurt</pubPlace>. <date>1606</date>. URL:
                         <ptr target="https://hdl.handle.net/2027/uc1.31822038197299"/>.</bibl>
 
-                  <bibl xml:id="Klotz"><abbr type="siglum">Klotz</abbr><editor>A. Klotz</editor>,
+                  <bibl xml:id="Klotz"><abbr type="siglum">Klotz</abbr> <editor>A. Klotz</editor>,
                      ed. <title>C. Iulii Caesaris commentarii. Vol. III: Bellum Alexandrinum, Bellum
                         Africum, Bellum Hispaniense, Fragmenta</title>.
                      <pubPlace>Leipzig</pubPlace>. <date>1927</date>.</bibl>
 
-                  <bibl xml:id="Kraner"><abbr type="siglum">Kraner</abbr><editor>F. Kraner</editor>,
+                  <bibl xml:id="Kraner"><abbr type="siglum">Kraner</abbr> <editor>F. Kraner</editor>,
                      ed.  <title>C. Iulii Caesaris commentarii cum supplementis A. Hirtii et
                         aliorum</title>.  Editio stereotypa. <pubPlace>Leipzig</pubPlace>.
                         <date>1861</date>. URL: <ptr
                         target="https://hdl.handle.net/2027/uc1.c070407321"/>. </bibl>
 
-                  <bibl xml:id="Kübler1896a"><abbr type="siglum">Kübler 1896a</abbr><editor>B.
+                  <bibl xml:id="Kübler1896a"><abbr type="siglum">Kübler 1896a</abbr> <editor>B.
                         Kübler</editor>, ed. <title>C Iulii Caesaris commentarii. Vol. III, pars
                         prior, commentarius de bello Alexandrino</title>. Editio maior.
                         <pubPlace>Leipzig</pubPlace>: <publisher>Teubner</publisher>,
                         <date>1896</date>.<ptr
                         target="https://hdl.handle.net/2027/osu.32435027192681"/></bibl>
 
-                  <bibl xml:id="Lipsius"><abbr type="siglum">Lipsius</abbr><editor>J.
+                  <bibl xml:id="Lipsius"><abbr type="siglum">Lipsius</abbr> <editor>J.
                         Lipsius</editor>, ed. <title>C. Iulii Caesaris commentarii ... eiusdem ...
                         fragmenta</title>. <pubPlace>Antwerp</pubPlace>. <date>1586</date>. URL:
                         <ptr
                         target="https://books.google.com/books?id=6BYsAQAAMAAJ&amp;pg=PP1#v=onepage&amp;q&amp;f=false"
                      />. See also <ref target="#Oudendorp">Oudendorp</ref>.</bibl>
 
-                  <bibl xml:id="Manutius"><abbr type="siglum">Manutius</abbr><editor>Aldus
+                  <bibl xml:id="Manutius"><abbr type="siglum">Manutius</abbr> <editor>Aldus
                         Manutius</editor>, ed. <title>C. Iulii Caesaris commentarii ab Aldo Manutio
                         Paulli filio Aldi nepote emendati et scholiis illustrati</title>.
                         <pubPlace>Venice</pubPlace>. <date>1597</date>. (First edition 1571.) URL:
                         <ptr target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10171445-1"
                      />.</bibl>
 
-                  <bibl xml:id="Morus"><abbr type="siglum">Morus</abbr><editor>S. F. N.
+                  <bibl xml:id="Morus"><abbr type="siglum">Morus</abbr> <editor>S. F. N.
                         Morus</editor>, ed. <title>C. Iulii Caesaris commentarii de bello Gallico et
                         civili; accedunt libri de bello Alexandrino Africano et Hispaniensi e
                         recensione Francisci Oudendorpii; curavit editionem Sam. Fr. Nathan.
                         Morus</title>. <pubPlace>Leipzig</pubPlace>. <date>1780</date>. URL: <ptr
                         target="https://hdl.handle.net/2027/mdp.39015022638830"/>.</bibl>
 
-                  <bibl xml:id="Nipperdey"><abbr type="siglum">Nipperdey</abbr><editor>K.
+                  <bibl xml:id="Nipperdey"><abbr type="siglum">Nipperdey</abbr> <editor>K.
                         Nipperdey</editor>, ed. <title>C. Iulii Caesaris commentarii</title>.
                         <pubPlace>Leipzig</pubPlace>. <date>1847</date>. URL: <ptr
                         target="https://hdl.handle.net/2027/mdp.39015063012838"/>.</bibl>
 
-                  <bibl xml:id="Oehler"><abbr type="siglum">Oehler</abbr><editor>F. Oehler</editor>,
+                  <bibl xml:id="Oehler"><abbr type="siglum">Oehler</abbr> <editor>F. Oehler</editor>,
                      ed. <title>C. Iulii Caesaris commentarii cum supplementis A. Hirtii et
                         aliorum</title>. <pubPlace>Leipzig</pubPlace>. <date>1852</date>. URL: <ptr
                         target="https://hdl.handle.net/2027/mdp.39015007036885"/>.</bibl>
 
-                  <bibl xml:id="Oudendorp"><abbr type="siglum">Oudendorp</abbr><editor>F.
+                  <bibl xml:id="Oudendorp"><abbr type="siglum">Oudendorp</abbr> <editor>F.
                         Oudendorp</editor>, ed., <title>C. Julii Caesaris De bellis gallico et
                         civili pompejano; nec non A. Hirtii aliorumque de bellis Alexandrino,
                         Africano et Hispaniensi commentarii ad MSStorum fidem expressi, cum integris
@@ -1781,33 +1776,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         adjecit</title>. <pubPlace>Leiden</pubPlace>. <date>1737</date>. URL: <ptr
                         target="https://hdl.handle.net/2027/njp.32101066876309"/>.</bibl>
 
-                  <bibl xml:id="Scaliger"><abbr type="siglum">Scaliger</abbr><editor>J.
+                  <bibl xml:id="Scaliger"><abbr type="siglum">Scaliger</abbr> <editor>J.
                         Scaliger</editor>, ed. <title>C. Iulii Caesaris quae extant</title>.
                         <pubPlace>Amsterdam</pubPlace>. <date>1661</date>. (First edition 1635.)
                      URL: <ptr target="https://hdl.handle.net/2027/uc1.31175035195554"/>.</bibl>
 
-                  <bibl xml:id="Schneider"><abbr type="siglum">Schneider</abbr><editor>R.
+                  <bibl xml:id="Schneider"><abbr type="siglum">Schneider</abbr> <editor>R.
                         Schneider</editor>, ed. <title>Bellum Alexandrinum</title>.
                         <pubPlace>Berlin</pubPlace>. <date>1888</date>. URL: <ptr
                         target="https://hdl.handle.net/2027/mdp.39015039572113"/>.</bibl>
 
-                  <bibl xml:id="Stephanus"><abbr type="siglum">Stephanus</abbr><editor>R.
+                  <bibl xml:id="Stephanus"><abbr type="siglum">Stephanus</abbr> <editor>R.
                         Estienne</editor>, ed. <title>C. Iulii Caesaris rerum ab se gestarum
                         comentarii</title>. <pubPlace>Paris</pubPlace>. <date>1544</date>. URL: <ptr
                         target="https://books.google.com/books?id=CtcPAAAAQAAJ"/>.</bibl>
 
-                  <bibl xml:id="Strada"><abbr type="siglum">Strada</abbr><editor>J. Strada</editor>,
+                  <bibl xml:id="Strada"><abbr type="siglum">Strada</abbr> <editor>J. Strada</editor>,
                      ed. <title>C. Iulii Caesaris rerum gestarum commentarii XIV</title>.
                         <pubPlace>Frankfurt</pubPlace>. <date>1575</date>. URL: <ptr
                         target="https://books.google.com/books?id=ZSqXfrpOspMC"/></bibl>
 
-                  <bibl xml:id="Ursinus"><abbr type="siglum">Ursinus</abbr><editor>F.
+                  <bibl xml:id="Ursinus"><abbr type="siglum">Ursinus</abbr> <editor>F.
                         Orsini</editor>, ed. <title>C. Iulii Caesaris commentarii novis
                         emendationibus illustrati ... ejusdem fragmenta ... ex bibliotheca Fulvii
                         Ursini</title>. <pubPlace>Antwerp</pubPlace>. <date>1595</date>. URL: <ptr
                         target="https://hdl.handle.net/2027/ucm.5327351141"/>.</bibl>
 
-                  <bibl xml:id="Vascosanus"><abbr type="siglum">Vascosanus</abbr><editor>M.
+                  <bibl xml:id="Vascosanus"><abbr type="siglum">Vascosanus</abbr> <editor>M.
                         Vascosanus</editor>, ed. <pubPlace>Paris</pubPlace>.
                      <date>1543</date>.</bibl>
                </listBibl>
@@ -1818,24 +1813,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <head>Other Sources</head>
                <listBibl xml:id="secondary-sources">
 
-                  <bibl xml:id="Baehrens1912"><abbr type="siglum">Baehrens</abbr><author>Baehrens,
+                  <bibl xml:id="Baehrens1912"><abbr type="siglum">Baehrens</abbr> <author>Baehrens,
                         W. A.</author>
                      <title>Beitraege Zur Lateinischen Syntax</title>. <pubPlace>Leipzig</pubPlace>.
                         <date>1912</date>.</bibl>
 
-                  <bibl xml:id="Barwick"><abbr type="siglum">Barwick</abbr><author>Barwick,
+                  <bibl xml:id="Barwick"><abbr type="siglum">Barwick</abbr> <author>Barwick,
                         K</author>. <title>Caesars Commentarii und das Corpus Caesarianum</title>.
                         <pubPlace>Leipzig</pubPlace>. <date>1938</date>.</bibl>
 
-                  <bibl xml:id="Broughton"><abbr type="siglum">Broughton</abbr><author>Broughton, T.
+                  <bibl xml:id="Broughton"><abbr type="siglum">Broughton</abbr> <author>Broughton, T.
                         Robert S</author>. <title>The Magistrates of the Roman Republic</title>. 2
                      vols. <pubPlace>Cleveland</pubPlace>. <date>1968</date>.</bibl>
 
-                  <bibl xml:id="Brown"><abbr type="siglum">Brown</abbr><author>Brown,
+                  <bibl xml:id="Brown"><abbr type="siglum">Brown</abbr> <author>Brown,
                         Virginia</author>. <title>The Textual Transmission of Caesar’s Civil
                         War</title>. <pubPlace>Leiden</pubPlace>. <date>1972</date>.</bibl>
 
-                  <bibl xml:id="Carter"><abbr type="siglum">Carter</abbr><author>Carter, J.
+                  <bibl xml:id="Carter"><abbr type="siglum">Carter</abbr> <author>Carter, J.
                         M.</author>, trans. <title>Julius Caesar, The Civil War</title>.
                         <pubPlace>Oxford</pubPlace>. <date>1997</date>.</bibl>
 
@@ -1847,7 +1842,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         unit="page">229–40</biblScope>.</bibl>
 
                   <bibl xml:id="Ciaffi-Griffa"><abbr type="siglum"
-                        >Ciaffi-Griffa</abbr><author>Ciaffi, Raffaele and Ludovico Griffa,
+                        >Ciaffi-Griffa</abbr> <author>Ciaffi, Raffaele and Ludovico Griffa,
                         eds</author>. <title>Gaio Giulio Cesare, Opere</title>.
                         <pubPlace>Turin</pubPlace>. <date>2008</date>. (First editions 1952 and
                      1973.)</bibl>
@@ -1858,15 +1853,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <biblScope unit="volume">17</biblScope> (<date>1889</date>): <biblScope
                         unit="page">44–55</biblScope>.</bibl>
 
-                  <bibl xml:id="Damon2015a"><abbr type="siglum">Damon 2015a</abbr><author>Damon,
+                  <bibl xml:id="Damon2015a"><abbr type="siglum">Damon 2015a</abbr> <author>Damon,
                         C.</author>, ed. <title>C. Iuli Caesaris commentariorum: Libri III de bello
                         civili</title>. <pubPlace>Oxford</pubPlace>. <date>2015</date>.</bibl>
 
-                  <bibl xml:id="Damon2015b"><abbr type="siglum">Damon 2015b</abbr><author>Damon,
+                  <bibl xml:id="Damon2015b"><abbr type="siglum">Damon 2015b</abbr> <author>Damon,
                         Cynthia</author>. <title>Studies on the text of Caesar’s Bellum
                         civile</title>. <pubPlace>Oxford</pubPlace>. <date>2015</date>.</bibl>
 
-                  <bibl xml:id="Damon2020"><abbr type="siglum">Damon 2020</abbr><author>Damon,
+                  <bibl xml:id="Damon2020"><abbr type="siglum">Damon 2020</abbr> <author>Damon,
                         Cynthia</author>. <title level="a">On (authorial and other) parentheses in
                         Caesar’s <hi rend="normal">commentarii</hi>.</title> In L. Curtis and I.
                      Peirano Garrison, eds. <title level="m">The lives of Latin texts</title>.
@@ -1875,20 +1870,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                   <!-- TODO Damon and Huskey (in preparation) paper on LDLT BAlex? -->
 
-                  <bibl xml:id="Domaszewski"><abbr type="siglum">Domaszewski</abbr>A. von
+                  <bibl xml:id="Domaszewski"><abbr type="siglum">Domaszewski</abbr> A. von
                      Domaszewski. <title level="a">Die Heere der Bürgerkriege in den Jahren 49 bis
                         42 vor Christus</title>. <title level="j">Neue Heidelberger
                         Jahrbücher</title>
                      <biblScope unit="volume">4</biblScope> (<date>1894</date>): <biblScope
                         unit="page">157–188</biblScope>.</bibl>
 
-                  <bibl xml:id="Fischer"><abbr type="siglum">Fischer</abbr><author>Fischer,
+                  <bibl xml:id="Fischer"><abbr type="siglum">Fischer</abbr> <author>Fischer,
                         Eduard</author>. <title>Das achte Buch vom Gallischem Kriege und das Bellum
                         Alexandrinum: Eine Studie</title>. <pubPlace>Passau</pubPlace>.
                         <date>1880</date>. URL: <ptr
                         target="https://hdl.handle.net/2027/uc1.$b62477"/></bibl>
 
-                  <bibl xml:id="Fleischer"><abbr type="siglum">Fleischer</abbr><author>Fleischer,
+                  <bibl xml:id="Fleischer"><abbr type="siglum">Fleischer</abbr> <author>Fleischer,
                         Curt</author>. <title level="a">Zu Caesar und seinen Fortsetzern</title>.
                         <title level="j">Neue Jahrbücher für Philologie und Pädagogik</title>
                      <biblScope unit="volume">119</biblScope> (<date>1879</date>): <biblScope
@@ -1904,14 +1899,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         target="https://hdl.handle.net/2027/njp.32101065205849"/>.</bibl>
 
                   <bibl xml:id="Gaertner-Hausburg"><abbr type="siglum"
-                        >Gaertner-Hausburg</abbr><author>Gaertner, J. F.</author>, and <author>B.
+                        >Gaertner-Hausburg</abbr> <author>Gaertner, J. F.</author>, and <author>B.
                         Hausburg</author>. <title level="m">Caesar and the Bellum Alexandrinum: An
                         analysis of style, narrative technique, and the reception of Greek
                         historiography</title>. <title level="j">Hypomnemata</title>
                      <biblScope unit="volume">192</biblScope>. <pubPlace>Göttingen</pubPlace>.
                         <date>2013</date>.</bibl>
 
-                  <bibl xml:id="Gemoll"><abbr type="siglum">Gemoll</abbr><author>Gemoll, W.</author>
+                  <bibl xml:id="Gemoll"><abbr type="siglum">Gemoll</abbr> <author>Gemoll, W.</author>
                      <title level="a">Zu Caesar und seinen Fortsetzern</title>. <title level="j"
                         >Jahrbücher für klassische Philologie</title>
                      <biblScope unit="volume">119</biblScope> (<date>1879</date>): <biblScope
@@ -1919,32 +1914,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         target="https://hdl.handle.net/2027/uc1.b3013858?urlappend=%3Bseq=317"
                      />.</bibl>
 
-                  <bibl xml:id="Graindor"><abbr type="siglum">Graindor</abbr><author>Graindor,
+                  <bibl xml:id="Graindor"><abbr type="siglum">Graindor</abbr> <author>Graindor,
                         P</author>. <title>La guerre d’Alexandrie</title>.
                         <pubPlace>Cairo</pubPlace>. <date>1931</date>.</bibl>
 
-                  <bibl xml:id="Hedicke"><abbr type="siglum">Hedicke</abbr><author>Hedicke,
+                  <bibl xml:id="Hedicke"><abbr type="siglum">Hedicke</abbr> <author>Hedicke,
                         Edmundus</author>. <title level="a">Scholia in Caesarem et Sallustium (Varia
                         II)</title>. <title level="j">Programm des königlichen Gymnasiums zu
                         Quedlinburg</title> (<date>1879</date>): <biblScope unit="page"
                         >9–18</biblScope>.</bibl>
 
-                  <bibl xml:id="Hering"><abbr type="siglum">Hering</abbr><author>Hering,
+                  <bibl xml:id="Hering"><abbr type="siglum">Hering</abbr> <author>Hering,
                         Wolfgang</author>. <title>Die Recensio der Caesarhandschriften</title>.
                         <pubPlace>Berlin</pubPlace>. <date>1963</date>.</bibl>
 
-                  <bibl xml:id="Hübner"><abbr type="siglum">Hübner</abbr><editor>Emil
+                  <bibl xml:id="Hübner"><abbr type="siglum">Hübner</abbr> <editor>Emil
                         Hübner</editor>, ed. <title>Inscriptiones Hispanie Latinae. Corpus
                         Inscriptionum Latinarum. Vol. II</title>. <pubPlace>Berlin</pubPlace>:
                         <publisher>G. Reimerum</publisher>. <date>1869–92</date>. URL: <ptr
                         target="http://arachne.uni-koeln.de/books/CILvII1869"/>.</bibl>
 
-                  <bibl xml:id="Kraffert"><abbr type="siglum">Kraffert</abbr><author>Kraffert,
+                  <bibl xml:id="Kraffert"><abbr type="siglum">Kraffert</abbr> <author>Kraffert,
                         Hermann</author>. <title level="m">Beiträge zur Kritik und Erklärung
                         lateinischer Autoren</title>. <pubPlace>Aurich</pubPlace>.
                      <date>1882</date>.</bibl>
 
-                  <bibl xml:id="Kübler1896b"><abbr type="siglum">Kübler 1896b</abbr><author>Kübler,
+                  <bibl xml:id="Kübler1896b"><abbr type="siglum">Kübler 1896b</abbr> <author>Kübler,
                         B.</author>. <title level="a">Recisamenta critica</title>. <title level="j"
                         >Philologus</title>
                      <biblScope unit="volume">55</biblScope> (<date>1896</date>): <biblScope
@@ -1953,14 +1948,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      />.</bibl>
 
                   <bibl xml:id="Landgraf1888"><abbr type="siglum">Landgraf
-                        1888</abbr><author>Landgraf, G</author>. <title>Untersuchungen zu Caesar und
+                        1888</abbr> <author>Landgraf, G</author>. <title>Untersuchungen zu Caesar und
                         seinen Fortsetzern insbesondere über Autorschaft und Komposition des Bellum
                         Alexandrinum und Africanum</title>. <pubPlace>Erlangen</pubPlace>.
                         <date>1888</date>. URL: <ptr
                         target="https://archive.org/details/untersuchungenzu00landuoft"/>.</bibl>
 
                   <bibl xml:id="Landgraf1889"><abbr type="siglum">Landgraf
-                        1889</abbr><author>Landgraf, G.</author>
+                        1889</abbr> <author>Landgraf, G.</author>
                      <title>Der Bericht des C. Asinius Pollio über die spanischen Unruhen des Jahres
                         48 v. Chr. (Bellum Alexandrinum 48–64) auf Grund des codex
                         Ashburnhamensis</title>. <pubPlace>Erlangen et Leipzig</pubPlace>.
@@ -1968,7 +1963,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         target="https://hdl.handle.net/2027/hvd.32044085186245"/>.</bibl>
 
                   <bibl xml:id="Landgraf1891a"><abbr type="siglum">Landgraf
-                        1891a</abbr><author>Landgraf, G.</author>
+                        1891a</abbr> <author>Landgraf, G.</author>
                      <title level="a">Zum Bellum Alexandrinum</title>. In <title level="m"
                         >Commentationes Woelfflinianae</title>. <pubPlace>Leipzig</pubPlace>.
                         <date>1891</date>. <biblScope unit="page">15–21</biblScope>. URL: <ptr
@@ -1976,20 +1971,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      />.</bibl>
 
                   <bibl xml:id="Landgraf1891b"><abbr type="siglum">Landgraf
-                        1891b</abbr><author>Landgraf, G</author>. <title level="a">Das Bellum
+                        1891b</abbr> <author>Landgraf, G</author>. <title level="a">Das Bellum
                         Alexandrinum und der codex Ashburnhamensis</title>. <title level="j"
                         >Programm des Kgl. Wilhelmsgymnasiums in München für das Studienjahr
                         1890/91</title>. <pubPlace>Munich</pubPlace>. <date>1891</date>. <biblScope
                         unit="page">1–23</biblScope>. </bibl>
 
-                  <bibl xml:id="Larsen"><abbr type="siglum">Larsen</abbr><author>Larsen, Sophus
+                  <bibl xml:id="Larsen"><abbr type="siglum">Larsen</abbr> <author>Larsen, Sophus
                         C.</author>
                      <title level="m">Studia in libellum incerti auctoris de bello
                         Alexandrino</title>. <pubPlace>Copenhagen</pubPlace>. <date>1886</date>.
                      URL: <ptr target="https://hdl.handle.net/2027/nnc2.ark:/13960/t3cz4fm0n"
                      />.</bibl>
 
-                  <bibl xml:id="Latinius"><abbr type="siglum">Latinius</abbr><author>Latinius,
+                  <bibl xml:id="Latinius"><abbr type="siglum">Latinius</abbr> <author>Latinius,
                         Latinus</author>. <title>Bibliotheca sacra et profana: Sive, Observationes,
                         correctiones, coniecturae, &amp; variae lectiones in sacros et profanos
                         scriptores, e marginalibus notis codicum eiusdem a Dominico Macro ...
@@ -1998,17 +1993,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         target="https://hdl.handle.net/2027/njp.32101076454485"/>.</bibl>
 
                   <bibl xml:id="Leumann-Hofmann-Szantyr"><abbr type="siglum"
-                        >Leumann-Hofmann-Szantyr</abbr><author>Leumann, Manu et al</author>.
+                        >Leumann-Hofmann-Szantyr</abbr> <author>Leumann, Manu et al</author>.
                         <title>Lateinische Grammatik</title>. 3 vols. <pubPlace>Munich</pubPlace>.
                         <date>1965-79</date>.</bibl>
 
-                  <bibl xml:id="Löfstedt"><abbr type="siglum">Löfstedt</abbr><author>Löfstedt,
+                  <bibl xml:id="Löfstedt"><abbr type="siglum">Löfstedt</abbr> <author>Löfstedt,
                         Einar</author>. <title level="a">Vermischte Beiträge zur lateinische
                         Sprachkunde</title>. <title level="j">Eranos</title>
                      <biblScope unit="volume">8</biblScope> (<date>1908</date>): <biblScope
                         unit="page">86–87</biblScope>.</bibl>
 
-                  <bibl xml:id="Madvig"><abbr type="siglum">Madvig</abbr><author>Madvig, J.
+                  <bibl xml:id="Madvig"><abbr type="siglum">Madvig</abbr> <author>Madvig, J.
                         N.</author> “<title level="a">Capitulum III: Caesar, Sallustius.</title>” In
                         <title level="s">Adversaria critica ad scriptores graecos et
                      latinos</title>. Vol. <biblScope unit="volume">2</biblScope>: <title level="m"
@@ -2016,14 +2011,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <date>1873</date>. <biblScope unit="page">281–85</biblScope>. <ptr
                         target="https://hdl.handle.net/2027/coo.31924021596675"/>.</bibl>
 
-                  <bibl xml:id="Markland"><abbr type="siglum">Markland</abbr><author>Markland,
+                  <bibl xml:id="Markland"><abbr type="siglum">Markland</abbr> <author>Markland,
                         Jeremiah</author>. <title level="m">Epistola critica ad eruditissimum virum
                         Franciscum Hare ... in qua Horatii loca aliquot et aliorum veterum
                         emendantur</title>. <pubPlace>Cambridge</pubPlace>. <date>1723</date>. <ptr
                         target="https://books.google.com/books?id=7_JWAAAAcAAJ&amp;pg=PP3#v=onepage&amp;q&amp;f=false"
                      />.</bibl>
 
-                  <bibl xml:id="Menge"><abbr type="siglum">Menge</abbr><author>Menge, R</author>.
+                  <bibl xml:id="Menge"><abbr type="siglum">Menge</abbr> <author>Menge, R</author>.
                         <title level="a">Bellum Alexandrinum: Erklärt von Rud. Schneider</title>.
                         <title level="j">Neue philologische Rundschau</title>
                      <biblScope unit="volume">8</biblScope>. <date>1889</date>. <biblScope
@@ -2031,13 +2026,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         target="https://hdl.handle.net/2027/hvd.32044098630197?urlappend=%3Bseq=154"
                      />.</bibl>
 
-                  <bibl xml:id="Mitchell"><abbr type="siglum">Mitchell</abbr><author>Mitchell,
+                  <bibl xml:id="Mitchell"><abbr type="siglum">Mitchell</abbr> <author>Mitchell,
                         S.</author> “<title level="a">The treaty between Rome and Lycia of 46 BC
                         (MS2070).</title>” In R. Pintaudi, ed., <title level="s">Papyri graecae
                         Schøyen (P. Schøyen I)</title>. <pubPlace>Florence</pubPlace>.
                         <date>2005</date>. <biblScope unit="page">161–259</biblScope>.</bibl>
 
-                  <bibl xml:id="Müller"><abbr type="siglum">Müller</abbr><author>Müller, H.
+                  <bibl xml:id="Müller"><abbr type="siglum">Müller</abbr> <author>Müller, H.
                         J.</author> Footnote to a Nachtrag on <ref target="#Schneider"
                         >Schneider</ref> (1888). <title level="j">Jahresberichte des philologischen
                         Vereins zu Berlin</title>
@@ -2046,28 +2041,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         target="https://books.google.com/books?id=9uToXfcovpwC&amp;pg=PA348#v=onepage&amp;q&amp;f=false"
                      />.</bibl>
 
-                  <bibl xml:id="Pinkster"><abbr type="siglum">Pinkster</abbr><author>Pinkster,
+                  <bibl xml:id="Pinkster"><abbr type="siglum">Pinkster</abbr> <author>Pinkster,
                         Harm</author>. <title>The Oxford Latin Syntax. Volume 1, The Simple
                         Clause</title>. <pubPlace>Oxford</pubPlace>. <date>2015</date>.</bibl>
 
-                  <bibl xml:id="Preuss"><abbr type="siglum">Preuss</abbr><author>Preuss,
+                  <bibl xml:id="Preuss"><abbr type="siglum">Preuss</abbr> <author>Preuss,
                         Siegmund</author>. <title level="m">Vollstandiges Lexicon zu den
                         pseudo-casarianischen Schriftwerken</title>. <pubPlace>Erlangen</pubPlace>.
                         <date>1884</date>. <ptr
                         target="https://books.google.com/books?id=QlEIAAAAQAAJ&amp;newbks=1&amp;newbks_redir=0&amp;pg=PA1#v=onepage&amp;q&amp;f=false"
                      />.</bibl>
 
-                  <bibl xml:id="Raaflaub"><abbr type="siglum">Raaflaub</abbr><editor>Raaflaub, Kurt
+                  <bibl xml:id="Raaflaub"><abbr type="siglum">Raaflaub</abbr> <editor>Raaflaub, Kurt
                         A., ed</editor>. <title level="m">The Landmark Julius Caesar. The complete
                         works: Gallic War, Civil War, Alexandrian War, African War, and Spanish
                         War</title>. <pubPlace>New York</pubPlace>. <date>2017</date>.</bibl>
 
-                  <bibl xml:id="Rice-Holmes"><abbr type="siglum">Rice Holmes</abbr><author>Rice
+                  <bibl xml:id="Rice-Holmes"><abbr type="siglum">Rice Holmes</abbr> <author>Rice
                         Holmes, T</author>. <title>The Roman Republic and the Founder of the Empire
                         Vol. 3</title>. <pubPlace>Oxford</pubPlace>. <date>1923</date>.</bibl>
 
                   <bibl xml:id="Schambach1879-1882"><abbr type="siglum">Schambach
-                        1879–1882</abbr><author>Schambach, Otfried</author>. <title level="a">Zu
+                        1879–1882</abbr> <author>Schambach, Otfried</author>. <title level="a">Zu
                         Caesar und seinen Fortsetzern</title>. <title level="j">Jahrbücher für
                         klassische Philologie</title>
                      <biblScope unit="volume">119</biblScope> (<date>1879</date>): <biblScope
@@ -2081,13 +2076,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      />.</bibl>
 
                   <bibl xml:id="Schambach1881"><abbr type="siglum">Schambach
-                        1881</abbr><author>Schambach, Otfried</author>. <title level="a">Die
+                        1881</abbr> <author>Schambach, Otfried</author>. <title level="a">Die
                         Reiterei bei Caesar</title>. <pubPlace>Mühlhausen in Thüringen</pubPlace>.
                         <date>1881</date>. <ptr
                         target="https://hdl.handle.net/2027/hvd.32044080867435"/>.</bibl>
 
                   <bibl xml:id="Schiller1883"><abbr type="siglum">Schiller
-                        1883</abbr><author>Schiller, Heinrich</author>. <title level="a">Zu Caesar
+                        1883</abbr> <author>Schiller, Heinrich</author>. <title level="a">Zu Caesar
                         Bell. Civ. III, 112, 2 und Hirtius Bell. Alex. 8, 2</title>. <title
                         level="j">Philologus</title>
                      <biblScope unit="volume">42</biblScope> (<date>1883</date>): <biblScope
@@ -2096,7 +2091,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      />.</bibl>
 
                   <bibl xml:id="Schiller1889"><abbr type="siglum">Schiller
-                        1889</abbr><author>Schiller, Heinrich</author>. Review of <ref
+                        1889</abbr> <author>Schiller, Heinrich</author>. Review of <ref
                         target="#Schneider">Schneider (1888)</ref>. <title level="j">Berliner
                         philologische Wochenschrift</title>
                      <biblScope unit="volume">9</biblScope> (<date>1889</date>): <biblScope
@@ -2105,7 +2100,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      />.</bibl>
 
                   <bibl xml:id="Schiller1890a"><abbr type="siglum">Schiller
-                        1890a</abbr><author>Schiller, Heinrich</author>. <title level="a">Vom
+                        1890a</abbr> <author>Schiller, Heinrich</author>. <title level="a">Vom
                         Ursprung des Bellum Alexandrinum</title>. <title level="j">Blätter für das
                         Bayerische Gymnasialschulwesen</title>
                      <biblScope unit="volume">26</biblScope> (<date>1890</date>): <biblScope
@@ -2114,7 +2109,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      />.</bibl>
 
                   <bibl xml:id="Schiller1890b"><abbr type="siglum">Schiller
-                        1890b</abbr><author>Schiller, Heinrich</author>. Review of <ref
+                        1890b</abbr> <author>Schiller, Heinrich</author>. Review of <ref
                         target="#Hoffmann1890">Hoffmann (1890)</ref>. <title level="j">Blätter für
                         das Bayerische Gymnasialschulwesen</title>
                      <biblScope unit="volume">26</biblScope> (<date>1890</date>): <biblScope
@@ -2122,7 +2117,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         target="https://hdl.handle.net/2027/njp.32101073027086?urlappend=%3Bseq=549"
                      />.</bibl>
 
-                  <bibl xml:id="Stadler"><abbr type="siglum">Stadler</abbr><author>Stadler,
+                  <bibl xml:id="Stadler"><abbr type="siglum">Stadler</abbr> <author>Stadler,
                         O</author>. <title level="a">Zu lateinischen Schriftstellern</title>. <title
                         level="j">Berliner philologische Wochenschrift</title>
                      <biblScope unit="volume">27.35</biblScope> (<date>1907</date>): <biblScope
@@ -2130,27 +2125,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         target="https://hdl.handle.net/2027/uiug.30112023962035?urlappend=%3Bseq=578"
                      />.</bibl>
 
-                  <bibl xml:id="Stark"><abbr type="siglum">Stark</abbr><author>Stark,
+                  <bibl xml:id="Stark"><abbr type="siglum">Stark</abbr> <author>Stark,
                         Rudolf</author>. <title level="a"><foreign xml:lang="la">Bellum
                            Alexandrinum</foreign> 19, 1</title>. <title level="j">Maia</title>
                      <biblScope unit="volume">16</biblScope> (<date>1964</date>): <biblScope
                         unit="page">239–42</biblScope>.</bibl>
 
-                  <bibl xml:id="Stoffel"><abbr type="siglum">Stoffel</abbr><author>Stoffel,
+                  <bibl xml:id="Stoffel"><abbr type="siglum">Stoffel</abbr> <author>Stoffel,
                         E</author>. <title level="m">Histoire de Jules César, Guerre civile</title>.
                      2 vols. <pubPlace>Paris</pubPlace>. <date>1887</date>. <ptr
                         target="https://catalog.hathitrust.org/Record/001193303"/>.</bibl>
 
-                  <bibl xml:id="Talbert"><abbr type="siglum">Talbert</abbr><editor>Talbert, R.J.A.,
+                  <bibl xml:id="Talbert"><abbr type="siglum">Talbert</abbr> <editor>Talbert, R.J.A.,
                         ed.</editor>
                      <title level="m">Barrington atlas of the Greek and Roman world</title>.
                         <pubPlace>Princeton</pubPlace>. <date>2000</date>.</bibl>
 
-                  <bibl xml:id="Townend"><abbr type="siglum">Townend</abbr><author>Townend,
+                  <bibl xml:id="Townend"><abbr type="siglum">Townend</abbr> <author>Townend,
                         G</author>. <title>Caesar’s War in Alexandria</title>.
                         <pubPlace>Bristol</pubPlace>. <date>1988</date>.</bibl>
 
-                  <bibl xml:id="Turnebus"><abbr type="siglum">Turnebus</abbr><author>Turnèbe,
+                  <bibl xml:id="Turnebus"><abbr type="siglum">Turnebus</abbr> <author>Turnèbe,
                         Adrien</author>. <title level="m">Adriani Turnebi adversariorum tomus
                         secundus duodecim libros continens</title>. <pubPlace>Paris</pubPlace>.
                         <date>1565</date>. 36. <ptr
@@ -2158,12 +2153,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      />.</bibl>
 
                   <bibl xml:id="Vielhaber1864"><abbr type="siglum">Vielhaber
-                        1864</abbr><author>Vielhaber, Leopold</author>. <title>Beiträge zur Kritik
+                        1864</abbr> <author>Vielhaber, Leopold</author>. <title>Beiträge zur Kritik
                         des Cäsarianischen Bellum ciuile und der Fortsetzungen desselben</title>.
                         <pubPlace>Vienna</pubPlace>. <date>1864</date>.</bibl>
 
                   <bibl xml:id="Vielhaber1869"><abbr type="siglum">Vielhaber
-                        1869</abbr><author>Vielhaber, Leopold</author>. Review of <ref
+                        1869</abbr> <author>Vielhaber, Leopold</author>. Review of <ref
                         target="#Dübner">Dübner (1867)</ref>. <title level="j">Zeitschrift für die
                         österreichischen Gymnasien</title>
                      <biblScope unit="volume">20</biblScope> (<date>1869</date>): <biblScope
@@ -2177,126 +2172,126 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <head>List of People Cited by Name</head>
                <listPerson>
                   <person xml:id="Atkins">
-                     <persName><abbr type="siglum">Atkins</abbr>Adrienne Atkins</persName>
+                     <persName><abbr type="siglum">Atkins</abbr> Adrienne Atkins</persName>
                      <note>Member of the Latin 540 class (spring 2015).</note>
                   </person>
                   <person xml:id="Bensch-Schaus">
-                     <persName><abbr type="siglum">Bensch-Schaus</abbr>Amelia
+                     <persName><abbr type="siglum">Bensch-Schaus</abbr> Amelia
                         Bensch-Schaus</persName>
                      <note>Member of the Latin 540 class (spring 2017).</note>
                   </person>
                   <person xml:id="Brutus">
-                     <persName><abbr type="siglum">Brutus</abbr>Brutus</persName>
+                     <persName><abbr type="siglum">Brutus</abbr> Brutus</persName>
                      <note>See <ref target="#Jungermann">Jungermann</ref>.</note>
                   </person>
                   <person xml:id="Callaghan">
-                     <persName><abbr type="siglum">Callaghan</abbr>Greg Callaghan</persName>
+                     <persName><abbr type="siglum">Callaghan</abbr> Greg Callaghan</persName>
                      <note>Member of the Latin 540 class (spring 2015).</note>
                   </person>
                   <person xml:id="Ciacconius" corresp="http://viaf.org/viaf/73950642">
-                     <persName><abbr type="siglum">Ciacconius</abbr>Petrus Ciacconius</persName>
+                     <persName><abbr type="siglum">Ciacconius</abbr> Petrus Ciacconius</persName>
                      <note>See <ref target="Jungermann">Jungermann</ref> and <ref
                            target="#Dauisius1706">Dauisius 1706</ref>.</note>
                   </person>
                   <person xml:id="Credo">
-                     <persName><abbr type="siglum">Credo</abbr>Brian Credo</persName>
+                     <persName><abbr type="siglum">Credo</abbr> Brian Credo</persName>
                      <note>Member of the Latin 540 class (spring 2017).</note>
                   </person>
                   <person xml:id="Cuiacius">
-                     <persName><abbr type="siglum">Cuiacius</abbr>Cuiacius</persName>
+                     <persName><abbr type="siglum">Cuiacius</abbr> Cuiacius</persName>
                      <note>See <ref target="#Nipperdey">Nipperdey</ref>.</note>
                   </person>
                   <person xml:id="Damon" corresp="http://viaf.org/viaf/116523553">
-                     <persName><abbr type="siglum">Damon</abbr>Cynthia Damon</persName>
+                     <persName><abbr type="siglum">Damon</abbr> Cynthia Damon</persName>
                      <note>Editor of this edition and instructor of Latin 540 (University of
                         Pennsylvania) in 2015 and 2017.</note>
                   </person>
                   <person xml:id="Faernus" corresp="http://viaf.org/viaf/88354857">
-                     <persName><abbr type="siglum">Faernus</abbr>Faerno, Gabriello</persName>
+                     <persName><abbr type="siglum">Faernus</abbr> Faerno, Gabriello</persName>
                      <note>See <ref target="#Klotz">Klotz</ref>.</note>
                   </person>
                   <person xml:id="Gertz" corresp="http://viaf.org/viaf/54528462">
-                     <persName><abbr type="siglum">Gertz</abbr>M. C. Gertz</persName>
+                     <persName><abbr type="siglum">Gertz</abbr> M. C. Gertz</persName>
                      <note>See <ref target="#Klotz">Klotz</ref>.</note>
                   </person>
                   <person xml:id="Glandorpius" corresp="http://viaf.org/viaf/39672616">
-                     <persName><abbr type="siglum">Glandorpius</abbr>Glandorp, Johann</persName>
+                     <persName><abbr type="siglum">Glandorpius</abbr> Glandorp, Johann</persName>
                      <note>See <ref target="#Jungermann">Jungermann</ref>.</note>
                   </person>
                   <person xml:id="Gruterus" corresp="http://viaf.org/viaf/61599137">
-                     <persName><abbr type="siglum">Gruterus</abbr>Janus Gruterus</persName>
+                     <persName><abbr type="siglum">Gruterus</abbr> Janus Gruterus</persName>
                      <note>See <ref target="#Oudendorp">Oudendorp</ref>.</note>
                   </person>
                   <person xml:id="Hanson">
-                     <persName><abbr type="siglum">Hanson</abbr>Wes Hanson</persName>
+                     <persName><abbr type="siglum">Hanson</abbr> Wes Hanson</persName>
                      <note>Member of the Latin 540 class (spring 2017).</note>
                   </person>
                   <person xml:id="Haupt" corresp="http://viaf.org/viaf/36998303">
-                     <persName><abbr type="siglum">Haupt</abbr>Moriz Haupt</persName>
+                     <persName><abbr type="siglum">Haupt</abbr> Moriz Haupt</persName>
                      <note>See <ref target="#Nipperdey">Nipperdey</ref>.</note>
                   </person>
                   <person xml:id="Jurinius">
-                     <persName><abbr type="siglum">Jurinius</abbr>Jurinius</persName>
+                     <persName><abbr type="siglum">Jurinius</abbr> Jurinius</persName>
                      <note>See <ref target="#Bentley">T. Bentley</ref>.</note>
                   </person>
                   <person xml:id="Keil" corresp="http://viaf.org/viaf/2604826">
-                     <persName><abbr type="siglum">Keil</abbr>Heinrich Keil</persName>
+                     <persName><abbr type="siglum">Keil</abbr> Heinrich Keil</persName>
                      <note>See <ref target="#Klotz">Klotz</ref>.</note>
                   </person>
                   <person xml:id="Khan">
-                     <persName><abbr type="siglum">Khan</abbr>Scheherazade Khan</persName>
+                     <persName><abbr type="siglum">Khan</abbr> Scheherazade Khan</persName>
                      <note>Member of the Latin 540 class (spring 2015).</note>
                   </person>
                   <person xml:id="Kovalchuk">
-                     <persName><abbr type="siglum">Kovalchuk</abbr>Maria Kovalchuk</persName>
+                     <persName><abbr type="siglum">Kovalchuk</abbr> Maria Kovalchuk</persName>
                      <note>Member of the Latin 540 class (spring 2017).</note>
                   </person>
                   <person xml:id="Lewis">
-                     <persName><abbr type="siglum">Lewis</abbr>Amy Lewis</persName>
+                     <persName><abbr type="siglum">Lewis</abbr> Amy Lewis</persName>
                      <note>Member of the Latin 540 class (spring 2015).</note>
                   </person>
                   <person xml:id="Naqvi">
-                     <persName><abbr type="siglum">Naqvi</abbr>Theodora Naqvi</persName>
+                     <persName><abbr type="siglum">Naqvi</abbr> Theodora Naqvi</persName>
                      <note>Member of the Latin 540 class (spring 2017).</note>
                   </person>
                   <person xml:id="Persyn">
-                     <persName><abbr type="siglum">Persyn</abbr>Marcie Persyn</persName>
+                     <persName><abbr type="siglum">Persyn</abbr> Marcie Persyn</persName>
                      <note>Member of the Latin 540 class (spring 2015).</note>
                   </person>
                   <person xml:id="Reinhardt">
-                     <persName><abbr type="siglum">Reinhardt</abbr>Isabella Reinhardt</persName>
+                     <persName><abbr type="siglum">Reinhardt</abbr> Isabella Reinhardt</persName>
                      <note>Member of the Latin 540 class (spring 2017).</note>
                   </person>
                   <person xml:id="Rhellicanus">
-                     <persName><abbr type="siglum">Rhellicanus</abbr>Rhellicanus</persName>
+                     <persName><abbr type="siglum">Rhellicanus</abbr> Rhellicanus</persName>
                      <note>See <ref target="#Jungermann">Jungermann</ref></note>
                   </person>
                   <person xml:id="Rossetus" corresp="http://viaf.org/viaf/1000155042855472402676">
-                     <persName><abbr type="siglum">Rossetus</abbr>Joannes Rossetus</persName>
+                     <persName><abbr type="siglum">Rossetus</abbr> Joannes Rossetus</persName>
                      <note>See <ref target="#Gaertner-Hausburg">Gaertner-Hausburg</ref>.</note>
                   </person>
                   <person xml:id="Siesbye" corresp="http://viaf.org/viaf/289411596">
-                     <persName><abbr type="siglum">Siesbye</abbr>Oskar Siesbye</persName>
+                     <persName><abbr type="siglum">Siesbye</abbr> Oskar Siesbye</persName>
                      <note>See <ref target="#Larsen">Larsen</ref>.</note>
                   </person>
                   <person xml:id="DSimons">
-                     <persName><abbr type="siglum">D. Simons</abbr>Dallas Simons</persName>
+                     <persName><abbr type="siglum">D. Simons</abbr> Dallas Simons</persName>
                      <note>Member of the Latin 540 class (spring 2015).</note>
                   </person>
                   <person xml:id="JSimons">
-                     <persName><abbr type="siglum">J. Simons</abbr>Julia Simons</persName>
+                     <persName><abbr type="siglum">J. Simons</abbr> Julia Simons</persName>
                      <note>Member of the Latin 540 class (spring 2017).</note>
                   </person>
                   <person xml:id="Vozar">
-                     <persName><abbr type="siglum">Vozar</abbr>Tom Vozar</persName>
+                     <persName><abbr type="siglum">Vozar</abbr> Tom Vozar</persName>
                      <note>Member of the Latin 540 class (spring 2015).</note>
                   </person>
                   <person xml:id="Warnock">
-                     <persName><abbr type="siglum">Warnock</abbr>Tim Warnock</persName>
+                     <persName><abbr type="siglum">Warnock</abbr> Tim Warnock</persName>
                      <note>Member of the Latin 540 class (spring 2017).</note>
                   </person>
                   <person xml:id="Wölfflin" corresp="http://viaf.org/viaf/45080602">
-                     <persName><abbr type="siglum">Wölfflin</abbr>Eduard Wölfflin</persName>
+                     <persName><abbr type="siglum">Wölfflin</abbr> Eduard Wölfflin</persName>
                      <note>See <ref target="#Klotz">Klotz</ref>.</note>
                   </person>
                </listPerson>
@@ -2823,7 +2818,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <div type="edition" xml:id="edition-text">
             <head>Bellum Alexandrinum</head>
 
-            <div type="textpart" xml:id="part1" n="1">
                <p n="1"><seg n="1">Bello Alexandrino conflato Caesar Rhodo atque ex Syria Ciliciaque
                      omnem classem arcessit. Creta sagittarios, equites ab rege Nabataeorum Malcho
                      euocat. Tormenta undique conquiri et frumentum mitti auxilia adduci
@@ -7776,7 +7770,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      seditionum pati uidebatur.</seg>
                   <seg n="5">Rebus felicissime celerrimeque confectis in Italiam celerius omnium
                      opinione uenit.</seg></p>
-            </div>
+            
          </div>
       </body>
       <back>
@@ -14975,7 +14969,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   that clarifies the origin of <foreign xml:lang="la">in proelium</foreign>:</p>
 
                <quote rend="blockquote">… cum interim Pharnaces eodem gradu quo in <hi
-                     rend="underline">procliuem</hi> descenderat uallem ascendere aduersus arduum
+                     rend="underline">procliuem</hi> descenderat uallem ascendere aduersus arduumb
                   collem instructis copiis coepit.</quote>
 
                <p>The noun will have arisen as a misreading of <foreign xml:lang="la"

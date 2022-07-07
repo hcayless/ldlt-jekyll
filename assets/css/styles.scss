@@ -37,6 +37,11 @@ a.navbar-brand {
 
 .navbar-nav a {
     color: whitesmoke;
+    transition: none;
+}
+.navbar-nav a:hover {
+    color: white;
+    text-shadow: 0px 0px 1px whitesmoke;
 }
 
 // Home Page

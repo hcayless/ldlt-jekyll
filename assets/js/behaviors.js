@@ -1,12 +1,5 @@
 let behaviors = {
   "tei":{
-    // Overrides the default ptr behavior, displaying a short link
-    "ptr": function(elt) {
-      var link = document.createElement("a");
-      link.innerHTML = elt.getAttribute("target").replace(/https?:\/\/([^\/]+)\/.*/, "$1");
-      link.href = elt.getAttribute("target");
-      return link;
-    },
     "gap": [
       ["[unit=lines]", function(elt) {
         let span = document.createElement("span");
@@ -33,6 +26,22 @@ let behaviors = {
     },
     "l": function(elt) {
       this.add_anchor(elt);
+    },
+    "note": ["",""],
+    "p": function(elt) {
+      if (elt.hasAttribute("n")) {
+        elt.insertAdjacentHTML('afterbegin', "<span class=\"pnum\">" + elt.getAttribute("n") + ".</span>");
+      }
+    },
+    // Overrides the default ptr behavior, displaying a short link
+    "ptr": function(elt) {
+      var link = document.createElement("a");
+      link.innerHTML = elt.getAttribute("target").replace(/https?:\/\/([^\/]+)\/.*/, "$1");
+      link.href = elt.getAttribute("target");
+      return link;
+    },
+    "seg": function(elt) {
+      elt.insertAdjacentHTML('beforebegin', "<sup>" + elt.getAttribute("n") + " </sup>");
     },
     "supplied": ["&lt;","&gt;"],
     "table": function(elt) {
@@ -77,7 +86,7 @@ let behaviors = {
           content.innerHTML = " (a.c.) "
         }
       } else {
-        content.innerHTML = " (" + elt.innerHTML + ") ";
+        content.innerHTML = " " + elt.innerHTML + " ";
       }
       return content;
     }

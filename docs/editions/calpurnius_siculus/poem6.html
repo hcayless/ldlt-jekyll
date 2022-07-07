@@ -3059,6 +3059,25 @@
       let resolveCite = function() {
         window.location = citables[document.querySelector("input[name=getcite]").value.toString()];
       }
+      const links = Array.from(document.getElementById('navigation').querySelectorAll('a')); 
+      const pg = window.location.pathname.replace(/.*\/([^\/]+)$/,'$1');
+      const prevNext = document.getElementById('prevNext');
+      prevNext.innerHTML = "";
+      for (let i = 0; i < links.length; i++) {
+        if (links[i].getAttribute('href') == pg) {
+          if (i > 0) {
+            prevNext.innerHTML += "↤ "
+            prevNext.innerHTML += links[i-1].outerHTML;
+            if (i < links.length) {
+              prevNext.innerHTML += " | ";
+            }
+          }
+          if (i < links.length) {
+            prevNext.innerHTML += links[i+1].outerHTML;
+            prevNext.innerHTML += " ↦";
+          }
+        }
+      }
     </script>
   </body>
 </html>

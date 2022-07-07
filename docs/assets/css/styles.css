@@ -14,7 +14,9 @@ a.navbar-brand { margin-bottom: 0.75rem; margin-left: 1rem; }
 
 .navbar-nav { margin-left: auto; }
 
-.navbar-nav a { color: whitesmoke; }
+.navbar-nav a { color: whitesmoke; transition: none; }
+
+.navbar-nav a:hover { color: white; text-shadow: 0px 0px 1px whitesmoke; }
 
 #main { margin-top: 3rem; }
 

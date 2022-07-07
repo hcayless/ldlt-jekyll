@@ -163,7 +163,7 @@ citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure"
     <xsl:if test="dts:resolve_citedata(.,.,'function') = 'toc-entry'">
       <xsl:for-each select="$matches/*">
         <li>
-          <!-- When a toc-entry has an ancestor that's will be split into a separate document, make a link to split_document.html#id, 
+          <!-- When a toc-entry has an ancestor that will be split into a separate document, make a link to split_document.html#id, 
                when it's to be split out itself, do split_document.html. No link otherwise. -->
           <xsl:choose>
             <xsl:when test="$current/citeData[@property='function' and contains(@use,'split')] or $current/ancestor::citeStructure[citeData[@property='function' and contains(@use,'split')]] ">
@@ -236,6 +236,7 @@ citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure"
     <xsl:variable name="matches">
       <xsl:evaluate xpath="$match" context-item="$doc"/>
     </xsl:variable>
+    
     <xsl:for-each select="$matches/*">
       <xsl:result-document href="{lower-case(dts:resolve_id(.,$current))}.md">---
 layout: edition
@@ -278,18 +279,49 @@ citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure"
       <xsl:copy-of select="$toc"/>
     </div>
   </div>
+  <div id="prevNext">
+    -
+  </div>
   <div class="TEI" id="tei">
     <xsl:apply-templates select="$doc//teiHeader"/>
-    <xsl:apply-templates select="."/>
+    <xsl:variable name="id" select="./@xml:id"/>
+    <xsl:variable name="tree">
+      <xsl:call-template name="ancestors-and-self">
+        <xsl:with-param name="elt" select="$doc-with-ids/id($id)/parent::*"/>
+        <xsl:with-param name="newtree" select="."/>
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:apply-templates select="$tree/*"/>
     <xsl:for-each select="dts:resolve_citedata($doc,$current,'dc:requires')">
       <div style="display:none;">
         <xsl:apply-templates select="."/>
       </div>
     </xsl:for-each>
-  </div>              
-
+  </div>
       </xsl:result-document>
     </xsl:for-each>
+  </xsl:template>
+  
+  <!-- Returns a tree containing copies of an element plus its ancestors -->
+  <xsl:template name="ancestors-and-self">
+    <xsl:param name="elt"/>
+    <xsl:param name="newtree"/>
+    <xsl:choose>
+      <xsl:when test="$elt">
+        <xsl:call-template name="ancestors-and-self">
+          <xsl:with-param name="elt" select="$elt/parent::*"/>
+          <xsl:with-param name="newtree">
+            <xsl:copy select="$elt">
+              <xsl:copy-of select="@*"/>
+              <xsl:copy-of select="$newtree"/>
+            </xsl:copy>
+          </xsl:with-param>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:copy-of select="$newtree"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!-- Produces a tree containing copies of just the citable elements without 
@@ -347,11 +379,11 @@ citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure"
     <xsl:param name="parenttarget" select="''"/>
     <xsl:param name="parentmatch" select="''"/>
     <xsl:variable name="current" select="."/>
+    <xsl:variable name="matches" select="dts:resolve_citestructure($context,.)"/>
     <xsl:choose>
       <xsl:when test="@unit">
         <xsl:variable name="use" select="'xs:string(' || @use || ')'"/>
         <xsl:variable name="delim" select="@delim"/>
-        <xsl:variable name="matches" select="dts:resolve_citestructure($context,.)"/>
         <xsl:for-each select="$matches">
           <xsl:variable name="citationpart">
             <xsl:evaluate context-item="." xpath="$use"/>
@@ -376,7 +408,9 @@ citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure"
         </xsl:for-each>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:apply-templates select="citeStructure" mode="citations"/>
+        <xsl:apply-templates select="citeStructure" mode="citations">
+          <xsl:with-param name="context" select="$matches"/>
+        </xsl:apply-templates>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>

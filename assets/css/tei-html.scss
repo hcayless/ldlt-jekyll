@@ -105,6 +105,8 @@ div#controls ul {
 
 div#navigation {
     border: thin solid gray;
+    max-height: 40em;
+    overflow:scroll;
     padding: 0.5em;
 }
 
@@ -167,6 +169,10 @@ div.apparatus tei-app>span.lem:before {
 
 span.note {
     display: none;
+}
+
+span.pnum {
+    font-weight: bold;
 }
 
 div.apparatus span.note {
@@ -345,7 +351,7 @@ div.apparatus span.lineref {
 }
 
 .highlight {
-    background: yellow;
+    background: #00ffab;
 }
 
 .highlight tei-lem:empty:before {
@@ -1688,6 +1694,17 @@ div#tei a:visited,
 div#teia:active {
     color: black;
     text-decoration: underline;
+}
+
+div#prevNext {
+    width: 50vw;
+    text-align: center;
+    font-size: larger;
+}
+div#prevNext a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
 
 #footer {

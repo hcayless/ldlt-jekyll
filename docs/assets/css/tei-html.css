@@ -33,7 +33,7 @@ div#controls h2 { font-size: 120%; margin: 0; }
 
 div#controls ul { list-style-type: none; margin: 0; padding: 0; }
 
-div#navigation { border: thin solid gray; padding: 0.5em; }
+div#navigation { border: thin solid gray; max-height: 40em; overflow: scroll; padding: 0.5em; }
 
 div#navigation li { margin-left: 1em; }
 
@@ -61,6 +61,8 @@ div.apparatus tei-app > span.lem { font-weight: bold; margin-right: 0.5em; }
 div.apparatus tei-app > span.lem:before { content: "\a"; white-space: pre; }
 
 span.note { display: none; }
+
+span.pnum { font-weight: bold; }
 
 div.apparatus span.note { display: inline; }
 
@@ -135,7 +137,7 @@ div.apparatus span.lineref { display: none; }
 
 .ui-tooltip-content tei-bibl { display: inline; }
 
-.highlight { background: yellow; }
+.highlight { background: #00ffab; }
 
 .highlight tei-lem:empty:before { content: " – "; }
 
@@ -668,6 +670,10 @@ div#tei { margin-top: 3rem; margin-right: 30vw; width: 70vw; }
 div#tei a { text-decoration: underline; }
 
 div#tei a:link, div#tei a:visited, div#teia:active { color: black; text-decoration: underline; }
+
+div#prevNext { width: 50vw; text-align: center; font-size: larger; }
+
+div#prevNext a { color: black; text-decoration: underline; text-decoration-style: dotted; }
 
 #footer { margin-top: 1em; border-top: 1px solid #292929; padding-top: 0.5em; font-size: 12pt; }
 
