@@ -52,9 +52,9 @@
       </button>
         <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link" href="https://ldlt.digitallatin.org/">LDLT Home</a>
-                <a class="nav-item nav-link" href="https://ldlt.digitallatin.org/about.html">About</a>
-                <a class="nav-item nav-link" href="https://ldlt.digitallatin.org/editions.html">Editions</a>
+                <a class="nav-item nav-link" href="/">LDLT Home</a>
+                <a class="nav-item nav-link" href="/about.html">About</a>
+                <a class="nav-item nav-link" href="/editions.html">Editions</a>
             </div>
         </div>
     </div>
@@ -63,6 +63,9 @@
       <div class="container flex-grow-1">
         <main role="main" class="container">
           <div id="controls"><div id="citesearch"><form><label for="getcite">Find citation</label> <input type="text" name="getcite" /> <button onclick="resolveCite(); return false;">Go</button></form></div><div id="editing"><ul><li><button onclick="app.undo()" title="undo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#undo-icon" /></svg></button></li><li><button onclick="app.redo()" title="redo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redo-icon" /></svg></button></li><li><button onclick="while (app.log.length &gt; 0) {app.undo();}" title="undo all"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reload-icon" /></svg></button></li></ul></div><div id="display"><form class=""><ul><li><input type="checkbox" name="orthographical" value="true" /><label for="orthographical">Hide orthographical variants</label></li><li><input type="checkbox" name="morphological" value="true" /><label for="morphological">Hide morphological variants</label></li><li><input type="checkbox" name="lexical" value="true" /><label for="lexical">Hide lexical variants</label></li></ul></form></div><div id="navigation"><ul><li>Introduction<ul><li><a href="front1.html">I. Calpurnius and Nemesianus</a></li><li><a href="front2.html">II. Overview of the Tradition</a></li><li><a href="front3.html">III. Manuscripts: The First Family (N G)</a></li><li><a href="front4.html">IV. Manuscripts: The Second Family (V)</a></li><li><a href="front5.html">V. The Third Family (P)</a></li><li><a href="front6.html">VI. Two lost manuscripts</a></li></ul></li><li>Bibliography<ul><li><a href="bibliography-manuscripts.html">Manuscripts</a></li><li><a href="bibliography-early-editions.html">Early Editions</a></li><li><a href="bibliography-modern-editions.html">Modern Editions</a></li><li><a href="bibliography-secondary-sources.html">Secondary Sources</a></li><li><a href="bibliography-scholars.html">Scholars Cited by Name</a></li><li><a href="bibliography-abbreviations.html">Other abbreviations used in this edition</a></li></ul></li><li><a href="poem1.html">Poem 1. [Corydon, Ornytus]</a></li><li><a href="poem2.html">Poem 2. [Idas, Astacus, Thyrsis]</a></li><li><a href="poem3.html">Poem 3. [Iollas, Lycidas]</a></li><li><a href="poem4.html">Poem 4. [Meliboeus, Corydon, Amyntas]</a></li><li><a href="poem5.html">Poem 5.</a></li><li><a href="poem6.html">Poem 6. [Astylus, Lycidas, Mnasyllus]</a></li><li><a href="poem7.html">Poem 7. [Lycotas, Corydon]</a></li></ul></div></div>
+<div id="prevNext">
+    -
+  </div>
 <div class="TEI" id="tei"><tei-teiHeader xml:id="d1e5" id="d1e5" data-origname="teiHeader">
     <tei-fileDesc xml:id="d1e7" id="d1e7" data-origname="fileDesc">
       <tei-titleStmt xml:id="d1e9" id="d1e9" data-origname="titleStmt">
@@ -138,7 +141,7 @@
         </tei-citeStructure>
       </tei-refsDecl>
     </tei-encodingDesc>
-  </tei-teiHeader><tei-div type="textpart" n="2" xml:id="poem2" id="poem2" data-origname="div" data-citation="2">
+  </tei-teiHeader><tei-TEI xml:id="d1e3" id="d1e3" data-origname="TEI"><tei-text xml:id="d1e152" id="d1e152" data-origname="text"><tei-body xml:id="d1e9569" id="d1e9569" data-origname="body"><tei-div type="edition" xml:id="d1e9573" id="d1e9573" data-origname="div"><tei-div type="textpart" n="2" xml:id="poem2" id="poem2" data-origname="div" data-citation="2">
           <tei-head xml:id="d1e13138" id="d1e13138" data-origname="head">Poem 2. [Idas, Astacus, Thyrsis]</tei-head>
           <tei-l n="1" xml:id="line-2.1" id="line-2.1" data-origname="l" data-citation="2.1">
             <tei-app xml:id="d1e13142" id="d1e13142" data-origname="app">
@@ -1471,7 +1474,7 @@
                 <tei-ref target="bibliography-manuscripts.html#κ1">κ<tei-hi rend="superscript" xml:id="d1e16923" id="d1e16923" data-origname="hi">1</tei-hi></tei-ref></tei-witDetail>
               <tei-rdg wit="#λ" ana="#lexical" xml:id="d1e16926" id="d1e16926" data-origname="rdg">satiavit</tei-rdg>
             </tei-app> et aetas’.</tei-l>
-        </tei-div><div style="display:none;"><tei-div type="bibliography" xml:id="bibliography" id="bibliography" data-origname="div">
+        </tei-div></tei-div></tei-body></tei-text></tei-TEI><div style="display:none;"><tei-div type="bibliography" xml:id="bibliography" id="bibliography" data-origname="div">
         <tei-head xml:id="d1e5684" id="d1e5684" data-origname="head">Bibliography</tei-head>
 
         <tei-div type="bibliography" xml:id="bibliography-manuscripts" id="bibliography-manuscripts" data-origname="div">

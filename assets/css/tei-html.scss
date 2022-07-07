@@ -912,12 +912,22 @@ tei-figure>tei-head {
     font-size: 13pt;
 }
 
+tei-hi[rend="bold"] {
+    font-weight: bold;
+}
+
 tei-hi[rend="caps"] {
     font-weight: bold;
 }
 
 tei-hi[rend="italic"] {
     font-style: italic;
+}
+
+tei-hi[rend="normal"] {
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal;
 }
 
 tei-hi[rend="super"] {

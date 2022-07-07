@@ -151,6 +151,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    </teiHeader>
    <text>
       <front xml:id="front">
+        <titlePage xml:id="titlepage">
+          <docTitle>
+            <titlePart><title>Bellum Alexandrinum</title></titlePart>
+          </docTitle>
+          <byline>Cynthia Damon, et al.</byline>
+        </titlePage>
          <div type="section" xml:id="preface">
             <head>Preface</head>
             <p>This edition of the <title>Bellum Alexandrinum</title>, a text of unknown authorship
