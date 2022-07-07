@@ -4013,15 +4013,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <!-- @next points to the <app> in the next segment -->
                         <lem wit="#M #U #S #T" xml:id="lem-18.3-oppidum-enatauerunt"
                            next="#lem-18.4-multi">oppidum enatauerunt.</lem>
+                        <rdg wit="#V" ana="#subtractive" xml:id="rdg-18.4-omission">oppidum</rdg>
+                        <note target="#rdg-18.4-omission">, qui uerba 15 omisit</note>
                      </app></seg>
                   <seg n="4"><!-- App entry for segment 18.4 --><app xml:id="app-18.4-multi">
                         <lem wit="#M #U #S #T" xml:id="lem-18.4-segment"
                            prev="#lem-18.3-oppidum-enatauerunt">Multi tamen ex his capti
                            interfectique sunt, sed numerus captiuorum omnino fuit VI milium</lem>
                         <note target="#lem-18.4-segment">uocibus hic et illic leuiter mutatis; <hi
-                              rend="normal">ex his</hi> omisit U</note>
-                        <rdg wit="#V" ana="#subtractive" xml:id="rdg-18.4-omission">oppidum</rdg>
-                        <note target="#rdg-18.4-omission">, qui uerba 15 omisit</note>
+                              rend="normal">ex his</hi> omisit U</note>                        
                      </app>.</seg></p>
 
                <p n="19"><seg n="1">Caesar praeda militibus concessa aedificia diripi iussit
