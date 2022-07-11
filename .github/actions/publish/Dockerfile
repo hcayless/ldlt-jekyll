@@ -3,6 +3,7 @@ RUN apt-get update && apt-get -y install openjdk-11-jdk-headless \
   wget \
   zip \
   git \
+  ruby-dev \
   jekyll
 # Packaged Saxon is still v9.x, so we need to get it the hard way
 RUN wget -O SaxonHE10.zip https://downloads.sourceforge.net/project/saxon/Saxon-HE/10/Java/SaxonHE10-7J.zip; \ 
