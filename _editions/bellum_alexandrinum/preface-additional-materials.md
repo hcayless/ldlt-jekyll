@@ -147,13 +147,13 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
        </tei-refsDecl>
      </tei-encodingDesc>
    </tei-teiHeader><tei-TEI xml:id="d1e3" id="d1e3" data-origname="TEI"><tei-text xml:id="d1e277" id="d1e277" data-origname="text"><tei-front xml:id="front" id="front" data-origname="front"><tei-div type="section" xml:id="preface" id="preface" data-origname="div"><tei-div type="section" xml:id="preface-additional-materials" id="preface-additional-materials" data-origname="div">
-               <tei-head xml:id="d1e3145" id="d1e3145" data-origname="head">Additional materials in the LDLT edition:</tei-head>
+               <tei-head xml:id="d1e3144" id="d1e3144" data-origname="head">Additional materials in the LDLT edition:</tei-head>
 
                
                <tei-div type="section" xml:id="preface-additional-materials-studies" id="preface-additional-materials-studies" data-origname="div">
-                  <tei-head xml:id="d1e3151" id="d1e3151" data-origname="head">Studies on the Text of the Bellum Alexandrinum</tei-head>
+                  <tei-head xml:id="d1e3150" id="d1e3150" data-origname="head">Studies on the Text of the Bellum Alexandrinum</tei-head>
 
-                  <tei-p xml:id="d1e3153" id="d1e3153" data-origname="p">Twenty-three notes on difficult spots in the text by members of the Latin 540
+                  <tei-p xml:id="d1e3152" id="d1e3152" data-origname="p">Twenty-three notes on difficult spots in the text by members of the Latin 540
                      classes in 2015 and 2017. These present in depth the arguments that underlie
                      the various remedies suggested in the edition's critical apparatus. They are
                      signaled in the relevant apparatus note by a diamond (◊) before the lemma. </tei-p>
@@ -162,9 +162,9 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
 
                
                <tei-div type="section" xml:id="preface-additional-materials-transcriptions" id="preface-additional-materials-transcriptions" data-origname="div">
-                  <tei-head xml:id="d1e3163" id="d1e3163" data-origname="head">Transcriptions of the manuscript witnesses (MUSTV)</tei-head>
+                  <tei-head xml:id="d1e3162" id="d1e3162" data-origname="head">Transcriptions of the manuscript witnesses (MUSTV)</tei-head>
 
-                  <tei-p xml:id="d1e3165" id="d1e3165" data-origname="p">The five manuscript witnesses used to constitute the text were transcribed by
+                  <tei-p xml:id="d1e3164" id="d1e3164" data-origname="p">The five manuscript witnesses used to constitute the text were transcribed by
                      members of the Postbac Latin seminars in 2014 and 2016, and by highschool
                      volunteers in the summer of 2016. The transcriptions were checked and
                      doublechecked by the transcribing teams, by other class members, and by the
@@ -185,8 +185,8 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
 
                
                <tei-div type="section" xml:id="preface-additional-materials-translation" id="preface-additional-materials-translation" data-origname="div">
-                  <tei-head xml:id="d1e3174" id="d1e3174" data-origname="head">Translation</tei-head>
-                  <tei-p xml:id="d1e3176" id="d1e3176" data-origname="p">The students in the two Latin 540 classes produced a translation of the <tei-hi rend="italic" xml:id="d1e3178" id="d1e3178" data-origname="hi">Bellum Alexandrinum</tei-hi> in the course of their work on the
+                  <tei-head xml:id="d1e3173" id="d1e3173" data-origname="head">Translation</tei-head>
+                  <tei-p xml:id="d1e3175" id="d1e3175" data-origname="p">The students in the two Latin 540 classes produced a translation of the <tei-hi rend="italic" xml:id="d1e3177" id="d1e3177" data-origname="hi">Bellum Alexandrinum</tei-hi> in the course of their work on the
                      text. It is a work of many hands and makes no claim to stylistic merit or even
                      consistency. It is designed to communicate our interpretation of the text,
                      particularly where we have emended it. </tei-p>
@@ -194,8 +194,8 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                
 
                <tei-div type="section" xml:id="preface-additional-materials-conspectus-editionum" id="preface-additional-materials-conspectus-editionum" data-origname="div">
-                  <tei-head xml:id="d1e3187" id="d1e3187" data-origname="head">Conspectus editionum</tei-head>
-                  <tei-p xml:id="d1e3189" id="d1e3189" data-origname="p">A list of the 98 places where the reading of the LDLT <tei-hi rend="italic" xml:id="d1e3191" id="d1e3191" data-origname="hi">Bellum
+                  <tei-head xml:id="d1e3186" id="d1e3186" data-origname="head">Conspectus editionum</tei-head>
+                  <tei-p xml:id="d1e3188" id="d1e3188" data-origname="p">A list of the 98 places where the reading of the LDLT <tei-hi rend="italic" xml:id="d1e3190" id="d1e3190" data-origname="hi">Bellum
                         Alexandrinum</tei-hi> differs from that of Andrieu 1954, which we used as our
                      base text. (Differences of orthography and punctuation are not reported.)</tei-p>
                </tei-div>

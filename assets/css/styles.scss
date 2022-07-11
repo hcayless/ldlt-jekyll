@@ -21,6 +21,16 @@ a[name] {
     scroll-margin-top: 87px;
 }
 
+ol.notes>li {
+    display: inline;
+    scroll-margin-top: 87px;
+}
+
+ol.notes>li>a {
+    float: left;
+    margin-left: -2em;
+}
+
 // Navbar styles
 .navbar {
     background-color: #005cb9;

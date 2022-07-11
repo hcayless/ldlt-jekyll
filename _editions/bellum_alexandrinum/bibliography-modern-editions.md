@@ -147,150 +147,150 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
        </tei-refsDecl>
      </tei-encodingDesc>
    </tei-teiHeader><tei-TEI xml:id="d1e3" id="d1e3" data-origname="TEI"><tei-text xml:id="d1e277" id="d1e277" data-origname="text"><tei-front xml:id="front" id="front" data-origname="front"><tei-div type="section" xml:id="bibliography" id="bibliography" data-origname="div"><tei-div type="section" xml:id="bibliography-modern-editions" id="bibliography-modern-editions" data-origname="div">
-               <tei-head xml:id="d1e3569" id="d1e3569" data-origname="head">Modern Editions</tei-head>
+               <tei-head xml:id="d1e3568" id="d1e3568" data-origname="head">Modern Editions</tei-head>
                <tei-listBibl xml:id="modern-editions" id="modern-editions" data-origname="listBibl">
-                  <tei-bibl xml:id="Andrieu" id="Andrieu" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3574" id="d1e3574" data-origname="abbr">Andrieu</tei-abbr> <tei-editor xml:id="d1e3577" id="d1e3577" data-origname="editor">J.
-                        Andrieu</tei-editor>, ed. <tei-title xml:id="d1e3579" id="d1e3579" data-origname="title">Pseudo-César, Guerre d’Alexandrie</tei-title>.
-                        <tei-pubPlace xml:id="d1e3581" id="d1e3581" data-origname="pubPlace">Paris</tei-pubPlace>. <tei-date xml:id="d1e3583" id="d1e3583" data-origname="date">1954</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Andrieu" id="Andrieu" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3573" id="d1e3573" data-origname="abbr">Andrieu</tei-abbr> <tei-editor xml:id="d1e3576" id="d1e3576" data-origname="editor">J.
+                        Andrieu</tei-editor>, ed. <tei-title xml:id="d1e3578" id="d1e3578" data-origname="title">Pseudo-César, Guerre d’Alexandrie</tei-title>.
+                        <tei-pubPlace xml:id="d1e3580" id="d1e3580" data-origname="pubPlace">Paris</tei-pubPlace>. <tei-date xml:id="d1e3582" id="d1e3582" data-origname="date">1954</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Bentley" id="Bentley" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3587" id="d1e3587" data-origname="abbr">Bentley</tei-abbr> <tei-editor xml:id="d1e3590" id="d1e3590" data-origname="editor">T.
-                        Bentley</tei-editor>, ed. <tei-title xml:id="d1e3592" id="d1e3592" data-origname="title">Caii Julii Caesaris de bello gallico et ciuili
+                  <tei-bibl xml:id="Bentley" id="Bentley" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3586" id="d1e3586" data-origname="abbr">Bentley</tei-abbr> <tei-editor xml:id="d1e3589" id="d1e3589" data-origname="editor">T.
+                        Bentley</tei-editor>, ed. <tei-title xml:id="d1e3591" id="d1e3591" data-origname="title">Caii Julii Caesaris de bello gallico et ciuili
                         nec non A. Hirtii aliorumque de bellis Alexandrino, Africano, et Hispaniensi
                         commentarii. Notas et animaduersiones addidit Tho. Bentleius. Accessere
                         conjecturae et emendationes Jacobi Jurini</tei-title>.
-                        <tei-pubPlace xml:id="d1e3594" id="d1e3594" data-origname="pubPlace">London</tei-pubPlace>. <tei-date xml:id="d1e3596" id="d1e3596" data-origname="date">1742</tei-date>.</tei-bibl>
+                        <tei-pubPlace xml:id="d1e3593" id="d1e3593" data-origname="pubPlace">London</tei-pubPlace>. <tei-date xml:id="d1e3595" id="d1e3595" data-origname="date">1742</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Cellarius" id="Cellarius" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3600" id="d1e3600" data-origname="abbr">Cellarius</tei-abbr> <tei-editor xml:id="d1e3603" id="d1e3603" data-origname="editor">C.
-                        Cellarius</tei-editor>, ed. <tei-title xml:id="d1e3605" id="d1e3605" data-origname="title">C. Iulii Caesaris Commentarii de bello
+                  <tei-bibl xml:id="Cellarius" id="Cellarius" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3599" id="d1e3599" data-origname="abbr">Cellarius</tei-abbr> <tei-editor xml:id="d1e3602" id="d1e3602" data-origname="editor">C.
+                        Cellarius</tei-editor>, ed. <tei-title xml:id="d1e3604" id="d1e3604" data-origname="title">C. Iulii Caesaris Commentarii de bello
                         gallico et ciuili. Cum utriusque supplementis ab A. Hirtio vel Oppio
-                        adiectis</tei-title>. <tei-pubPlace xml:id="d1e3607" id="d1e3607" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e3609" id="d1e3609" data-origname="date">1705</tei-date>.</tei-bibl>
+                        adiectis</tei-title>. <tei-pubPlace xml:id="d1e3606" id="d1e3606" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e3608" id="d1e3608" data-origname="date">1705</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Clarke" id="Clarke" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3613" id="d1e3613" data-origname="abbr">Clarke</tei-abbr> <tei-editor xml:id="d1e3616" id="d1e3616" data-origname="editor">S. Clarke</tei-editor>,
-                     ed. <tei-title xml:id="d1e3618" id="d1e3618" data-origname="title">C. Julii Caesaris quae extant, accuratissime cum libris editis et
+                  <tei-bibl xml:id="Clarke" id="Clarke" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3612" id="d1e3612" data-origname="abbr">Clarke</tei-abbr> <tei-editor xml:id="d1e3615" id="d1e3615" data-origname="editor">S. Clarke</tei-editor>,
+                     ed. <tei-title xml:id="d1e3617" id="d1e3617" data-origname="title">C. Julii Caesaris quae extant, accuratissime cum libris editis et
                         mss optimis collata, recognita et correcta. Accesserunt annotationes
-                        Samuelis Clarke</tei-title>. <tei-pubPlace xml:id="d1e3620" id="d1e3620" data-origname="pubPlace">London</tei-pubPlace>. <tei-date xml:id="d1e3622" id="d1e3622" data-origname="date">1720</tei-date>
-                        (1<tei-hi rend="superscript" xml:id="d1e3624" id="d1e3624" data-origname="hi">st</tei-hi> ed. 1712).</tei-bibl>
+                        Samuelis Clarke</tei-title>. <tei-pubPlace xml:id="d1e3619" id="d1e3619" data-origname="pubPlace">London</tei-pubPlace>. <tei-date xml:id="d1e3621" id="d1e3621" data-origname="date">1720</tei-date>
+                        (1<tei-hi rend="superscript" xml:id="d1e3623" id="d1e3623" data-origname="hi">st</tei-hi> ed. 1712).</tei-bibl>
 
-                  <tei-bibl xml:id="Dauisius1706" id="Dauisius1706" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3629" id="d1e3629" data-origname="abbr">Dauisius 1706</tei-abbr> <tei-editor xml:id="d1e3632" id="d1e3632" data-origname="editor">J.
-                        Davies</tei-editor>, ed. <tei-title xml:id="d1e3634" id="d1e3634" data-origname="title">C. Julii Caesaris quae exstant omnia ... cum
+                  <tei-bibl xml:id="Dauisius1706" id="Dauisius1706" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3628" id="d1e3628" data-origname="abbr">Dauisius 1706</tei-abbr> <tei-editor xml:id="d1e3631" id="d1e3631" data-origname="editor">J.
+                        Davies</tei-editor>, ed. <tei-title xml:id="d1e3633" id="d1e3633" data-origname="title">C. Julii Caesaris quae exstant omnia ... cum
                         eiusdem animadversionibus ac notis Pet. Ciacconii, Fr. Hotomanni, Joan.
-                        Brantii, Dionys. Vossii et aliorum</tei-title>. <tei-pubPlace xml:id="d1e3636" id="d1e3636" data-origname="pubPlace">Cambridge</tei-pubPlace>.
-                        <tei-date xml:id="d1e3638" id="d1e3638" data-origname="date">1706</tei-date>. URL: <tei-ptr target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10217527_00001.html" xml:id="d1e3640" id="d1e3640" data-origname="ptr" data-empty="">​</tei-ptr></tei-bibl>
+                        Brantii, Dionys. Vossii et aliorum</tei-title>. <tei-pubPlace xml:id="d1e3635" id="d1e3635" data-origname="pubPlace">Cambridge</tei-pubPlace>.
+                        <tei-date xml:id="d1e3637" id="d1e3637" data-origname="date">1706</tei-date>. URL: <tei-ptr target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10217527_00001.html" xml:id="d1e3639" id="d1e3639" data-origname="ptr" data-empty="">​</tei-ptr></tei-bibl>
 
-                  <tei-bibl xml:id="Dauisius1727" id="Dauisius1727" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3644" id="d1e3644" data-origname="abbr">Dauisius 1727</tei-abbr> <tei-editor xml:id="d1e3647" id="d1e3647" data-origname="editor">J.
-                        Davies</tei-editor>, ed. <tei-title xml:id="d1e3649" id="d1e3649" data-origname="title">C. Julii Caesaris et Auli Hirtii quae exstant
+                  <tei-bibl xml:id="Dauisius1727" id="Dauisius1727" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3643" id="d1e3643" data-origname="abbr">Dauisius 1727</tei-abbr> <tei-editor xml:id="d1e3646" id="d1e3646" data-origname="editor">J.
+                        Davies</tei-editor>, ed. <tei-title xml:id="d1e3648" id="d1e3648" data-origname="title">C. Julii Caesaris et Auli Hirtii quae exstant
                         omnia recensuit ac selectis ... aliorum notis suas addidit Joannes Davisius;
                         accedunt ejusdem secundae curae necnon metaphrasis graeca librorum VII de
-                        bello gallico</tei-title>. <tei-pubPlace xml:id="d1e3651" id="d1e3651" data-origname="pubPlace">Cambridge</tei-pubPlace>.
-                     <tei-date xml:id="d1e3653" id="d1e3653" data-origname="date">1727</tei-date>.</tei-bibl>
+                        bello gallico</tei-title>. <tei-pubPlace xml:id="d1e3650" id="d1e3650" data-origname="pubPlace">Cambridge</tei-pubPlace>.
+                     <tei-date xml:id="d1e3652" id="d1e3652" data-origname="date">1727</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Dinter" id="Dinter" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3657" id="d1e3657" data-origname="abbr">Dinter</tei-abbr> <tei-editor xml:id="d1e3660" id="d1e3660" data-origname="editor">B. Dinter</tei-editor>,
-                     ed. <tei-title xml:id="d1e3662" id="d1e3662" data-origname="title">C. Iuli Caesaris commentarii cum A. Hirti aliorumque supplementis .
+                  <tei-bibl xml:id="Dinter" id="Dinter" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3656" id="d1e3656" data-origname="abbr">Dinter</tei-abbr> <tei-editor xml:id="d1e3659" id="d1e3659" data-origname="editor">B. Dinter</tei-editor>,
+                     ed. <tei-title xml:id="d1e3661" id="d1e3661" data-origname="title">C. Iuli Caesaris commentarii cum A. Hirti aliorumque supplementis .
                         III: C. Iuli Caesaris commentarii commentarii de bello Alexandrino,
                         Africano, Hispaniensi. Caesaris Hirtiique fragmenta</tei-title>.
-                        <tei-pubPlace xml:id="d1e3664" id="d1e3664" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e3666" id="d1e3666" data-origname="date">1887</tei-date>. URL: <tei-ptr target="https://books.google.com/books?id=luswAQAAMAAJ&amp;pg=PP1#v=onepage&amp;q&amp;f=false" xml:id="d1e3668" id="d1e3668" data-origname="ptr" data-empty="">​</tei-ptr></tei-bibl>
+                        <tei-pubPlace xml:id="d1e3663" id="d1e3663" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e3665" id="d1e3665" data-origname="date">1887</tei-date>. URL: <tei-ptr target="https://books.google.com/books?id=luswAQAAMAAJ&amp;pg=PP1#v=onepage&amp;q&amp;f=false" xml:id="d1e3667" id="d1e3667" data-origname="ptr" data-empty="">​</tei-ptr></tei-bibl>
 
-                  <tei-bibl xml:id="Dübner" id="Dübner" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3671" id="d1e3671" data-origname="abbr">Dübner</tei-abbr> <tei-editor xml:id="d1e3674" id="d1e3674" data-origname="editor">F. Dübner</tei-editor>,
-                     ed. <tei-title xml:id="d1e3676" id="d1e3676" data-origname="title">C. Julii Caesaris commentarii de bellis Gallico et civili, aliorum,
+                  <tei-bibl xml:id="Dübner" id="Dübner" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3670" id="d1e3670" data-origname="abbr">Dübner</tei-abbr> <tei-editor xml:id="d1e3673" id="d1e3673" data-origname="editor">F. Dübner</tei-editor>,
+                     ed. <tei-title xml:id="d1e3675" id="d1e3675" data-origname="title">C. Julii Caesaris commentarii de bellis Gallico et civili, aliorum,
                         de bellis Alexandrino, Africano et Hispaniensi. Tomus secundus</tei-title>.
-                        <tei-pubPlace xml:id="d1e3678" id="d1e3678" data-origname="pubPlace">Paris</tei-pubPlace>. <tei-date xml:id="d1e3680" id="d1e3680" data-origname="date">1867</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/uiug.30112023932624" xml:id="d1e3682" id="d1e3682" data-origname="ptr" data-empty="">​</tei-ptr></tei-bibl>
+                        <tei-pubPlace xml:id="d1e3677" id="d1e3677" data-origname="pubPlace">Paris</tei-pubPlace>. <tei-date xml:id="d1e3679" id="d1e3679" data-origname="date">1867</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/uiug.30112023932624" xml:id="d1e3681" id="d1e3681" data-origname="ptr" data-empty="">​</tei-ptr></tei-bibl>
 
-                  <tei-bibl xml:id="Du-Pontet" id="Du-Pontet" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3685" id="d1e3685" data-origname="abbr">Du Pontet</tei-abbr> <tei-editor xml:id="d1e3688" id="d1e3688" data-origname="editor">R. Du
-                        Pontet</tei-editor>, ed. <tei-title xml:id="d1e3690" id="d1e3690" data-origname="title">C. Iuli Caesaris Commentariorum. Pars 2</tei-title>.
-                        <tei-pubPlace xml:id="d1e3692" id="d1e3692" data-origname="pubPlace">Oxford</tei-pubPlace>: <tei-publisher xml:id="d1e3694" id="d1e3694" data-origname="publisher">Oxford University Press</tei-publisher>,
-                        <tei-date xml:id="d1e3696" id="d1e3696" data-origname="date">1900</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Du-Pontet" id="Du-Pontet" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3684" id="d1e3684" data-origname="abbr">Du Pontet</tei-abbr> <tei-editor xml:id="d1e3687" id="d1e3687" data-origname="editor">R. Du
+                        Pontet</tei-editor>, ed. <tei-title xml:id="d1e3689" id="d1e3689" data-origname="title">C. Iuli Caesaris Commentariorum. Pars 2</tei-title>.
+                        <tei-pubPlace xml:id="d1e3691" id="d1e3691" data-origname="pubPlace">Oxford</tei-pubPlace>: <tei-publisher xml:id="d1e3693" id="d1e3693" data-origname="publisher">Oxford University Press</tei-publisher>,
+                        <tei-date xml:id="d1e3695" id="d1e3695" data-origname="date">1900</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Hoffmann1857" id="Hoffmann1857" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3700" id="d1e3700" data-origname="abbr">Hoffmann 1857</tei-abbr> <tei-editor xml:id="d1e3703" id="d1e3703" data-origname="editor">E.
-                        Hoffmann</tei-editor>, ed. <tei-title xml:id="d1e3705" id="d1e3705" data-origname="title">C. Iulii Caesaris commentarii cum supplementis
-                        A. Hirtii et aliorum. Volumen alterum</tei-title>. <tei-pubPlace xml:id="d1e3707" id="d1e3707" data-origname="pubPlace">Vienna</tei-pubPlace>.
-                        <tei-date xml:id="d1e3709" id="d1e3709" data-origname="date">1857</tei-date></tei-bibl>
+                  <tei-bibl xml:id="Hoffmann1857" id="Hoffmann1857" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3699" id="d1e3699" data-origname="abbr">Hoffmann 1857</tei-abbr> <tei-editor xml:id="d1e3702" id="d1e3702" data-origname="editor">E.
+                        Hoffmann</tei-editor>, ed. <tei-title xml:id="d1e3704" id="d1e3704" data-origname="title">C. Iulii Caesaris commentarii cum supplementis
+                        A. Hirtii et aliorum. Volumen alterum</tei-title>. <tei-pubPlace xml:id="d1e3706" id="d1e3706" data-origname="pubPlace">Vienna</tei-pubPlace>.
+                        <tei-date xml:id="d1e3708" id="d1e3708" data-origname="date">1857</tei-date></tei-bibl>
 
-                  <tei-bibl xml:id="Hoffmann1890" id="Hoffmann1890" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3712" id="d1e3712" data-origname="abbr">Hoffmann 1890</tei-abbr> <tei-editor xml:id="d1e3715" id="d1e3715" data-origname="editor">E.
-                        Hoffmann</tei-editor>, ed. <tei-title xml:id="d1e3717" id="d1e3717" data-origname="title">C. Iulii Caesaris commentarii cum supplementis
+                  <tei-bibl xml:id="Hoffmann1890" id="Hoffmann1890" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3711" id="d1e3711" data-origname="abbr">Hoffmann 1890</tei-abbr> <tei-editor xml:id="d1e3714" id="d1e3714" data-origname="editor">E.
+                        Hoffmann</tei-editor>, ed. <tei-title xml:id="d1e3716" id="d1e3716" data-origname="title">C. Iulii Caesaris commentarii cum supplementis
                         A. Hirtii et aliorum. Vol. II: Commentarii de bello ciuili. Accedunt
                         commentarii de bello Alexandrino, Africano, Hispaniensi</tei-title>. New
-                     edition. <tei-pubPlace xml:id="d1e3719" id="d1e3719" data-origname="pubPlace">Vienna</tei-pubPlace>. <tei-date xml:id="d1e3721" id="d1e3721" data-origname="date">1890</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/uiug.30112099806678" xml:id="d1e3723" id="d1e3723" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                     edition. <tei-pubPlace xml:id="d1e3718" id="d1e3718" data-origname="pubPlace">Vienna</tei-pubPlace>. <tei-date xml:id="d1e3720" id="d1e3720" data-origname="date">1890</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/uiug.30112099806678" xml:id="d1e3722" id="d1e3722" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Jungermann" id="Jungermann" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3728" id="d1e3728" data-origname="abbr">Jungermann</tei-abbr> <tei-editor xml:id="d1e3731" id="d1e3731" data-origname="editor">G.
-                        Jungermann</tei-editor>, ed. <tei-title xml:id="d1e3733" id="d1e3733" data-origname="title">C. Iulii Caesaris quae exstant ... praeterea
+                  <tei-bibl xml:id="Jungermann" id="Jungermann" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3727" id="d1e3727" data-origname="abbr">Jungermann</tei-abbr> <tei-editor xml:id="d1e3730" id="d1e3730" data-origname="editor">G.
+                        Jungermann</tei-editor>, ed. <tei-title xml:id="d1e3732" id="d1e3732" data-origname="title">C. Iulii Caesaris quae exstant ... praeterea
                         ... notae, adnotationes, commentarii Rhellicani, Glareani, Glandorpii,
                         Camerarii, Bruti, Manutii, Sambuci, Vrsini, Ciacconii, Hotmani,
-                        Brantii</tei-title>. <tei-pubPlace xml:id="d1e3735" id="d1e3735" data-origname="pubPlace">Frankfurt</tei-pubPlace>. <tei-date xml:id="d1e3737" id="d1e3737" data-origname="date">1606</tei-date>. URL:
-                        <tei-ptr target="https://hdl.handle.net/2027/uc1.31822038197299" xml:id="d1e3739" id="d1e3739" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                        Brantii</tei-title>. <tei-pubPlace xml:id="d1e3734" id="d1e3734" data-origname="pubPlace">Frankfurt</tei-pubPlace>. <tei-date xml:id="d1e3736" id="d1e3736" data-origname="date">1606</tei-date>. URL:
+                        <tei-ptr target="https://hdl.handle.net/2027/uc1.31822038197299" xml:id="d1e3738" id="d1e3738" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Klotz" id="Klotz" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3743" id="d1e3743" data-origname="abbr">Klotz</tei-abbr> <tei-editor xml:id="d1e3746" id="d1e3746" data-origname="editor">A. Klotz</tei-editor>,
-                     ed. <tei-title xml:id="d1e3748" id="d1e3748" data-origname="title">C. Iulii Caesaris commentarii. Vol. III: Bellum Alexandrinum, Bellum
+                  <tei-bibl xml:id="Klotz" id="Klotz" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3742" id="d1e3742" data-origname="abbr">Klotz</tei-abbr> <tei-editor xml:id="d1e3745" id="d1e3745" data-origname="editor">A. Klotz</tei-editor>,
+                     ed. <tei-title xml:id="d1e3747" id="d1e3747" data-origname="title">C. Iulii Caesaris commentarii. Vol. III: Bellum Alexandrinum, Bellum
                         Africum, Bellum Hispaniense, Fragmenta</tei-title>.
-                     <tei-pubPlace xml:id="d1e3750" id="d1e3750" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e3752" id="d1e3752" data-origname="date">1927</tei-date>.</tei-bibl>
+                     <tei-pubPlace xml:id="d1e3749" id="d1e3749" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e3751" id="d1e3751" data-origname="date">1927</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Kraner" id="Kraner" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3756" id="d1e3756" data-origname="abbr">Kraner</tei-abbr> <tei-editor xml:id="d1e3759" id="d1e3759" data-origname="editor">F. Kraner</tei-editor>,
-                     ed.  <tei-title xml:id="d1e3761" id="d1e3761" data-origname="title">C. Iulii Caesaris commentarii cum supplementis A. Hirtii et
-                        aliorum</tei-title>.  Editio stereotypa. <tei-pubPlace xml:id="d1e3763" id="d1e3763" data-origname="pubPlace">Leipzig</tei-pubPlace>.
-                        <tei-date xml:id="d1e3765" id="d1e3765" data-origname="date">1861</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/uc1.c070407321" xml:id="d1e3767" id="d1e3767" data-origname="ptr" data-empty="">​</tei-ptr>. </tei-bibl>
+                  <tei-bibl xml:id="Kraner" id="Kraner" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3755" id="d1e3755" data-origname="abbr">Kraner</tei-abbr> <tei-editor xml:id="d1e3758" id="d1e3758" data-origname="editor">F. Kraner</tei-editor>,
+                     ed.  <tei-title xml:id="d1e3760" id="d1e3760" data-origname="title">C. Iulii Caesaris commentarii cum supplementis A. Hirtii et
+                        aliorum</tei-title>.  Editio stereotypa. <tei-pubPlace xml:id="d1e3762" id="d1e3762" data-origname="pubPlace">Leipzig</tei-pubPlace>.
+                        <tei-date xml:id="d1e3764" id="d1e3764" data-origname="date">1861</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/uc1.c070407321" xml:id="d1e3766" id="d1e3766" data-origname="ptr" data-empty="">​</tei-ptr>. </tei-bibl>
 
-                  <tei-bibl xml:id="Kübler1896a" id="Kübler1896a" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3771" id="d1e3771" data-origname="abbr">Kübler 1896a</tei-abbr> <tei-editor xml:id="d1e3774" id="d1e3774" data-origname="editor">B.
-                        Kübler</tei-editor>, ed. <tei-title xml:id="d1e3776" id="d1e3776" data-origname="title">C Iulii Caesaris commentarii. Vol. III, pars
+                  <tei-bibl xml:id="Kübler1896a" id="Kübler1896a" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3770" id="d1e3770" data-origname="abbr">Kübler 1896a</tei-abbr> <tei-editor xml:id="d1e3773" id="d1e3773" data-origname="editor">B.
+                        Kübler</tei-editor>, ed. <tei-title xml:id="d1e3775" id="d1e3775" data-origname="title">C Iulii Caesaris commentarii. Vol. III, pars
                         prior, commentarius de bello Alexandrino</tei-title>. Editio maior.
-                        <tei-pubPlace xml:id="d1e3778" id="d1e3778" data-origname="pubPlace">Leipzig</tei-pubPlace>: <tei-publisher xml:id="d1e3780" id="d1e3780" data-origname="publisher">Teubner</tei-publisher>,
-                        <tei-date xml:id="d1e3782" id="d1e3782" data-origname="date">1896</tei-date>.<tei-ptr target="https://hdl.handle.net/2027/osu.32435027192681" xml:id="d1e3785" id="d1e3785" data-origname="ptr" data-empty="">​</tei-ptr></tei-bibl>
+                        <tei-pubPlace xml:id="d1e3777" id="d1e3777" data-origname="pubPlace">Leipzig</tei-pubPlace>: <tei-publisher xml:id="d1e3779" id="d1e3779" data-origname="publisher">Teubner</tei-publisher>,
+                        <tei-date xml:id="d1e3781" id="d1e3781" data-origname="date">1896</tei-date>.<tei-ptr target="https://hdl.handle.net/2027/osu.32435027192681" xml:id="d1e3784" id="d1e3784" data-origname="ptr" data-empty="">​</tei-ptr></tei-bibl>
 
-                  <tei-bibl xml:id="Lipsius" id="Lipsius" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3788" id="d1e3788" data-origname="abbr">Lipsius</tei-abbr> <tei-editor xml:id="d1e3791" id="d1e3791" data-origname="editor">J.
-                        Lipsius</tei-editor>, ed. <tei-title xml:id="d1e3793" id="d1e3793" data-origname="title">C. Iulii Caesaris commentarii ... eiusdem ...
-                        fragmenta</tei-title>. <tei-pubPlace xml:id="d1e3795" id="d1e3795" data-origname="pubPlace">Antwerp</tei-pubPlace>. <tei-date xml:id="d1e3797" id="d1e3797" data-origname="date">1586</tei-date>. URL:
-                        <tei-ptr target="https://books.google.com/books?id=6BYsAQAAMAAJ&amp;pg=PP1#v=onepage&amp;q&amp;f=false" xml:id="d1e3799" id="d1e3799" data-origname="ptr" data-empty="">​</tei-ptr>. See also <tei-ref target="bibliography-modern-editions.html#Oudendorp">Oudendorp</tei-ref>.</tei-bibl>
+                  <tei-bibl xml:id="Lipsius" id="Lipsius" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3787" id="d1e3787" data-origname="abbr">Lipsius</tei-abbr> <tei-editor xml:id="d1e3790" id="d1e3790" data-origname="editor">J.
+                        Lipsius</tei-editor>, ed. <tei-title xml:id="d1e3792" id="d1e3792" data-origname="title">C. Iulii Caesaris commentarii ... eiusdem ...
+                        fragmenta</tei-title>. <tei-pubPlace xml:id="d1e3794" id="d1e3794" data-origname="pubPlace">Antwerp</tei-pubPlace>. <tei-date xml:id="d1e3796" id="d1e3796" data-origname="date">1586</tei-date>. URL:
+                        <tei-ptr target="https://books.google.com/books?id=6BYsAQAAMAAJ&amp;pg=PP1#v=onepage&amp;q&amp;f=false" xml:id="d1e3798" id="d1e3798" data-origname="ptr" data-empty="">​</tei-ptr>. See also <tei-ref target="bibliography-modern-editions.html#Oudendorp">Oudendorp</tei-ref>.</tei-bibl>
 
-                  <tei-bibl xml:id="Manutius" id="Manutius" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3807" id="d1e3807" data-origname="abbr">Manutius</tei-abbr> <tei-editor xml:id="d1e3810" id="d1e3810" data-origname="editor">Aldus
-                        Manutius</tei-editor>, ed. <tei-title xml:id="d1e3812" id="d1e3812" data-origname="title">C. Iulii Caesaris commentarii ab Aldo Manutio
+                  <tei-bibl xml:id="Manutius" id="Manutius" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3806" id="d1e3806" data-origname="abbr">Manutius</tei-abbr> <tei-editor xml:id="d1e3809" id="d1e3809" data-origname="editor">Aldus
+                        Manutius</tei-editor>, ed. <tei-title xml:id="d1e3811" id="d1e3811" data-origname="title">C. Iulii Caesaris commentarii ab Aldo Manutio
                         Paulli filio Aldi nepote emendati et scholiis illustrati</tei-title>.
-                        <tei-pubPlace xml:id="d1e3814" id="d1e3814" data-origname="pubPlace">Venice</tei-pubPlace>. <tei-date xml:id="d1e3816" id="d1e3816" data-origname="date">1597</tei-date>. (First edition 1571.) URL:
-                        <tei-ptr target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10171445-1" xml:id="d1e3818" id="d1e3818" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                        <tei-pubPlace xml:id="d1e3813" id="d1e3813" data-origname="pubPlace">Venice</tei-pubPlace>. <tei-date xml:id="d1e3815" id="d1e3815" data-origname="date">1597</tei-date>. (First edition 1571.) URL:
+                        <tei-ptr target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10171445-1" xml:id="d1e3817" id="d1e3817" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Morus" id="Morus" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3823" id="d1e3823" data-origname="abbr">Morus</tei-abbr> <tei-editor xml:id="d1e3826" id="d1e3826" data-origname="editor">S. F. N.
-                        Morus</tei-editor>, ed. <tei-title xml:id="d1e3828" id="d1e3828" data-origname="title">C. Iulii Caesaris commentarii de bello Gallico et
+                  <tei-bibl xml:id="Morus" id="Morus" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3822" id="d1e3822" data-origname="abbr">Morus</tei-abbr> <tei-editor xml:id="d1e3825" id="d1e3825" data-origname="editor">S. F. N.
+                        Morus</tei-editor>, ed. <tei-title xml:id="d1e3827" id="d1e3827" data-origname="title">C. Iulii Caesaris commentarii de bello Gallico et
                         civili; accedunt libri de bello Alexandrino Africano et Hispaniensi e
                         recensione Francisci Oudendorpii; curavit editionem Sam. Fr. Nathan.
-                        Morus</tei-title>. <tei-pubPlace xml:id="d1e3830" id="d1e3830" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e3832" id="d1e3832" data-origname="date">1780</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/mdp.39015022638830" xml:id="d1e3834" id="d1e3834" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                        Morus</tei-title>. <tei-pubPlace xml:id="d1e3829" id="d1e3829" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e3831" id="d1e3831" data-origname="date">1780</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/mdp.39015022638830" xml:id="d1e3833" id="d1e3833" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Nipperdey" id="Nipperdey" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3838" id="d1e3838" data-origname="abbr">Nipperdey</tei-abbr> <tei-editor xml:id="d1e3841" id="d1e3841" data-origname="editor">K.
-                        Nipperdey</tei-editor>, ed. <tei-title xml:id="d1e3843" id="d1e3843" data-origname="title">C. Iulii Caesaris commentarii</tei-title>.
-                        <tei-pubPlace xml:id="d1e3845" id="d1e3845" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e3847" id="d1e3847" data-origname="date">1847</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/mdp.39015063012838" xml:id="d1e3849" id="d1e3849" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Nipperdey" id="Nipperdey" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3837" id="d1e3837" data-origname="abbr">Nipperdey</tei-abbr> <tei-editor xml:id="d1e3840" id="d1e3840" data-origname="editor">K.
+                        Nipperdey</tei-editor>, ed. <tei-title xml:id="d1e3842" id="d1e3842" data-origname="title">C. Iulii Caesaris commentarii</tei-title>.
+                        <tei-pubPlace xml:id="d1e3844" id="d1e3844" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e3846" id="d1e3846" data-origname="date">1847</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/mdp.39015063012838" xml:id="d1e3848" id="d1e3848" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Oehler" id="Oehler" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3853" id="d1e3853" data-origname="abbr">Oehler</tei-abbr> <tei-editor xml:id="d1e3856" id="d1e3856" data-origname="editor">F. Oehler</tei-editor>,
-                     ed. <tei-title xml:id="d1e3858" id="d1e3858" data-origname="title">C. Iulii Caesaris commentarii cum supplementis A. Hirtii et
-                        aliorum</tei-title>. <tei-pubPlace xml:id="d1e3860" id="d1e3860" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e3862" id="d1e3862" data-origname="date">1852</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/mdp.39015007036885" xml:id="d1e3864" id="d1e3864" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Oehler" id="Oehler" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3852" id="d1e3852" data-origname="abbr">Oehler</tei-abbr> <tei-editor xml:id="d1e3855" id="d1e3855" data-origname="editor">F. Oehler</tei-editor>,
+                     ed. <tei-title xml:id="d1e3857" id="d1e3857" data-origname="title">C. Iulii Caesaris commentarii cum supplementis A. Hirtii et
+                        aliorum</tei-title>. <tei-pubPlace xml:id="d1e3859" id="d1e3859" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e3861" id="d1e3861" data-origname="date">1852</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/mdp.39015007036885" xml:id="d1e3863" id="d1e3863" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Oudendorp" id="Oudendorp" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3868" id="d1e3868" data-origname="abbr">Oudendorp</tei-abbr> <tei-editor xml:id="d1e3871" id="d1e3871" data-origname="editor">F.
-                        Oudendorp</tei-editor>, ed., <tei-title xml:id="d1e3873" id="d1e3873" data-origname="title">C. Julii Caesaris De bellis gallico et
+                  <tei-bibl xml:id="Oudendorp" id="Oudendorp" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3867" id="d1e3867" data-origname="abbr">Oudendorp</tei-abbr> <tei-editor xml:id="d1e3870" id="d1e3870" data-origname="editor">F.
+                        Oudendorp</tei-editor>, ed., <tei-title xml:id="d1e3872" id="d1e3872" data-origname="title">C. Julii Caesaris De bellis gallico et
                         civili pompejano; nec non A. Hirtii aliorumque de bellis Alexandrino,
                         Africano et Hispaniensi commentarii ad MSStorum fidem expressi, cum integris
                         notis Dionysii Vossii, Joannis Davisii et Samuelis Clarkii cura et studio
                         Francisci Oudendorpii qui suas animadversiones ac varias lectiones
-                        adjecit</tei-title>. <tei-pubPlace xml:id="d1e3875" id="d1e3875" data-origname="pubPlace">Leiden</tei-pubPlace>. <tei-date xml:id="d1e3877" id="d1e3877" data-origname="date">1737</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/njp.32101066876309" xml:id="d1e3879" id="d1e3879" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                        adjecit</tei-title>. <tei-pubPlace xml:id="d1e3874" id="d1e3874" data-origname="pubPlace">Leiden</tei-pubPlace>. <tei-date xml:id="d1e3876" id="d1e3876" data-origname="date">1737</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/njp.32101066876309" xml:id="d1e3878" id="d1e3878" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Scaliger" id="Scaliger" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3883" id="d1e3883" data-origname="abbr">Scaliger</tei-abbr> <tei-editor xml:id="d1e3886" id="d1e3886" data-origname="editor">J.
-                        Scaliger</tei-editor>, ed. <tei-title xml:id="d1e3888" id="d1e3888" data-origname="title">C. Iulii Caesaris quae extant</tei-title>.
-                        <tei-pubPlace xml:id="d1e3890" id="d1e3890" data-origname="pubPlace">Amsterdam</tei-pubPlace>. <tei-date xml:id="d1e3892" id="d1e3892" data-origname="date">1661</tei-date>. (First edition 1635.)
-                     URL: <tei-ptr target="https://hdl.handle.net/2027/uc1.31175035195554" xml:id="d1e3894" id="d1e3894" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Scaliger" id="Scaliger" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3882" id="d1e3882" data-origname="abbr">Scaliger</tei-abbr> <tei-editor xml:id="d1e3885" id="d1e3885" data-origname="editor">J.
+                        Scaliger</tei-editor>, ed. <tei-title xml:id="d1e3887" id="d1e3887" data-origname="title">C. Iulii Caesaris quae extant</tei-title>.
+                        <tei-pubPlace xml:id="d1e3889" id="d1e3889" data-origname="pubPlace">Amsterdam</tei-pubPlace>. <tei-date xml:id="d1e3891" id="d1e3891" data-origname="date">1661</tei-date>. (First edition 1635.)
+                     URL: <tei-ptr target="https://hdl.handle.net/2027/uc1.31175035195554" xml:id="d1e3893" id="d1e3893" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Schneider" id="Schneider" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3898" id="d1e3898" data-origname="abbr">Schneider</tei-abbr> <tei-editor xml:id="d1e3901" id="d1e3901" data-origname="editor">R.
-                        Schneider</tei-editor>, ed. <tei-title xml:id="d1e3903" id="d1e3903" data-origname="title">Bellum Alexandrinum</tei-title>.
-                        <tei-pubPlace xml:id="d1e3905" id="d1e3905" data-origname="pubPlace">Berlin</tei-pubPlace>. <tei-date xml:id="d1e3907" id="d1e3907" data-origname="date">1888</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/mdp.39015039572113" xml:id="d1e3909" id="d1e3909" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Schneider" id="Schneider" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3897" id="d1e3897" data-origname="abbr">Schneider</tei-abbr> <tei-editor xml:id="d1e3900" id="d1e3900" data-origname="editor">R.
+                        Schneider</tei-editor>, ed. <tei-title xml:id="d1e3902" id="d1e3902" data-origname="title">Bellum Alexandrinum</tei-title>.
+                        <tei-pubPlace xml:id="d1e3904" id="d1e3904" data-origname="pubPlace">Berlin</tei-pubPlace>. <tei-date xml:id="d1e3906" id="d1e3906" data-origname="date">1888</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/mdp.39015039572113" xml:id="d1e3908" id="d1e3908" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Stephanus" id="Stephanus" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3914" id="d1e3914" data-origname="abbr">Stephanus</tei-abbr> <tei-editor xml:id="d1e3917" id="d1e3917" data-origname="editor">R.
-                        Estienne</tei-editor>, ed. <tei-title xml:id="d1e3919" id="d1e3919" data-origname="title">C. Iulii Caesaris rerum ab se gestarum
-                        comentarii</tei-title>. <tei-pubPlace xml:id="d1e3921" id="d1e3921" data-origname="pubPlace">Paris</tei-pubPlace>. <tei-date xml:id="d1e3923" id="d1e3923" data-origname="date">1544</tei-date>. URL: <tei-ptr target="https://books.google.com/books?id=CtcPAAAAQAAJ" xml:id="d1e3925" id="d1e3925" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Stephanus" id="Stephanus" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3913" id="d1e3913" data-origname="abbr">Stephanus</tei-abbr> <tei-editor xml:id="d1e3916" id="d1e3916" data-origname="editor">R.
+                        Estienne</tei-editor>, ed. <tei-title xml:id="d1e3918" id="d1e3918" data-origname="title">C. Iulii Caesaris rerum ab se gestarum
+                        comentarii</tei-title>. <tei-pubPlace xml:id="d1e3920" id="d1e3920" data-origname="pubPlace">Paris</tei-pubPlace>. <tei-date xml:id="d1e3922" id="d1e3922" data-origname="date">1544</tei-date>. URL: <tei-ptr target="https://books.google.com/books?id=CtcPAAAAQAAJ" xml:id="d1e3924" id="d1e3924" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Strada" id="Strada" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3929" id="d1e3929" data-origname="abbr">Strada</tei-abbr> <tei-editor xml:id="d1e3932" id="d1e3932" data-origname="editor">J. Strada</tei-editor>,
-                     ed. <tei-title xml:id="d1e3934" id="d1e3934" data-origname="title">C. Iulii Caesaris rerum gestarum commentarii XIV</tei-title>.
-                        <tei-pubPlace xml:id="d1e3936" id="d1e3936" data-origname="pubPlace">Frankfurt</tei-pubPlace>. <tei-date xml:id="d1e3938" id="d1e3938" data-origname="date">1575</tei-date>. URL: <tei-ptr target="https://books.google.com/books?id=ZSqXfrpOspMC" xml:id="d1e3940" id="d1e3940" data-origname="ptr" data-empty="">​</tei-ptr></tei-bibl>
+                  <tei-bibl xml:id="Strada" id="Strada" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3928" id="d1e3928" data-origname="abbr">Strada</tei-abbr> <tei-editor xml:id="d1e3931" id="d1e3931" data-origname="editor">J. Strada</tei-editor>,
+                     ed. <tei-title xml:id="d1e3933" id="d1e3933" data-origname="title">C. Iulii Caesaris rerum gestarum commentarii XIV</tei-title>.
+                        <tei-pubPlace xml:id="d1e3935" id="d1e3935" data-origname="pubPlace">Frankfurt</tei-pubPlace>. <tei-date xml:id="d1e3937" id="d1e3937" data-origname="date">1575</tei-date>. URL: <tei-ptr target="https://books.google.com/books?id=ZSqXfrpOspMC" xml:id="d1e3939" id="d1e3939" data-origname="ptr" data-empty="">​</tei-ptr></tei-bibl>
 
-                  <tei-bibl xml:id="Ursinus" id="Ursinus" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3943" id="d1e3943" data-origname="abbr">Ursinus</tei-abbr> <tei-editor xml:id="d1e3946" id="d1e3946" data-origname="editor">F.
-                        Orsini</tei-editor>, ed. <tei-title xml:id="d1e3948" id="d1e3948" data-origname="title">C. Iulii Caesaris commentarii novis
+                  <tei-bibl xml:id="Ursinus" id="Ursinus" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3942" id="d1e3942" data-origname="abbr">Ursinus</tei-abbr> <tei-editor xml:id="d1e3945" id="d1e3945" data-origname="editor">F.
+                        Orsini</tei-editor>, ed. <tei-title xml:id="d1e3947" id="d1e3947" data-origname="title">C. Iulii Caesaris commentarii novis
                         emendationibus illustrati ... ejusdem fragmenta ... ex bibliotheca Fulvii
-                        Ursini</tei-title>. <tei-pubPlace xml:id="d1e3950" id="d1e3950" data-origname="pubPlace">Antwerp</tei-pubPlace>. <tei-date xml:id="d1e3952" id="d1e3952" data-origname="date">1595</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/ucm.5327351141" xml:id="d1e3954" id="d1e3954" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                        Ursini</tei-title>. <tei-pubPlace xml:id="d1e3949" id="d1e3949" data-origname="pubPlace">Antwerp</tei-pubPlace>. <tei-date xml:id="d1e3951" id="d1e3951" data-origname="date">1595</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/ucm.5327351141" xml:id="d1e3953" id="d1e3953" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Vascosanus" id="Vascosanus" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3958" id="d1e3958" data-origname="abbr">Vascosanus</tei-abbr> <tei-editor xml:id="d1e3961" id="d1e3961" data-origname="editor">M.
-                        Vascosanus</tei-editor>, ed. <tei-pubPlace xml:id="d1e3963" id="d1e3963" data-origname="pubPlace">Paris</tei-pubPlace>.
-                     <tei-date xml:id="d1e3965" id="d1e3965" data-origname="date">1543</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Vascosanus" id="Vascosanus" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3957" id="d1e3957" data-origname="abbr">Vascosanus</tei-abbr> <tei-editor xml:id="d1e3960" id="d1e3960" data-origname="editor">M.
+                        Vascosanus</tei-editor>, ed. <tei-pubPlace xml:id="d1e3962" id="d1e3962" data-origname="pubPlace">Paris</tei-pubPlace>.
+                     <tei-date xml:id="d1e3964" id="d1e3964" data-origname="date">1543</tei-date>.</tei-bibl>
                </tei-listBibl>
             </tei-div></tei-div></tei-front></tei-text></tei-TEI></div>

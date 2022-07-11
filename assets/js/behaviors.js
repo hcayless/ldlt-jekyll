@@ -27,7 +27,34 @@ let behaviors = {
     "l": function(elt) {
       this.add_anchor(elt);
     },
-    "note": ["",""],
+    "note": [
+      ["[place=foot]", function(elt) {
+        if (!this.noteIndex){
+          this["noteIndex"] = 1;
+        } else {
+          this.noteIndex++;
+        }
+        let id = "_note_" + this.noteIndex;
+        let link = document.createElement("a");
+        link.setAttribute("name", "src" + id);
+        link.setAttribute("href", "#dest" + id);
+        link.innerHTML = this.noteIndex;
+        let content = document.createElement("sup");
+        content.appendChild(link);
+        let notes = document.querySelector("ol.notes");
+        if (!notes) {
+          notes = document.createElement("ol");
+          notes.setAttribute("class", "notes");
+          document.querySelector('main.container').appendChild(notes);
+        }
+        let note = document.createElement("li");
+        note.id = "dest" + id;
+        note.innerHTML = `<a href="#${"src" + id}">${this.noteIndex}.</a>` + elt.innerHTML;
+        notes.appendChild(note);
+        return content;
+      }],
+      ["_", []]
+    ],
     "p": function(elt) {
       if (elt.hasAttribute("n")) {
         elt.insertAdjacentHTML('afterbegin', "<span class=\"pnum\">" + elt.getAttribute("n") + ".</span>");

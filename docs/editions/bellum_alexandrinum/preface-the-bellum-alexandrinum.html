@@ -208,30 +208,30 @@
        </tei-refsDecl>
      </tei-encodingDesc>
    </tei-teiHeader><tei-TEI xml:id="d1e3" id="d1e3" data-origname="TEI"><tei-text xml:id="d1e277" id="d1e277" data-origname="text"><tei-front xml:id="front" id="front" data-origname="front"><tei-div type="section" xml:id="preface" id="preface" data-origname="div"><tei-div type="section" xml:id="preface-the-bellum-alexandrinum" id="preface-the-bellum-alexandrinum" data-origname="div">
-               <tei-head xml:id="d1e516" id="d1e516" data-origname="head">I. The <tei-title xml:id="d1e518" id="d1e518" data-origname="title">Bellum Alexandrinum</tei-title></tei-head>
+               <tei-head xml:id="d1e515" id="d1e515" data-origname="head">I. The <tei-title xml:id="d1e517" id="d1e517" data-origname="title">Bellum Alexandrinum</tei-title></tei-head>
 
-               <tei-p xml:id="d1e520" id="d1e520" data-origname="p">The work now known as the <tei-title xml:id="d1e522" id="d1e522" data-origname="title">Bellum Alexandrinum</tei-title> or <tei-hi rend="italic" xml:id="d1e524" id="d1e524" data-origname="hi">War in Alexandria</tei-hi> was completed after the assassination of Caesar in 44
+               <tei-p xml:id="d1e519" id="d1e519" data-origname="p">The work now known as the <tei-title xml:id="d1e521" id="d1e521" data-origname="title">Bellum Alexandrinum</tei-title> or <tei-hi rend="italic" xml:id="d1e523" id="d1e523" data-origname="hi">War in Alexandria</tei-hi> was completed after the assassination of Caesar in 44
                   BCE, probably in connection with an attempt by Caesar’s supporters to produce an
                   edition of texts narrating Caesar’s military achievements (see the Letter to
-                  Balbus prefaced to <tei-hi rend="italic" xml:id="d1e527" id="d1e527" data-origname="hi">Gallic War</tei-hi> 8, written by Aulus Hirtius).
+                  Balbus prefaced to <tei-hi rend="italic" xml:id="d1e526" id="d1e526" data-origname="hi">Gallic War</tei-hi> 8, written by Aulus Hirtius).
                   The title is misleading, since only the first of the five campaigns described in
                   the work occurred in Alexandria. The Caesarian commanders and theaters of war are
                   as follows: Caesar in Alexandria (chh. 1-33; September 48 -February 47), Domitius
                   Calvinus in Pontus (34-41; September-October 48), Cornificius, Gabinius, and
                   Vatinius in Illyricum (42-47; October 48 - January 47), Q. Cassius in Spain
-                  (48-64; May-December 48), Caesar in Pontus (65-78; March-May 47).<tei-note place="bottom" xml:id="ftn8" id="ftn8" n="8" data-origname="note"><tei-p xml:id="d1e531" id="d1e531" data-origname="p">The dates (Julian) are taken from
+                  (48-64; May-December 48), Caesar in Pontus (65-78; March-May 47).<tei-note place="foot" xml:id="ftn8" id="ftn8" n="8" data-origname="note"><tei-p xml:id="d1e530" id="d1e530" data-origname="p">The dates (Julian) are taken from
                         Raaflaub and Ramsey 2017. </tei-p></tei-note> None of Caesar’s officers is known to
                   have participated in all of these overlapping campaigns. As a result, the
                   narrative, like Caesar’s own commentaries, must rest on sources written by various
                   hands. The identity of the person who compiled these reports and turned them into
                   a coherent narrative is unknown now and was unclear already in antiquity
-                  (Suetonius, <tei-hi rend="italic" xml:id="d1e533" id="d1e533" data-origname="hi">Jul</tei-hi>. 56.1). Between the copy from which
+                  (Suetonius, <tei-hi rend="italic" xml:id="d1e532" id="d1e532" data-origname="hi">Jul</tei-hi>. 56.1). Between the copy from which
                   Suetonius draws several excerpts and the nearly 200 medieval manuscripts that
                   survive the history of the text is hard to discern, but it is clear that all of
                   the surviving witnesses ultimately rest on a single copy of the text that was
                   produced during the Carolingian period: they share significant errors that must go
-                  back to a single source. For the <tei-hi rend="italic" xml:id="d1e537" id="d1e537" data-origname="hi">Bellum Alexandrinum</tei-hi>, a
-                  work of just under 11,000 words, they number about 150. <tei-note place="bottom" xml:id="ftn9" id="ftn9" n="9" data-origname="note"><tei-p xml:id="d1e541" id="d1e541" data-origname="p">The word count used by Gaertner and Hausburg is 10513
+                  back to a single source. For the <tei-hi rend="italic" xml:id="d1e536" id="d1e536" data-origname="hi">Bellum Alexandrinum</tei-hi>, a
+                  work of just under 11,000 words, they number about 150. <tei-note place="foot" xml:id="ftn9" id="ftn9" n="9" data-origname="note"><tei-p xml:id="d1e540" id="d1e540" data-origname="p">The word count used by Gaertner and Hausburg is 10513
                         (see, e.g., 2013, 286).</tei-p></tei-note> The most striking are the gaps (12.1,
                   17.3, 17.6, 22.2) and the insoluble problems (2.5 †obiectis†, 22.2 †multum†, 57.2
                   †noctu†, 57.3 †in†). But almost every page of the critical apparatus shows one or
@@ -270,7 +270,7 @@
       for (let i = 0; i < links.length; i++) {
         if (links[i].getAttribute('href') == pg) {
           if (i > 0) {
-            prevNext.innerHTML += "↤ "
+            prevNext.innerHTML += "↤ "
             prevNext.innerHTML += links[i-1].outerHTML;
             if (i < links.length) {
               prevNext.innerHTML += " | ";
@@ -278,7 +278,7 @@
           }
           if (i < links.length) {
             prevNext.innerHTML += links[i+1].outerHTML;
-            prevNext.innerHTML += " ↦";
+            prevNext.innerHTML += " ↦";
           }
         }
       }

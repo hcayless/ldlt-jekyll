@@ -17,3 +17,5 @@ do
   echo "Processing file $f"
   convert "$f"
 done  
+
+jekyll build

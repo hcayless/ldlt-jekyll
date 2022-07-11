@@ -147,505 +147,505 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
        </tei-refsDecl>
      </tei-encodingDesc>
    </tei-teiHeader><tei-TEI xml:id="d1e3" id="d1e3" data-origname="TEI"><tei-text xml:id="d1e277" id="d1e277" data-origname="text"><tei-front xml:id="front" id="front" data-origname="front"><tei-div type="section" xml:id="conspectus-editionum" id="conspectus-editionum" data-origname="div">
-            <tei-head xml:id="d1e5382" id="d1e5382" data-origname="head">Conspectus Editionum</tei-head>
-            <tei-table xml:id="d1e5384" id="d1e5384" data-origname="table">
-               <tei-row xml:id="d1e5386" id="d1e5386" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5388" id="d1e5388" data-origname="cell"><tei-hi rend="italic" xml:id="d1e5389" id="d1e5389" data-origname="hi">BAlex</tei-hi></tei-cell>
-                  <tei-cell n="2" xml:id="d1e5392" id="d1e5392" data-origname="cell">Budé</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5395" id="d1e5395" data-origname="cell">LDLT</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5399" id="d1e5399" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5401" id="d1e5401" data-origname="cell">1.5</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5404" id="d1e5404" data-origname="cell">spectans</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5407" id="d1e5407" data-origname="cell">expectans</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5411" id="d1e5411" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5413" id="d1e5413" data-origname="cell">2.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5416" id="d1e5416" data-origname="cell">adduxerant</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5419" id="d1e5419" data-origname="cell">⟨armatorum⟩ adduxerant</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5423" id="d1e5423" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5425" id="d1e5425" data-origname="cell">7.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5428" id="d1e5428" data-origname="cell">[casum]</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5431" id="d1e5431" data-origname="cell">casum</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5435" id="d1e5435" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5437" id="d1e5437" data-origname="cell">7.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5440" id="d1e5440" data-origname="cell">†ut ... essent ... absumeretur†</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5443" id="d1e5443" data-origname="cell">ut ... esse ... absumeretur</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5448" id="d1e5448" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5450" id="d1e5450" data-origname="cell">8.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5453" id="d1e5453" data-origname="cell">Paraetonio</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5456" id="d1e5456" data-origname="cell">Paratonio</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5460" id="d1e5460" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5462" id="d1e5462" data-origname="cell">10.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5465" id="d1e5465" data-origname="cell">accessisset</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5468" id="d1e5468" data-origname="cell">accessissent</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5472" id="d1e5472" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5474" id="d1e5474" data-origname="cell">10.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5477" id="d1e5477" data-origname="cell">exposuisset</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5480" id="d1e5480" data-origname="cell">exposuissent</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5484" id="d1e5484" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5486" id="d1e5486" data-origname="cell">11.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5489" id="d1e5489" data-origname="cell">⟨hostium⟩</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5492" id="d1e5492" data-origname="cell">⟨suorum⟩</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5496" id="d1e5496" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5498" id="d1e5498" data-origname="cell">12.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5501" id="d1e5501" data-origname="cell">quibus *** et </tei-cell>
-                  <tei-cell n="3" xml:id="d1e5504" id="d1e5504" data-origname="cell">quibus et ***</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5508" id="d1e5508" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5510" id="d1e5510" data-origname="cell">12.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5513" id="d1e5513" data-origname="cell">amiserant</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5516" id="d1e5516" data-origname="cell">miserant</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5521" id="d1e5521" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5523" id="d1e5523" data-origname="cell">12.4</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5526" id="d1e5526" data-origname="cell">Caesari</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5529" id="d1e5529" data-origname="cell">Caesaris</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5533" id="d1e5533" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5535" id="d1e5535" data-origname="cell">13.5</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5538" id="d1e5538" data-origname="cell">⟨Syrias***, Ci⟩licias</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5541" id="d1e5541" data-origname="cell">Lycias</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5545" id="d1e5545" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5547" id="d1e5547" data-origname="cell">13.5</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5550" id="d1e5550" data-origname="cell">†et†</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5553" id="d1e5553" data-origname="cell">et</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5557" id="d1e5557" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5559" id="d1e5559" data-origname="cell">14.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5562" id="d1e5562" data-origname="cell">Rhodias</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5565" id="d1e5565" data-origname="cell">Rhodios</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5569" id="d1e5569" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5571" id="d1e5571" data-origname="cell">14.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5574" id="d1e5574" data-origname="cell">Ponticas</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5577" id="d1e5577" data-origname="cell">Ponticos</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5581" id="d1e5581" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5583" id="d1e5583" data-origname="cell">14.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5586" id="d1e5586" data-origname="cell">has</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5589" id="d1e5589" data-origname="cell">hos</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5594" id="d1e5594" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5596" id="d1e5596" data-origname="cell">15.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5599" id="d1e5599" data-origname="cell">⟨cunctationem⟩ </tei-cell>
-                  <tei-cell n="3" xml:id="d1e5602" id="d1e5602" data-origname="cell">⟨moram⟩</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5606" id="d1e5606" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5608" id="d1e5608" data-origname="cell">15.5</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5611" id="d1e5611" data-origname="cell">, IIII</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5614" id="d1e5614" data-origname="cell">IIII, </tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5618" id="d1e5618" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5620" id="d1e5620" data-origname="cell">15.8</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5623" id="d1e5623" data-origname="cell">qui</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5626" id="d1e5626" data-origname="cell">⟨nisi⟩ qui</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5630" id="d1e5630" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5632" id="d1e5632" data-origname="cell">16.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5635" id="d1e5635" data-origname="cell">[uictis] </tei-cell>
-                  <tei-cell n="3" xml:id="d1e5638" id="d1e5638" data-origname="cell">uictis</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5642" id="d1e5642" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5644" id="d1e5644" data-origname="cell">16.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5647" id="d1e5647" data-origname="cell">⟨rerum⟩</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5650" id="d1e5650" data-origname="cell">⟨exercitus⟩</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5654" id="d1e5654" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5656" id="d1e5656" data-origname="cell">17.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5659" id="d1e5659" data-origname="cell">et illa et urbem </tei-cell>
-                  <tei-cell n="3" xml:id="d1e5662" id="d1e5662" data-origname="cell">⟨et hanc⟩ et illam [urbem]</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5667" id="d1e5667" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5669" id="d1e5669" data-origname="cell">17.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5672" id="d1e5672" data-origname="cell">quos</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5675" id="d1e5675" data-origname="cell">quosque</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5679" id="d1e5679" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5681" id="d1e5681" data-origname="cell">17.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5684" id="d1e5684" data-origname="cell">et alteram insulae partem distinendae </tei-cell>
-                  <tei-cell n="3" xml:id="d1e5687" id="d1e5687" data-origname="cell">in alteram insulae partem *** distinendae</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5691" id="d1e5691" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5693" id="d1e5693" data-origname="cell">17.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5696" id="d1e5696" data-origname="cell">praemiis[que]</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5699" id="d1e5699" data-origname="cell">praemiis </tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5703" id="d1e5703" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5705" id="d1e5705" data-origname="cell">19.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5708" id="d1e5708" data-origname="cell">fortiorem</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5711" id="d1e5711" data-origname="cell">certiorem</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5715" id="d1e5715" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5717" id="d1e5717" data-origname="cell">20.4</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5720" id="d1e5720" data-origname="cell">perturbantes</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5723" id="d1e5723" data-origname="cell">perturbatos</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5727" id="d1e5727" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5729" id="d1e5729" data-origname="cell">22.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5732" id="d1e5732" data-origname="cell">*** comprehendi multum operibus *** et </tei-cell>
-                  <tei-cell n="3" xml:id="d1e5735" id="d1e5735" data-origname="cell">*** comprehendi †multum† operibus et </tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5740" id="d1e5740" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5742" id="d1e5742" data-origname="cell">24.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5745" id="d1e5745" data-origname="cell">parceret</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5748" id="d1e5748" data-origname="cell">parceret [et]</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5752" id="d1e5752" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5754" id="d1e5754" data-origname="cell">25.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5757" id="d1e5757" data-origname="cell">Caesari</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5760" id="d1e5760" data-origname="cell">Caesaris</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5764" id="d1e5764" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5766" id="d1e5766" data-origname="cell">26.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5769" id="d1e5769" data-origname="cell">Pelusium aduenit</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5772" id="d1e5772" data-origname="cell">—Pelusium adducit</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5776" id="d1e5776" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5778" id="d1e5778" data-origname="cell">26.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5781" id="d1e5781" data-origname="cell">[multiplici praesidio] </tei-cell>
-                  <tei-cell n="3" xml:id="d1e5784" id="d1e5784" data-origname="cell">multiplici praesidio</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5788" id="d1e5788" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5790" id="d1e5790" data-origname="cell">27.5</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5793" id="d1e5793" data-origname="cell">[constantiaque] </tei-cell>
-                  <tei-cell n="3" xml:id="d1e5796" id="d1e5796" data-origname="cell">constantiaque</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5800" id="d1e5800" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5802" id="d1e5802" data-origname="cell">27.7</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5805" id="d1e5805" data-origname="cell">adiunctis</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5808" id="d1e5808" data-origname="cell">adiuncti</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5813" id="d1e5813" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5815" id="d1e5815" data-origname="cell">31.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5818" id="d1e5818" data-origname="cell">partibus ***,</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5821" id="d1e5821" data-origname="cell">partibus,</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5825" id="d1e5825" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5827" id="d1e5827" data-origname="cell">32.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5830" id="d1e5830" data-origname="cell">magna</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5833" id="d1e5833" data-origname="cell">magnae</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5837" id="d1e5837" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5839" id="d1e5839" data-origname="cell">33.4</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5842" id="d1e5842" data-origname="cell">[itinere terrestri]</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5845" id="d1e5845" data-origname="cell">itinere terrestri</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5849" id="d1e5849" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5851" id="d1e5851" data-origname="cell">35.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5854" id="d1e5854" data-origname="cell">opportunitates ⟨cognouerat⟩ </tei-cell>
-                  <tei-cell n="3" xml:id="d1e5857" id="d1e5857" data-origname="cell">⟨constat⟩ opportunitates</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5861" id="d1e5861" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5863" id="d1e5863" data-origname="cell">36.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5866" id="d1e5866" data-origname="cell">castra</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5869" id="d1e5869" data-origname="cell">[ex] castra</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5873" id="d1e5873" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5875" id="d1e5875" data-origname="cell">36.5</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5878" id="d1e5878" data-origname="cell">si[ue] amicus [siue inimicus]</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5881" id="d1e5881" data-origname="cell">siue amicus siue inimicus</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5886" id="d1e5886" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5888" id="d1e5888" data-origname="cell">36.5</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5891" id="d1e5891" data-origname="cell">si</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5894" id="d1e5894" data-origname="cell">sin</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5898" id="d1e5898" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5900" id="d1e5900" data-origname="cell">37.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5903" id="d1e5903" data-origname="cell">contulit</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5906" id="d1e5906" data-origname="cell">contulit [rex]</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5910" id="d1e5910" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5912" id="d1e5912" data-origname="cell">40.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5915" id="d1e5915" data-origname="cell">circumire acies secunda</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5918" id="d1e5918" data-origname="cell">circumire ac transcendere</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5922" id="d1e5922" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5924" id="d1e5924" data-origname="cell">40.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5927" id="d1e5927" data-origname="cell">⟨ab⟩ aperto</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5930" id="d1e5930" data-origname="cell">aperto</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5934" id="d1e5934" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5936" id="d1e5936" data-origname="cell">42.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5939" id="d1e5939" data-origname="cell">exercitum alendum</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5942" id="d1e5942" data-origname="cell">exercitus alendos</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5946" id="d1e5946" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5948" id="d1e5948" data-origname="cell">42.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5951" id="d1e5951" data-origname="cell">Iadestinorum</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5954" id="d1e5954" data-origname="cell">Iadertinorum</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5959" id="d1e5959" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5961" id="d1e5961" data-origname="cell">44.4</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5964" id="d1e5964" data-origname="cell">His adiunctis</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5967" id="d1e5967" data-origname="cell">Has adiunxit</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5971" id="d1e5971" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5973" id="d1e5973" data-origname="cell">45.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5976" id="d1e5976" data-origname="cell">distensis</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5979" id="d1e5979" data-origname="cell">distentis</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5983" id="d1e5983" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5985" id="d1e5985" data-origname="cell">48.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e5988" id="d1e5988" data-origname="cell">minuebant</tei-cell>
-                  <tei-cell n="3" xml:id="d1e5991" id="d1e5991" data-origname="cell">minuebat</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e5995" id="d1e5995" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e5997" id="d1e5997" data-origname="cell">49.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6000" id="d1e6000" data-origname="cell">antea</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6003" id="d1e6003" data-origname="cell">in ea</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6007" id="d1e6007" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6009" id="d1e6009" data-origname="cell">49.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6012" id="d1e6012" data-origname="cell">simultatium causa</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6015" id="d1e6015" data-origname="cell">simul et causae</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6019" id="d1e6019" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6021" id="d1e6021" data-origname="cell">51.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6024" id="d1e6024" data-origname="cell">uoluptate</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6027" id="d1e6027" data-origname="cell">uoluntate</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6032" id="d1e6032" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6034" id="d1e6034" data-origname="cell">51.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6037" id="d1e6037" data-origname="cell">discriberentur</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6040" id="d1e6040" data-origname="cell">describerentur</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6044" id="d1e6044" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6046" id="d1e6046" data-origname="cell">52.4</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6049" id="d1e6049" data-origname="cell">Ad</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6052" id="d1e6052" data-origname="cell">At</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6056" id="d1e6056" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6058" id="d1e6058" data-origname="cell">53.4</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6061" id="d1e6061" data-origname="cell">⟨L.⟩ Laterensis</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6064" id="d1e6064" data-origname="cell">Laterensis</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6068" id="d1e6068" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6070" id="d1e6070" data-origname="cell">54.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6073" id="d1e6073" data-origname="cell">iudicaretur</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6076" id="d1e6076" data-origname="cell">indicaretur</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6080" id="d1e6080" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6082" id="d1e6082" data-origname="cell">55.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6085" id="d1e6085" data-origname="cell">legiones</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6088" id="d1e6088" data-origname="cell">legionem quintam</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6092" id="d1e6092" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6094" id="d1e6094" data-origname="cell">55.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6097" id="d1e6097" data-origname="cell">V cohortibus</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6100" id="d1e6100" data-origname="cell">cohortibus</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6105" id="d1e6105" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6107" id="d1e6107" data-origname="cell">55.5</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6110" id="d1e6110" data-origname="cell">Squillo</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6113" id="d1e6113" data-origname="cell">Q. Sestio</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6117" id="d1e6117" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6119" id="d1e6119" data-origname="cell">56.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6122" id="d1e6122" data-origname="cell">⟨superiorum⟩ temporum</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6125" id="d1e6125" data-origname="cell">temporum</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6129" id="d1e6129" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6131" id="d1e6131" data-origname="cell">56.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6134" id="d1e6134" data-origname="cell">animi</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6137" id="d1e6137" data-origname="cell">animus</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6141" id="d1e6141" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6143" id="d1e6143" data-origname="cell">57.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6146" id="d1e6146" data-origname="cell">Ilipam</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6149" id="d1e6149" data-origname="cell">Leptim</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6153" id="d1e6153" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6155" id="d1e6155" data-origname="cell">57.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6158" id="d1e6158" data-origname="cell">Naeuam</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6161" id="d1e6161" data-origname="cell">†noctu†</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6165" id="d1e6165" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6167" id="d1e6167" data-origname="cell">57.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6170" id="d1e6170" data-origname="cell">T. Thorium</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6173" id="d1e6173" data-origname="cell">†in† Torium</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6178" id="d1e6178" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6180" id="d1e6180" data-origname="cell">58.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6183" id="d1e6183" data-origname="cell">Thorius</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6186" id="d1e6186" data-origname="cell">Torius</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6190" id="d1e6190" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6192" id="d1e6192" data-origname="cell">59.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6195" id="d1e6195" data-origname="cell">deterserunt</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6198" id="d1e6198" data-origname="cell">detraxerunt</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6202" id="d1e6202" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6204" id="d1e6204" data-origname="cell">60.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6207" id="d1e6207" data-origname="cell">educerentur ⟨orant⟩</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6210" id="d1e6210" data-origname="cell">educerentur</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6214" id="d1e6214" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6216" id="d1e6216" data-origname="cell">60.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6219" id="d1e6219" data-origname="cell">esse ***</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6222" id="d1e6222" data-origname="cell">esset</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6226" id="d1e6226" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6228" id="d1e6228" data-origname="cell">60.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6231" id="d1e6231" data-origname="cell">uideret</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6234" id="d1e6234" data-origname="cell">animaduerteret</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6238" id="d1e6238" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6240" id="d1e6240" data-origname="cell">60.4</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6243" id="d1e6243" data-origname="cell">infirmem</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6246" id="d1e6246" data-origname="cell">infirmum</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6251" id="d1e6251" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6253" id="d1e6253" data-origname="cell">60.5</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6256" id="d1e6256" data-origname="cell">educunt</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6259" id="d1e6259" data-origname="cell">educit</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6263" id="d1e6263" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6265" id="d1e6265" data-origname="cell">61.4</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6268" id="d1e6268" data-origname="cell">deductus</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6271" id="d1e6271" data-origname="cell">adductus</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6275" id="d1e6275" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6277" id="d1e6277" data-origname="cell">61.6</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6280" id="d1e6280" data-origname="cell">magno sibi usu</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6283" id="d1e6283" data-origname="cell">sibi usui</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6287" id="d1e6287" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6289" id="d1e6289" data-origname="cell">62.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6292" id="d1e6292" data-origname="cell">complures[que]</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6295" id="d1e6295" data-origname="cell">complures</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6299" id="d1e6299" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6301" id="d1e6301" data-origname="cell">62.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6304" id="d1e6304" data-origname="cell">auxiliarias</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6307" id="d1e6307" data-origname="cell">auxiliares</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6311" id="d1e6311" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6313" id="d1e6313" data-origname="cell">62.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6316" id="d1e6316" data-origname="cell">Marcellum fouebant</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6319" id="d1e6319" data-origname="cell">Marcello fauebant</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6324" id="d1e6324" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6326" id="d1e6326" data-origname="cell">64.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6329" id="d1e6329" data-origname="cell">uenit</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6332" id="d1e6332" data-origname="cell">⟨uenit⟩</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6336" id="d1e6336" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6338" id="d1e6338" data-origname="cell">64.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6341" id="d1e6341" data-origname="cell">in </tei-cell>
-                  <tei-cell n="3" xml:id="d1e6344" id="d1e6344" data-origname="cell">⟨in⟩</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6348" id="d1e6348" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6350" id="d1e6350" data-origname="cell">64.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6353" id="d1e6353" data-origname="cell">in derectum</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6356" id="d1e6356" data-origname="cell">derectam</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6360" id="d1e6360" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6362" id="d1e6362" data-origname="cell">65.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6365" id="d1e6365" data-origname="cell">re</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6368" id="d1e6368" data-origname="cell">rei</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6372" id="d1e6372" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6374" id="d1e6374" data-origname="cell">65.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6377" id="d1e6377" data-origname="cell">hae</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6380" id="d1e6380" data-origname="cell">eae</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6384" id="d1e6384" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6386" id="d1e6386" data-origname="cell">66.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6389" id="d1e6389" data-origname="cell">legioni</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6392" id="d1e6392" data-origname="cell">legionibus</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6397" id="d1e6397" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6399" id="d1e6399" data-origname="cell">66.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6402" id="d1e6402" data-origname="cell">praeficit</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6405" id="d1e6405" data-origname="cell">praefecit</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6409" id="d1e6409" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6411" id="d1e6411" data-origname="cell">66.5</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6414" id="d1e6414" data-origname="cell">coeptum</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6417" id="d1e6417" data-origname="cell">inceptum</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6421" id="d1e6421" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6423" id="d1e6423" data-origname="cell">67.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6426" id="d1e6426" data-origname="cell">⟨in⟩ Caesaris</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6429" id="d1e6429" data-origname="cell">Caesaris </tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6433" id="d1e6433" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6435" id="d1e6435" data-origname="cell">67.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6438" id="d1e6438" data-origname="cell">habuisset</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6441" id="d1e6441" data-origname="cell">habuisset ⟨et coactus⟩</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6445" id="d1e6445" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6447" id="d1e6447" data-origname="cell">67.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6450" id="d1e6450" data-origname="cell">imperiisque ⟨aduersariorum coactus⟩</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6453" id="d1e6453" data-origname="cell">imperiisque</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6457" id="d1e6457" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6459" id="d1e6459" data-origname="cell">68.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6462" id="d1e6462" data-origname="cell">defectionem</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6465" id="d1e6465" data-origname="cell">defensionem</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6470" id="d1e6470" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6472" id="d1e6472" data-origname="cell">68.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6475" id="d1e6475" data-origname="cell">armatura</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6478" id="d1e6478" data-origname="cell">natura</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6482" id="d1e6482" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6484" id="d1e6484" data-origname="cell">70.4</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6487" id="d1e6487" data-origname="cell">quin</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6490" id="d1e6490" data-origname="cell">quamquam</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6494" id="d1e6494" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6496" id="d1e6496" data-origname="cell">70.8</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6499" id="d1e6499" data-origname="cell">⟨Id⟩ si</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6502" id="d1e6502" data-origname="cell">si</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6506" id="d1e6506" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6508" id="d1e6508" data-origname="cell">72.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6511" id="d1e6511" data-origname="cell">†superioribus … oppido† superioribus … oppido</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6514" id="d1e6514" data-origname="cell" data-empty="">​</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6517" id="d1e6517" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6519" id="d1e6519" data-origname="cell">73.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6522" id="d1e6522" data-origname="cell">iussit</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6525" id="d1e6525" data-origname="cell">tum iussit</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6529" id="d1e6529" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6531" id="d1e6531" data-origname="cell">74.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6534" id="d1e6534" data-origname="cell">contemptu</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6537" id="d1e6537" data-origname="cell">contemptione</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6542" id="d1e6542" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6544" id="d1e6544" data-origname="cell">74.4</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6547" id="d1e6547" data-origname="cell">praeruptam</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6550" id="d1e6550" data-origname="cell">procliuem</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6554" id="d1e6554" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6556" id="d1e6556" data-origname="cell">75.1</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6559" id="d1e6559" data-origname="cell">opere</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6562" id="d1e6562" data-origname="cell">operibus</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6566" id="d1e6566" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6568" id="d1e6568" data-origname="cell">75.3</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6571" id="d1e6571" data-origname="cell">eis </tei-cell>
-                  <tei-cell n="3" xml:id="d1e6574" id="d1e6574" data-origname="cell">iis ⟨in⟩</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6578" id="d1e6578" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6580" id="d1e6580" data-origname="cell">78.2</tei-cell>
-                  <tei-cell n="2" xml:id="d1e6583" id="d1e6583" data-origname="cell">quod ⟨regnum⟩</tei-cell>
-                  <tei-cell n="3" xml:id="d1e6586" id="d1e6586" data-origname="cell">quod</tei-cell>
-               </tei-row>
-               <tei-row xml:id="d1e6590" id="d1e6590" data-origname="row">
-                  <tei-cell n="1" xml:id="d1e6592" id="d1e6592" data-origname="cell" data-empty="">​</tei-cell>
+            <tei-head xml:id="d1e5381" id="d1e5381" data-origname="head">Conspectus Editionum</tei-head>
+            <tei-table xml:id="d1e5383" id="d1e5383" data-origname="table">
+               <tei-row xml:id="d1e5385" id="d1e5385" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5387" id="d1e5387" data-origname="cell"><tei-hi rend="italic" xml:id="d1e5388" id="d1e5388" data-origname="hi">BAlex</tei-hi></tei-cell>
+                  <tei-cell n="2" xml:id="d1e5391" id="d1e5391" data-origname="cell">Budé</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5394" id="d1e5394" data-origname="cell">LDLT</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5398" id="d1e5398" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5400" id="d1e5400" data-origname="cell">1.5</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5403" id="d1e5403" data-origname="cell">spectans</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5406" id="d1e5406" data-origname="cell">expectans</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5410" id="d1e5410" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5412" id="d1e5412" data-origname="cell">2.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5415" id="d1e5415" data-origname="cell">adduxerant</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5418" id="d1e5418" data-origname="cell">⟨armatorum⟩ adduxerant</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5422" id="d1e5422" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5424" id="d1e5424" data-origname="cell">7.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5427" id="d1e5427" data-origname="cell">[casum]</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5430" id="d1e5430" data-origname="cell">casum</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5434" id="d1e5434" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5436" id="d1e5436" data-origname="cell">7.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5439" id="d1e5439" data-origname="cell">†ut ... essent ... absumeretur†</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5442" id="d1e5442" data-origname="cell">ut ... esse ... absumeretur</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5447" id="d1e5447" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5449" id="d1e5449" data-origname="cell">8.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5452" id="d1e5452" data-origname="cell">Paraetonio</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5455" id="d1e5455" data-origname="cell">Paratonio</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5459" id="d1e5459" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5461" id="d1e5461" data-origname="cell">10.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5464" id="d1e5464" data-origname="cell">accessisset</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5467" id="d1e5467" data-origname="cell">accessissent</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5471" id="d1e5471" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5473" id="d1e5473" data-origname="cell">10.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5476" id="d1e5476" data-origname="cell">exposuisset</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5479" id="d1e5479" data-origname="cell">exposuissent</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5483" id="d1e5483" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5485" id="d1e5485" data-origname="cell">11.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5488" id="d1e5488" data-origname="cell">⟨hostium⟩</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5491" id="d1e5491" data-origname="cell">⟨suorum⟩</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5495" id="d1e5495" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5497" id="d1e5497" data-origname="cell">12.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5500" id="d1e5500" data-origname="cell">quibus *** et </tei-cell>
+                  <tei-cell n="3" xml:id="d1e5503" id="d1e5503" data-origname="cell">quibus et ***</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5507" id="d1e5507" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5509" id="d1e5509" data-origname="cell">12.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5512" id="d1e5512" data-origname="cell">amiserant</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5515" id="d1e5515" data-origname="cell">miserant</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5520" id="d1e5520" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5522" id="d1e5522" data-origname="cell">12.4</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5525" id="d1e5525" data-origname="cell">Caesari</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5528" id="d1e5528" data-origname="cell">Caesaris</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5532" id="d1e5532" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5534" id="d1e5534" data-origname="cell">13.5</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5537" id="d1e5537" data-origname="cell">⟨Syrias***, Ci⟩licias</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5540" id="d1e5540" data-origname="cell">Lycias</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5544" id="d1e5544" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5546" id="d1e5546" data-origname="cell">13.5</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5549" id="d1e5549" data-origname="cell">†et†</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5552" id="d1e5552" data-origname="cell">et</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5556" id="d1e5556" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5558" id="d1e5558" data-origname="cell">14.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5561" id="d1e5561" data-origname="cell">Rhodias</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5564" id="d1e5564" data-origname="cell">Rhodios</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5568" id="d1e5568" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5570" id="d1e5570" data-origname="cell">14.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5573" id="d1e5573" data-origname="cell">Ponticas</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5576" id="d1e5576" data-origname="cell">Ponticos</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5580" id="d1e5580" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5582" id="d1e5582" data-origname="cell">14.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5585" id="d1e5585" data-origname="cell">has</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5588" id="d1e5588" data-origname="cell">hos</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5593" id="d1e5593" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5595" id="d1e5595" data-origname="cell">15.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5598" id="d1e5598" data-origname="cell">⟨cunctationem⟩ </tei-cell>
+                  <tei-cell n="3" xml:id="d1e5601" id="d1e5601" data-origname="cell">⟨moram⟩</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5605" id="d1e5605" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5607" id="d1e5607" data-origname="cell">15.5</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5610" id="d1e5610" data-origname="cell">, IIII</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5613" id="d1e5613" data-origname="cell">IIII, </tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5617" id="d1e5617" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5619" id="d1e5619" data-origname="cell">15.8</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5622" id="d1e5622" data-origname="cell">qui</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5625" id="d1e5625" data-origname="cell">⟨nisi⟩ qui</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5629" id="d1e5629" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5631" id="d1e5631" data-origname="cell">16.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5634" id="d1e5634" data-origname="cell">[uictis] </tei-cell>
+                  <tei-cell n="3" xml:id="d1e5637" id="d1e5637" data-origname="cell">uictis</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5641" id="d1e5641" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5643" id="d1e5643" data-origname="cell">16.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5646" id="d1e5646" data-origname="cell">⟨rerum⟩</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5649" id="d1e5649" data-origname="cell">⟨exercitus⟩</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5653" id="d1e5653" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5655" id="d1e5655" data-origname="cell">17.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5658" id="d1e5658" data-origname="cell">et illa et urbem </tei-cell>
+                  <tei-cell n="3" xml:id="d1e5661" id="d1e5661" data-origname="cell">⟨et hanc⟩ et illam [urbem]</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5666" id="d1e5666" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5668" id="d1e5668" data-origname="cell">17.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5671" id="d1e5671" data-origname="cell">quos</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5674" id="d1e5674" data-origname="cell">quosque</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5678" id="d1e5678" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5680" id="d1e5680" data-origname="cell">17.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5683" id="d1e5683" data-origname="cell">et alteram insulae partem distinendae </tei-cell>
+                  <tei-cell n="3" xml:id="d1e5686" id="d1e5686" data-origname="cell">in alteram insulae partem *** distinendae</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5690" id="d1e5690" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5692" id="d1e5692" data-origname="cell">17.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5695" id="d1e5695" data-origname="cell">praemiis[que]</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5698" id="d1e5698" data-origname="cell">praemiis </tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5702" id="d1e5702" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5704" id="d1e5704" data-origname="cell">19.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5707" id="d1e5707" data-origname="cell">fortiorem</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5710" id="d1e5710" data-origname="cell">certiorem</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5714" id="d1e5714" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5716" id="d1e5716" data-origname="cell">20.4</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5719" id="d1e5719" data-origname="cell">perturbantes</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5722" id="d1e5722" data-origname="cell">perturbatos</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5726" id="d1e5726" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5728" id="d1e5728" data-origname="cell">22.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5731" id="d1e5731" data-origname="cell">*** comprehendi multum operibus *** et </tei-cell>
+                  <tei-cell n="3" xml:id="d1e5734" id="d1e5734" data-origname="cell">*** comprehendi †multum† operibus et </tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5739" id="d1e5739" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5741" id="d1e5741" data-origname="cell">24.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5744" id="d1e5744" data-origname="cell">parceret</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5747" id="d1e5747" data-origname="cell">parceret [et]</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5751" id="d1e5751" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5753" id="d1e5753" data-origname="cell">25.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5756" id="d1e5756" data-origname="cell">Caesari</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5759" id="d1e5759" data-origname="cell">Caesaris</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5763" id="d1e5763" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5765" id="d1e5765" data-origname="cell">26.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5768" id="d1e5768" data-origname="cell">Pelusium aduenit</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5771" id="d1e5771" data-origname="cell">—Pelusium adducit</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5775" id="d1e5775" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5777" id="d1e5777" data-origname="cell">26.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5780" id="d1e5780" data-origname="cell">[multiplici praesidio] </tei-cell>
+                  <tei-cell n="3" xml:id="d1e5783" id="d1e5783" data-origname="cell">multiplici praesidio</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5787" id="d1e5787" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5789" id="d1e5789" data-origname="cell">27.5</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5792" id="d1e5792" data-origname="cell">[constantiaque] </tei-cell>
+                  <tei-cell n="3" xml:id="d1e5795" id="d1e5795" data-origname="cell">constantiaque</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5799" id="d1e5799" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5801" id="d1e5801" data-origname="cell">27.7</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5804" id="d1e5804" data-origname="cell">adiunctis</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5807" id="d1e5807" data-origname="cell">adiuncti</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5812" id="d1e5812" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5814" id="d1e5814" data-origname="cell">31.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5817" id="d1e5817" data-origname="cell">partibus ***,</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5820" id="d1e5820" data-origname="cell">partibus,</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5824" id="d1e5824" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5826" id="d1e5826" data-origname="cell">32.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5829" id="d1e5829" data-origname="cell">magna</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5832" id="d1e5832" data-origname="cell">magnae</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5836" id="d1e5836" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5838" id="d1e5838" data-origname="cell">33.4</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5841" id="d1e5841" data-origname="cell">[itinere terrestri]</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5844" id="d1e5844" data-origname="cell">itinere terrestri</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5848" id="d1e5848" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5850" id="d1e5850" data-origname="cell">35.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5853" id="d1e5853" data-origname="cell">opportunitates ⟨cognouerat⟩ </tei-cell>
+                  <tei-cell n="3" xml:id="d1e5856" id="d1e5856" data-origname="cell">⟨constat⟩ opportunitates</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5860" id="d1e5860" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5862" id="d1e5862" data-origname="cell">36.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5865" id="d1e5865" data-origname="cell">castra</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5868" id="d1e5868" data-origname="cell">[ex] castra</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5872" id="d1e5872" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5874" id="d1e5874" data-origname="cell">36.5</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5877" id="d1e5877" data-origname="cell">si[ue] amicus [siue inimicus]</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5880" id="d1e5880" data-origname="cell">siue amicus siue inimicus</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5885" id="d1e5885" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5887" id="d1e5887" data-origname="cell">36.5</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5890" id="d1e5890" data-origname="cell">si</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5893" id="d1e5893" data-origname="cell">sin</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5897" id="d1e5897" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5899" id="d1e5899" data-origname="cell">37.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5902" id="d1e5902" data-origname="cell">contulit</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5905" id="d1e5905" data-origname="cell">contulit [rex]</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5909" id="d1e5909" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5911" id="d1e5911" data-origname="cell">40.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5914" id="d1e5914" data-origname="cell">circumire acies secunda</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5917" id="d1e5917" data-origname="cell">circumire ac transcendere</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5921" id="d1e5921" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5923" id="d1e5923" data-origname="cell">40.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5926" id="d1e5926" data-origname="cell">⟨ab⟩ aperto</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5929" id="d1e5929" data-origname="cell">aperto</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5933" id="d1e5933" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5935" id="d1e5935" data-origname="cell">42.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5938" id="d1e5938" data-origname="cell">exercitum alendum</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5941" id="d1e5941" data-origname="cell">exercitus alendos</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5945" id="d1e5945" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5947" id="d1e5947" data-origname="cell">42.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5950" id="d1e5950" data-origname="cell">Iadestinorum</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5953" id="d1e5953" data-origname="cell">Iadertinorum</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5958" id="d1e5958" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5960" id="d1e5960" data-origname="cell">44.4</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5963" id="d1e5963" data-origname="cell">His adiunctis</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5966" id="d1e5966" data-origname="cell">Has adiunxit</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5970" id="d1e5970" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5972" id="d1e5972" data-origname="cell">45.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5975" id="d1e5975" data-origname="cell">distensis</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5978" id="d1e5978" data-origname="cell">distentis</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5982" id="d1e5982" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5984" id="d1e5984" data-origname="cell">48.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5987" id="d1e5987" data-origname="cell">minuebant</tei-cell>
+                  <tei-cell n="3" xml:id="d1e5990" id="d1e5990" data-origname="cell">minuebat</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e5994" id="d1e5994" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e5996" id="d1e5996" data-origname="cell">49.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e5999" id="d1e5999" data-origname="cell">antea</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6002" id="d1e6002" data-origname="cell">in ea</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6006" id="d1e6006" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6008" id="d1e6008" data-origname="cell">49.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6011" id="d1e6011" data-origname="cell">simultatium causa</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6014" id="d1e6014" data-origname="cell">simul et causae</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6018" id="d1e6018" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6020" id="d1e6020" data-origname="cell">51.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6023" id="d1e6023" data-origname="cell">uoluptate</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6026" id="d1e6026" data-origname="cell">uoluntate</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6031" id="d1e6031" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6033" id="d1e6033" data-origname="cell">51.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6036" id="d1e6036" data-origname="cell">discriberentur</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6039" id="d1e6039" data-origname="cell">describerentur</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6043" id="d1e6043" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6045" id="d1e6045" data-origname="cell">52.4</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6048" id="d1e6048" data-origname="cell">Ad</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6051" id="d1e6051" data-origname="cell">At</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6055" id="d1e6055" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6057" id="d1e6057" data-origname="cell">53.4</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6060" id="d1e6060" data-origname="cell">⟨L.⟩ Laterensis</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6063" id="d1e6063" data-origname="cell">Laterensis</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6067" id="d1e6067" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6069" id="d1e6069" data-origname="cell">54.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6072" id="d1e6072" data-origname="cell">iudicaretur</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6075" id="d1e6075" data-origname="cell">indicaretur</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6079" id="d1e6079" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6081" id="d1e6081" data-origname="cell">55.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6084" id="d1e6084" data-origname="cell">legiones</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6087" id="d1e6087" data-origname="cell">legionem quintam</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6091" id="d1e6091" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6093" id="d1e6093" data-origname="cell">55.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6096" id="d1e6096" data-origname="cell">V cohortibus</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6099" id="d1e6099" data-origname="cell">cohortibus</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6104" id="d1e6104" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6106" id="d1e6106" data-origname="cell">55.5</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6109" id="d1e6109" data-origname="cell">Squillo</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6112" id="d1e6112" data-origname="cell">Q. Sestio</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6116" id="d1e6116" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6118" id="d1e6118" data-origname="cell">56.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6121" id="d1e6121" data-origname="cell">⟨superiorum⟩ temporum</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6124" id="d1e6124" data-origname="cell">temporum</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6128" id="d1e6128" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6130" id="d1e6130" data-origname="cell">56.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6133" id="d1e6133" data-origname="cell">animi</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6136" id="d1e6136" data-origname="cell">animus</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6140" id="d1e6140" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6142" id="d1e6142" data-origname="cell">57.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6145" id="d1e6145" data-origname="cell">Ilipam</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6148" id="d1e6148" data-origname="cell">Leptim</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6152" id="d1e6152" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6154" id="d1e6154" data-origname="cell">57.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6157" id="d1e6157" data-origname="cell">Naeuam</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6160" id="d1e6160" data-origname="cell">†noctu†</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6164" id="d1e6164" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6166" id="d1e6166" data-origname="cell">57.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6169" id="d1e6169" data-origname="cell">T. Thorium</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6172" id="d1e6172" data-origname="cell">†in† Torium</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6177" id="d1e6177" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6179" id="d1e6179" data-origname="cell">58.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6182" id="d1e6182" data-origname="cell">Thorius</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6185" id="d1e6185" data-origname="cell">Torius</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6189" id="d1e6189" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6191" id="d1e6191" data-origname="cell">59.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6194" id="d1e6194" data-origname="cell">deterserunt</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6197" id="d1e6197" data-origname="cell">detraxerunt</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6201" id="d1e6201" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6203" id="d1e6203" data-origname="cell">60.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6206" id="d1e6206" data-origname="cell">educerentur ⟨orant⟩</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6209" id="d1e6209" data-origname="cell">educerentur</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6213" id="d1e6213" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6215" id="d1e6215" data-origname="cell">60.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6218" id="d1e6218" data-origname="cell">esse ***</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6221" id="d1e6221" data-origname="cell">esset</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6225" id="d1e6225" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6227" id="d1e6227" data-origname="cell">60.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6230" id="d1e6230" data-origname="cell">uideret</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6233" id="d1e6233" data-origname="cell">animaduerteret</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6237" id="d1e6237" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6239" id="d1e6239" data-origname="cell">60.4</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6242" id="d1e6242" data-origname="cell">infirmem</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6245" id="d1e6245" data-origname="cell">infirmum</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6250" id="d1e6250" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6252" id="d1e6252" data-origname="cell">60.5</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6255" id="d1e6255" data-origname="cell">educunt</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6258" id="d1e6258" data-origname="cell">educit</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6262" id="d1e6262" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6264" id="d1e6264" data-origname="cell">61.4</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6267" id="d1e6267" data-origname="cell">deductus</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6270" id="d1e6270" data-origname="cell">adductus</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6274" id="d1e6274" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6276" id="d1e6276" data-origname="cell">61.6</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6279" id="d1e6279" data-origname="cell">magno sibi usu</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6282" id="d1e6282" data-origname="cell">sibi usui</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6286" id="d1e6286" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6288" id="d1e6288" data-origname="cell">62.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6291" id="d1e6291" data-origname="cell">complures[que]</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6294" id="d1e6294" data-origname="cell">complures</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6298" id="d1e6298" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6300" id="d1e6300" data-origname="cell">62.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6303" id="d1e6303" data-origname="cell">auxiliarias</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6306" id="d1e6306" data-origname="cell">auxiliares</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6310" id="d1e6310" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6312" id="d1e6312" data-origname="cell">62.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6315" id="d1e6315" data-origname="cell">Marcellum fouebant</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6318" id="d1e6318" data-origname="cell">Marcello fauebant</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6323" id="d1e6323" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6325" id="d1e6325" data-origname="cell">64.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6328" id="d1e6328" data-origname="cell">uenit</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6331" id="d1e6331" data-origname="cell">⟨uenit⟩</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6335" id="d1e6335" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6337" id="d1e6337" data-origname="cell">64.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6340" id="d1e6340" data-origname="cell">in </tei-cell>
+                  <tei-cell n="3" xml:id="d1e6343" id="d1e6343" data-origname="cell">⟨in⟩</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6347" id="d1e6347" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6349" id="d1e6349" data-origname="cell">64.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6352" id="d1e6352" data-origname="cell">in derectum</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6355" id="d1e6355" data-origname="cell">derectam</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6359" id="d1e6359" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6361" id="d1e6361" data-origname="cell">65.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6364" id="d1e6364" data-origname="cell">re</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6367" id="d1e6367" data-origname="cell">rei</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6371" id="d1e6371" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6373" id="d1e6373" data-origname="cell">65.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6376" id="d1e6376" data-origname="cell">hae</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6379" id="d1e6379" data-origname="cell">eae</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6383" id="d1e6383" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6385" id="d1e6385" data-origname="cell">66.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6388" id="d1e6388" data-origname="cell">legioni</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6391" id="d1e6391" data-origname="cell">legionibus</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6396" id="d1e6396" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6398" id="d1e6398" data-origname="cell">66.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6401" id="d1e6401" data-origname="cell">praeficit</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6404" id="d1e6404" data-origname="cell">praefecit</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6408" id="d1e6408" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6410" id="d1e6410" data-origname="cell">66.5</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6413" id="d1e6413" data-origname="cell">coeptum</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6416" id="d1e6416" data-origname="cell">inceptum</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6420" id="d1e6420" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6422" id="d1e6422" data-origname="cell">67.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6425" id="d1e6425" data-origname="cell">⟨in⟩ Caesaris</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6428" id="d1e6428" data-origname="cell">Caesaris </tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6432" id="d1e6432" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6434" id="d1e6434" data-origname="cell">67.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6437" id="d1e6437" data-origname="cell">habuisset</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6440" id="d1e6440" data-origname="cell">habuisset ⟨et coactus⟩</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6444" id="d1e6444" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6446" id="d1e6446" data-origname="cell">67.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6449" id="d1e6449" data-origname="cell">imperiisque ⟨aduersariorum coactus⟩</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6452" id="d1e6452" data-origname="cell">imperiisque</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6456" id="d1e6456" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6458" id="d1e6458" data-origname="cell">68.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6461" id="d1e6461" data-origname="cell">defectionem</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6464" id="d1e6464" data-origname="cell">defensionem</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6469" id="d1e6469" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6471" id="d1e6471" data-origname="cell">68.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6474" id="d1e6474" data-origname="cell">armatura</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6477" id="d1e6477" data-origname="cell">natura</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6481" id="d1e6481" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6483" id="d1e6483" data-origname="cell">70.4</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6486" id="d1e6486" data-origname="cell">quin</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6489" id="d1e6489" data-origname="cell">quamquam</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6493" id="d1e6493" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6495" id="d1e6495" data-origname="cell">70.8</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6498" id="d1e6498" data-origname="cell">⟨Id⟩ si</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6501" id="d1e6501" data-origname="cell">si</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6505" id="d1e6505" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6507" id="d1e6507" data-origname="cell">72.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6510" id="d1e6510" data-origname="cell">†superioribus … oppido† superioribus … oppido</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6513" id="d1e6513" data-origname="cell" data-empty="">​</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6516" id="d1e6516" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6518" id="d1e6518" data-origname="cell">73.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6521" id="d1e6521" data-origname="cell">iussit</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6524" id="d1e6524" data-origname="cell">tum iussit</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6528" id="d1e6528" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6530" id="d1e6530" data-origname="cell">74.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6533" id="d1e6533" data-origname="cell">contemptu</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6536" id="d1e6536" data-origname="cell">contemptione</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6541" id="d1e6541" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6543" id="d1e6543" data-origname="cell">74.4</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6546" id="d1e6546" data-origname="cell">praeruptam</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6549" id="d1e6549" data-origname="cell">procliuem</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6553" id="d1e6553" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6555" id="d1e6555" data-origname="cell">75.1</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6558" id="d1e6558" data-origname="cell">opere</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6561" id="d1e6561" data-origname="cell">operibus</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6565" id="d1e6565" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6567" id="d1e6567" data-origname="cell">75.3</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6570" id="d1e6570" data-origname="cell">eis </tei-cell>
+                  <tei-cell n="3" xml:id="d1e6573" id="d1e6573" data-origname="cell">iis ⟨in⟩</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6577" id="d1e6577" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6579" id="d1e6579" data-origname="cell">78.2</tei-cell>
+                  <tei-cell n="2" xml:id="d1e6582" id="d1e6582" data-origname="cell">quod ⟨regnum⟩</tei-cell>
+                  <tei-cell n="3" xml:id="d1e6585" id="d1e6585" data-origname="cell">quod</tei-cell>
+               </tei-row>
+               <tei-row xml:id="d1e6589" id="d1e6589" data-origname="row">
+                  <tei-cell n="1" xml:id="d1e6591" id="d1e6591" data-origname="cell" data-empty="">​</tei-cell>
                </tei-row>
             </tei-table>
          </tei-div></tei-front></tei-text></tei-TEI></div>

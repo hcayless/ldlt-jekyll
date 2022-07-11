@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM jekyll/jekyll
 RUN apt-get update && apt-get -y install openjdk-11-jdk-headless \
   wget \
   zip \

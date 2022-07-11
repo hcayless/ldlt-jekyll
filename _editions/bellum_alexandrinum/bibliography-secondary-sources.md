@@ -147,281 +147,281 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
        </tei-refsDecl>
      </tei-encodingDesc>
    </tei-teiHeader><tei-TEI xml:id="d1e3" id="d1e3" data-origname="TEI"><tei-text xml:id="d1e277" id="d1e277" data-origname="text"><tei-front xml:id="front" id="front" data-origname="front"><tei-div type="section" xml:id="bibliography" id="bibliography" data-origname="div"><tei-div type="section" xml:id="bibliography-secondary-sources" id="bibliography-secondary-sources" data-origname="div">
-               <tei-head xml:id="d1e3976" id="d1e3976" data-origname="head">Other Sources</tei-head>
+               <tei-head xml:id="d1e3975" id="d1e3975" data-origname="head">Other Sources</tei-head>
                <tei-listBibl xml:id="secondary-sources" id="secondary-sources" data-origname="listBibl">
 
-                  <tei-bibl xml:id="Baehrens1912" id="Baehrens1912" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3981" id="d1e3981" data-origname="abbr">Baehrens</tei-abbr> <tei-author xml:id="d1e3984" id="d1e3984" data-origname="author">Baehrens,
+                  <tei-bibl xml:id="Baehrens1912" id="Baehrens1912" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3980" id="d1e3980" data-origname="abbr">Baehrens</tei-abbr> <tei-author xml:id="d1e3983" id="d1e3983" data-origname="author">Baehrens,
                         W. A.</tei-author>
-                     <tei-title xml:id="d1e3986" id="d1e3986" data-origname="title">Beitraege Zur Lateinischen Syntax</tei-title>. <tei-pubPlace xml:id="d1e3988" id="d1e3988" data-origname="pubPlace">Leipzig</tei-pubPlace>.
-                        <tei-date xml:id="d1e3990" id="d1e3990" data-origname="date">1912</tei-date>.</tei-bibl>
+                     <tei-title xml:id="d1e3985" id="d1e3985" data-origname="title">Beitraege Zur Lateinischen Syntax</tei-title>. <tei-pubPlace xml:id="d1e3987" id="d1e3987" data-origname="pubPlace">Leipzig</tei-pubPlace>.
+                        <tei-date xml:id="d1e3989" id="d1e3989" data-origname="date">1912</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Barwick" id="Barwick" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3994" id="d1e3994" data-origname="abbr">Barwick</tei-abbr> <tei-author xml:id="d1e3997" id="d1e3997" data-origname="author">Barwick,
-                        K</tei-author>. <tei-title xml:id="d1e3999" id="d1e3999" data-origname="title">Caesars Commentarii und das Corpus Caesarianum</tei-title>.
-                        <tei-pubPlace xml:id="d1e4001" id="d1e4001" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e4003" id="d1e4003" data-origname="date">1938</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Barwick" id="Barwick" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e3993" id="d1e3993" data-origname="abbr">Barwick</tei-abbr> <tei-author xml:id="d1e3996" id="d1e3996" data-origname="author">Barwick,
+                        K</tei-author>. <tei-title xml:id="d1e3998" id="d1e3998" data-origname="title">Caesars Commentarii und das Corpus Caesarianum</tei-title>.
+                        <tei-pubPlace xml:id="d1e4000" id="d1e4000" data-origname="pubPlace">Leipzig</tei-pubPlace>. <tei-date xml:id="d1e4002" id="d1e4002" data-origname="date">1938</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Broughton" id="Broughton" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4007" id="d1e4007" data-origname="abbr">Broughton</tei-abbr> <tei-author xml:id="d1e4010" id="d1e4010" data-origname="author">Broughton, T.
-                        Robert S</tei-author>. <tei-title xml:id="d1e4012" id="d1e4012" data-origname="title">The Magistrates of the Roman Republic</tei-title>. 2
-                     vols. <tei-pubPlace xml:id="d1e4014" id="d1e4014" data-origname="pubPlace">Cleveland</tei-pubPlace>. <tei-date xml:id="d1e4016" id="d1e4016" data-origname="date">1968</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Broughton" id="Broughton" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4006" id="d1e4006" data-origname="abbr">Broughton</tei-abbr> <tei-author xml:id="d1e4009" id="d1e4009" data-origname="author">Broughton, T.
+                        Robert S</tei-author>. <tei-title xml:id="d1e4011" id="d1e4011" data-origname="title">The Magistrates of the Roman Republic</tei-title>. 2
+                     vols. <tei-pubPlace xml:id="d1e4013" id="d1e4013" data-origname="pubPlace">Cleveland</tei-pubPlace>. <tei-date xml:id="d1e4015" id="d1e4015" data-origname="date">1968</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Brown" id="Brown" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4020" id="d1e4020" data-origname="abbr">Brown</tei-abbr> <tei-author xml:id="d1e4023" id="d1e4023" data-origname="author">Brown,
-                        Virginia</tei-author>. <tei-title xml:id="d1e4025" id="d1e4025" data-origname="title">The Textual Transmission of Caesar’s Civil
-                        War</tei-title>. <tei-pubPlace xml:id="d1e4027" id="d1e4027" data-origname="pubPlace">Leiden</tei-pubPlace>. <tei-date xml:id="d1e4029" id="d1e4029" data-origname="date">1972</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Brown" id="Brown" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4019" id="d1e4019" data-origname="abbr">Brown</tei-abbr> <tei-author xml:id="d1e4022" id="d1e4022" data-origname="author">Brown,
+                        Virginia</tei-author>. <tei-title xml:id="d1e4024" id="d1e4024" data-origname="title">The Textual Transmission of Caesar’s Civil
+                        War</tei-title>. <tei-pubPlace xml:id="d1e4026" id="d1e4026" data-origname="pubPlace">Leiden</tei-pubPlace>. <tei-date xml:id="d1e4028" id="d1e4028" data-origname="date">1972</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Carter" id="Carter" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4033" id="d1e4033" data-origname="abbr">Carter</tei-abbr> <tei-author xml:id="d1e4036" id="d1e4036" data-origname="author">Carter, J.
-                        M.</tei-author>, trans. <tei-title xml:id="d1e4038" id="d1e4038" data-origname="title">Julius Caesar, The Civil War</tei-title>.
-                        <tei-pubPlace xml:id="d1e4040" id="d1e4040" data-origname="pubPlace">Oxford</tei-pubPlace>. <tei-date xml:id="d1e4042" id="d1e4042" data-origname="date">1997</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Carter" id="Carter" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4032" id="d1e4032" data-origname="abbr">Carter</tei-abbr> <tei-author xml:id="d1e4035" id="d1e4035" data-origname="author">Carter, J.
+                        M.</tei-author>, trans. <tei-title xml:id="d1e4037" id="d1e4037" data-origname="title">Julius Caesar, The Civil War</tei-title>.
+                        <tei-pubPlace xml:id="d1e4039" id="d1e4039" data-origname="pubPlace">Oxford</tei-pubPlace>. <tei-date xml:id="d1e4041" id="d1e4041" data-origname="date">1997</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Castiglioni" id="Castiglioni" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4047" id="d1e4047" data-origname="abbr">Castiglioni</tei-abbr>
-                     <tei-author xml:id="d1e4050" id="d1e4050" data-origname="author">Castiglioni, L.</tei-author>
-                     <tei-title level="a" xml:id="d1e4052" id="d1e4052" data-origname="title">Intorno a Cesare ed ai suoi continuatori (Bellum Civile,
-                        Africanum, Alexandrinum)</tei-title>. <tei-title level="j" xml:id="d1e4055" id="d1e4055" data-origname="title">Athenaeum</tei-title> n.s.
-                        <tei-biblScope unit="volume" xml:id="d1e4058" id="d1e4058" data-origname="biblScope">11</tei-biblScope> (<tei-date xml:id="d1e4061" id="d1e4061" data-origname="date">1924</tei-date>): <tei-biblScope unit="page" xml:id="d1e4064" id="d1e4064" data-origname="biblScope">229–40</tei-biblScope>.</tei-bibl>
+                  <tei-bibl xml:id="Castiglioni" id="Castiglioni" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4046" id="d1e4046" data-origname="abbr">Castiglioni</tei-abbr>
+                     <tei-author xml:id="d1e4049" id="d1e4049" data-origname="author">Castiglioni, L.</tei-author>
+                     <tei-title level="a" xml:id="d1e4051" id="d1e4051" data-origname="title">Intorno a Cesare ed ai suoi continuatori (Bellum Civile,
+                        Africanum, Alexandrinum)</tei-title>. <tei-title level="j" xml:id="d1e4054" id="d1e4054" data-origname="title">Athenaeum</tei-title> n.s.
+                        <tei-biblScope unit="volume" xml:id="d1e4057" id="d1e4057" data-origname="biblScope">11</tei-biblScope> (<tei-date xml:id="d1e4060" id="d1e4060" data-origname="date">1924</tei-date>): <tei-biblScope unit="page" xml:id="d1e4063" id="d1e4063" data-origname="biblScope">229–40</tei-biblScope>.</tei-bibl>
 
-                  <tei-bibl xml:id="Ciaffi-Griffa" id="Ciaffi-Griffa" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4069" id="d1e4069" data-origname="abbr">Ciaffi-Griffa</tei-abbr> <tei-author xml:id="d1e4072" id="d1e4072" data-origname="author">Ciaffi, Raffaele and Ludovico Griffa,
-                        eds</tei-author>. <tei-title xml:id="d1e4074" id="d1e4074" data-origname="title">Gaio Giulio Cesare, Opere</tei-title>.
-                        <tei-pubPlace xml:id="d1e4076" id="d1e4076" data-origname="pubPlace">Turin</tei-pubPlace>. <tei-date xml:id="d1e4078" id="d1e4078" data-origname="date">2008</tei-date>. (First editions 1952 and
+                  <tei-bibl xml:id="Ciaffi-Griffa" id="Ciaffi-Griffa" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4068" id="d1e4068" data-origname="abbr">Ciaffi-Griffa</tei-abbr> <tei-author xml:id="d1e4071" id="d1e4071" data-origname="author">Ciaffi, Raffaele and Ludovico Griffa,
+                        eds</tei-author>. <tei-title xml:id="d1e4073" id="d1e4073" data-origname="title">Gaio Giulio Cesare, Opere</tei-title>.
+                        <tei-pubPlace xml:id="d1e4075" id="d1e4075" data-origname="pubPlace">Turin</tei-pubPlace>. <tei-date xml:id="d1e4077" id="d1e4077" data-origname="date">2008</tei-date>. (First editions 1952 and
                      1973.)</tei-bibl>
 
-                  <tei-bibl xml:id="Cornelissen" id="Cornelissen" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4082" id="d1e4082" data-origname="abbr">Cornelissen</tei-abbr>
-                     <tei-author xml:id="d1e4085" id="d1e4085" data-origname="author">Cornelissen, J. J.</tei-author>
-                     <tei-title level="a" xml:id="d1e4087" id="d1e4087" data-origname="title">Adversaria critica</tei-title>. <tei-title level="j" xml:id="d1e4090" id="d1e4090" data-origname="title">Mnemosyne</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4093" id="d1e4093" data-origname="biblScope">17</tei-biblScope> (<tei-date xml:id="d1e4096" id="d1e4096" data-origname="date">1889</tei-date>): <tei-biblScope unit="page" xml:id="d1e4099" id="d1e4099" data-origname="biblScope">44–55</tei-biblScope>.</tei-bibl>
+                  <tei-bibl xml:id="Cornelissen" id="Cornelissen" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4081" id="d1e4081" data-origname="abbr">Cornelissen</tei-abbr>
+                     <tei-author xml:id="d1e4084" id="d1e4084" data-origname="author">Cornelissen, J. J.</tei-author>
+                     <tei-title level="a" xml:id="d1e4086" id="d1e4086" data-origname="title">Adversaria critica</tei-title>. <tei-title level="j" xml:id="d1e4089" id="d1e4089" data-origname="title">Mnemosyne</tei-title>
+                     <tei-biblScope unit="volume" xml:id="d1e4092" id="d1e4092" data-origname="biblScope">17</tei-biblScope> (<tei-date xml:id="d1e4095" id="d1e4095" data-origname="date">1889</tei-date>): <tei-biblScope unit="page" xml:id="d1e4098" id="d1e4098" data-origname="biblScope">44–55</tei-biblScope>.</tei-bibl>
 
-                  <tei-bibl xml:id="Damon2015a" id="Damon2015a" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4104" id="d1e4104" data-origname="abbr">Damon 2015a</tei-abbr> <tei-author xml:id="d1e4107" id="d1e4107" data-origname="author">Damon,
-                        C.</tei-author>, ed. <tei-title xml:id="d1e4109" id="d1e4109" data-origname="title">C. Iuli Caesaris commentariorum: Libri III de bello
-                        civili</tei-title>. <tei-pubPlace xml:id="d1e4111" id="d1e4111" data-origname="pubPlace">Oxford</tei-pubPlace>. <tei-date xml:id="d1e4113" id="d1e4113" data-origname="date">2015</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Damon2015a" id="Damon2015a" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4103" id="d1e4103" data-origname="abbr">Damon 2015a</tei-abbr> <tei-author xml:id="d1e4106" id="d1e4106" data-origname="author">Damon,
+                        C.</tei-author>, ed. <tei-title xml:id="d1e4108" id="d1e4108" data-origname="title">C. Iuli Caesaris commentariorum: Libri III de bello
+                        civili</tei-title>. <tei-pubPlace xml:id="d1e4110" id="d1e4110" data-origname="pubPlace">Oxford</tei-pubPlace>. <tei-date xml:id="d1e4112" id="d1e4112" data-origname="date">2015</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Damon2015b" id="Damon2015b" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4117" id="d1e4117" data-origname="abbr">Damon 2015b</tei-abbr> <tei-author xml:id="d1e4120" id="d1e4120" data-origname="author">Damon,
-                        Cynthia</tei-author>. <tei-title xml:id="d1e4122" id="d1e4122" data-origname="title">Studies on the text of Caesar’s Bellum
-                        civile</tei-title>. <tei-pubPlace xml:id="d1e4124" id="d1e4124" data-origname="pubPlace">Oxford</tei-pubPlace>. <tei-date xml:id="d1e4126" id="d1e4126" data-origname="date">2015</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Damon2015b" id="Damon2015b" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4116" id="d1e4116" data-origname="abbr">Damon 2015b</tei-abbr> <tei-author xml:id="d1e4119" id="d1e4119" data-origname="author">Damon,
+                        Cynthia</tei-author>. <tei-title xml:id="d1e4121" id="d1e4121" data-origname="title">Studies on the text of Caesar’s Bellum
+                        civile</tei-title>. <tei-pubPlace xml:id="d1e4123" id="d1e4123" data-origname="pubPlace">Oxford</tei-pubPlace>. <tei-date xml:id="d1e4125" id="d1e4125" data-origname="date">2015</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Damon2020" id="Damon2020" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4130" id="d1e4130" data-origname="abbr">Damon 2020</tei-abbr> <tei-author xml:id="d1e4133" id="d1e4133" data-origname="author">Damon,
-                        Cynthia</tei-author>. <tei-title level="a" xml:id="d1e4135" id="d1e4135" data-origname="title">On (authorial and other) parentheses in
-                        Caesar’s <tei-hi rend="normal" xml:id="d1e4137" id="d1e4137" data-origname="hi">commentarii</tei-hi>.</tei-title> In L. Curtis and I.
-                     Peirano Garrison, eds. <tei-title level="m" xml:id="d1e4141" id="d1e4141" data-origname="title">The lives of Latin texts</tei-title>.
-                        <tei-pubPlace xml:id="d1e4144" id="d1e4144" data-origname="pubPlace">Cambridge, MA</tei-pubPlace>. <tei-biblScope unit="page" xml:id="d1e4146" id="d1e4146" data-origname="biblScope">55–89</tei-biblScope>. <tei-date xml:id="d1e4150" id="d1e4150" data-origname="date">2020</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Damon2020" id="Damon2020" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4129" id="d1e4129" data-origname="abbr">Damon 2020</tei-abbr> <tei-author xml:id="d1e4132" id="d1e4132" data-origname="author">Damon,
+                        Cynthia</tei-author>. <tei-title level="a" xml:id="d1e4134" id="d1e4134" data-origname="title">On (authorial and other) parentheses in
+                        Caesar’s <tei-hi rend="normal" xml:id="d1e4136" id="d1e4136" data-origname="hi">commentarii</tei-hi>.</tei-title> In L. Curtis and I.
+                     Peirano Garrison, eds. <tei-title level="m" xml:id="d1e4140" id="d1e4140" data-origname="title">The lives of Latin texts</tei-title>.
+                        <tei-pubPlace xml:id="d1e4143" id="d1e4143" data-origname="pubPlace">Cambridge, MA</tei-pubPlace>. <tei-biblScope unit="page" xml:id="d1e4145" id="d1e4145" data-origname="biblScope">55–89</tei-biblScope>. <tei-date xml:id="d1e4149" id="d1e4149" data-origname="date">2020</tei-date>.</tei-bibl>
 
                   
 
-                  <tei-bibl xml:id="Domaszewski" id="Domaszewski" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4157" id="d1e4157" data-origname="abbr">Domaszewski</tei-abbr> A. von
-                     Domaszewski. <tei-title level="a" xml:id="d1e4160" id="d1e4160" data-origname="title">Die Heere der Bürgerkriege in den Jahren 49 bis
-                        42 vor Christus</tei-title>. <tei-title level="j" xml:id="d1e4163" id="d1e4163" data-origname="title">Neue Heidelberger
+                  <tei-bibl xml:id="Domaszewski" id="Domaszewski" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4156" id="d1e4156" data-origname="abbr">Domaszewski</tei-abbr> A. von
+                     Domaszewski. <tei-title level="a" xml:id="d1e4159" id="d1e4159" data-origname="title">Die Heere der Bürgerkriege in den Jahren 49 bis
+                        42 vor Christus</tei-title>. <tei-title level="j" xml:id="d1e4162" id="d1e4162" data-origname="title">Neue Heidelberger
                         Jahrbücher</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4166" id="d1e4166" data-origname="biblScope">4</tei-biblScope> (<tei-date xml:id="d1e4169" id="d1e4169" data-origname="date">1894</tei-date>): <tei-biblScope unit="page" xml:id="d1e4171" id="d1e4171" data-origname="biblScope">157–188</tei-biblScope>.</tei-bibl>
+                     <tei-biblScope unit="volume" xml:id="d1e4165" id="d1e4165" data-origname="biblScope">4</tei-biblScope> (<tei-date xml:id="d1e4168" id="d1e4168" data-origname="date">1894</tei-date>): <tei-biblScope unit="page" xml:id="d1e4170" id="d1e4170" data-origname="biblScope">157–188</tei-biblScope>.</tei-bibl>
 
-                  <tei-bibl xml:id="Fischer" id="Fischer" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4176" id="d1e4176" data-origname="abbr">Fischer</tei-abbr> <tei-author xml:id="d1e4179" id="d1e4179" data-origname="author">Fischer,
-                        Eduard</tei-author>. <tei-title xml:id="d1e4181" id="d1e4181" data-origname="title">Das achte Buch vom Gallischem Kriege und das Bellum
-                        Alexandrinum: Eine Studie</tei-title>. <tei-pubPlace xml:id="d1e4183" id="d1e4183" data-origname="pubPlace">Passau</tei-pubPlace>.
-                        <tei-date xml:id="d1e4185" id="d1e4185" data-origname="date">1880</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/uc1.$b62477" xml:id="d1e4187" id="d1e4187" data-origname="ptr" data-empty="">​</tei-ptr></tei-bibl>
+                  <tei-bibl xml:id="Fischer" id="Fischer" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4175" id="d1e4175" data-origname="abbr">Fischer</tei-abbr> <tei-author xml:id="d1e4178" id="d1e4178" data-origname="author">Fischer,
+                        Eduard</tei-author>. <tei-title xml:id="d1e4180" id="d1e4180" data-origname="title">Das achte Buch vom Gallischem Kriege und das Bellum
+                        Alexandrinum: Eine Studie</tei-title>. <tei-pubPlace xml:id="d1e4182" id="d1e4182" data-origname="pubPlace">Passau</tei-pubPlace>.
+                        <tei-date xml:id="d1e4184" id="d1e4184" data-origname="date">1880</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/uc1.$b62477" xml:id="d1e4186" id="d1e4186" data-origname="ptr" data-empty="">​</tei-ptr></tei-bibl>
 
-                  <tei-bibl xml:id="Fleischer" id="Fleischer" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4190" id="d1e4190" data-origname="abbr">Fleischer</tei-abbr> <tei-author xml:id="d1e4193" id="d1e4193" data-origname="author">Fleischer,
-                        Curt</tei-author>. <tei-title level="a" xml:id="d1e4195" id="d1e4195" data-origname="title">Zu Caesar und seinen Fortsetzern</tei-title>.
-                        <tei-title level="j" xml:id="d1e4198" id="d1e4198" data-origname="title">Neue Jahrbücher für Philologie und Pädagogik</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4201" id="d1e4201" data-origname="biblScope">119</tei-biblScope> (<tei-date xml:id="d1e4204" id="d1e4204" data-origname="date">1879</tei-date>): <tei-biblScope unit="page" xml:id="d1e4207" id="d1e4207" data-origname="biblScope">849–67</tei-biblScope>. URL: <tei-ptr target="https://hdl.handle.net/2027/uc1.b3013858?urlappend=%3Bseq=899" xml:id="d1e4210" id="d1e4210" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Fleischer" id="Fleischer" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4189" id="d1e4189" data-origname="abbr">Fleischer</tei-abbr> <tei-author xml:id="d1e4192" id="d1e4192" data-origname="author">Fleischer,
+                        Curt</tei-author>. <tei-title level="a" xml:id="d1e4194" id="d1e4194" data-origname="title">Zu Caesar und seinen Fortsetzern</tei-title>.
+                        <tei-title level="j" xml:id="d1e4197" id="d1e4197" data-origname="title">Neue Jahrbücher für Philologie und Pädagogik</tei-title>
+                     <tei-biblScope unit="volume" xml:id="d1e4200" id="d1e4200" data-origname="biblScope">119</tei-biblScope> (<tei-date xml:id="d1e4203" id="d1e4203" data-origname="date">1879</tei-date>): <tei-biblScope unit="page" xml:id="d1e4206" id="d1e4206" data-origname="biblScope">849–67</tei-biblScope>. URL: <tei-ptr target="https://hdl.handle.net/2027/uc1.b3013858?urlappend=%3Bseq=899" xml:id="d1e4209" id="d1e4209" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Forchhammer" id="Forchhammer" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4214" id="d1e4214" data-origname="abbr">Forchhammer</tei-abbr>
-                     <tei-author xml:id="d1e4217" id="d1e4217" data-origname="author">Forchhammer, J. N. G.</tei-author>
-                     <tei-title level="m" xml:id="d1e4219" id="d1e4219" data-origname="title">Quaestiones criticae de vera commentarios de bellis civili,
+                  <tei-bibl xml:id="Forchhammer" id="Forchhammer" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4213" id="d1e4213" data-origname="abbr">Forchhammer</tei-abbr>
+                     <tei-author xml:id="d1e4216" id="d1e4216" data-origname="author">Forchhammer, J. N. G.</tei-author>
+                     <tei-title level="m" xml:id="d1e4218" id="d1e4218" data-origname="title">Quaestiones criticae de vera commentarios de bellis civili,
                         Alexandrino, Africano, Hispaniensi emendandi ratione</tei-title>.
-                        <tei-pubPlace xml:id="d1e4222" id="d1e4222" data-origname="pubPlace">Copenhagen</tei-pubPlace>. <tei-date xml:id="d1e4224" id="d1e4224" data-origname="date">1852</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/njp.32101065205849" xml:id="d1e4226" id="d1e4226" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                        <tei-pubPlace xml:id="d1e4221" id="d1e4221" data-origname="pubPlace">Copenhagen</tei-pubPlace>. <tei-date xml:id="d1e4223" id="d1e4223" data-origname="date">1852</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/njp.32101065205849" xml:id="d1e4225" id="d1e4225" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Gaertner-Hausburg" id="Gaertner-Hausburg" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4230" id="d1e4230" data-origname="abbr">Gaertner-Hausburg</tei-abbr> <tei-author xml:id="d1e4233" id="d1e4233" data-origname="author">Gaertner, J. F.</tei-author>, and <tei-author xml:id="d1e4235" id="d1e4235" data-origname="author">B.
-                        Hausburg</tei-author>. <tei-title level="m" xml:id="d1e4237" id="d1e4237" data-origname="title">Caesar and the Bellum Alexandrinum: An
+                  <tei-bibl xml:id="Gaertner-Hausburg" id="Gaertner-Hausburg" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4229" id="d1e4229" data-origname="abbr">Gaertner-Hausburg</tei-abbr> <tei-author xml:id="d1e4232" id="d1e4232" data-origname="author">Gaertner, J. F.</tei-author>, and <tei-author xml:id="d1e4234" id="d1e4234" data-origname="author">B.
+                        Hausburg</tei-author>. <tei-title level="m" xml:id="d1e4236" id="d1e4236" data-origname="title">Caesar and the Bellum Alexandrinum: An
                         analysis of style, narrative technique, and the reception of Greek
-                        historiography</tei-title>. <tei-title level="j" xml:id="d1e4240" id="d1e4240" data-origname="title">Hypomnemata</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4243" id="d1e4243" data-origname="biblScope">192</tei-biblScope>. <tei-pubPlace xml:id="d1e4247" id="d1e4247" data-origname="pubPlace">Göttingen</tei-pubPlace>.
-                        <tei-date xml:id="d1e4249" id="d1e4249" data-origname="date">2013</tei-date>.</tei-bibl>
+                        historiography</tei-title>. <tei-title level="j" xml:id="d1e4239" id="d1e4239" data-origname="title">Hypomnemata</tei-title>
+                     <tei-biblScope unit="volume" xml:id="d1e4242" id="d1e4242" data-origname="biblScope">192</tei-biblScope>. <tei-pubPlace xml:id="d1e4246" id="d1e4246" data-origname="pubPlace">Göttingen</tei-pubPlace>.
+                        <tei-date xml:id="d1e4248" id="d1e4248" data-origname="date">2013</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Gemoll" id="Gemoll" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4253" id="d1e4253" data-origname="abbr">Gemoll</tei-abbr> <tei-author xml:id="d1e4256" id="d1e4256" data-origname="author">Gemoll, W.</tei-author>
-                     <tei-title level="a" xml:id="d1e4258" id="d1e4258" data-origname="title">Zu Caesar und seinen Fortsetzern</tei-title>. <tei-title level="j" xml:id="d1e4261" id="d1e4261" data-origname="title">Jahrbücher für klassische Philologie</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4264" id="d1e4264" data-origname="biblScope">119</tei-biblScope> (<tei-date xml:id="d1e4267" id="d1e4267" data-origname="date">1879</tei-date>): <tei-biblScope unit="page" xml:id="d1e4270" id="d1e4270" data-origname="biblScope">267–70</tei-biblScope>. URL: <tei-ptr target="https://hdl.handle.net/2027/uc1.b3013858?urlappend=%3Bseq=317" xml:id="d1e4273" id="d1e4273" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Gemoll" id="Gemoll" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4252" id="d1e4252" data-origname="abbr">Gemoll</tei-abbr> <tei-author xml:id="d1e4255" id="d1e4255" data-origname="author">Gemoll, W.</tei-author>
+                     <tei-title level="a" xml:id="d1e4257" id="d1e4257" data-origname="title">Zu Caesar und seinen Fortsetzern</tei-title>. <tei-title level="j" xml:id="d1e4260" id="d1e4260" data-origname="title">Jahrbücher für klassische Philologie</tei-title>
+                     <tei-biblScope unit="volume" xml:id="d1e4263" id="d1e4263" data-origname="biblScope">119</tei-biblScope> (<tei-date xml:id="d1e4266" id="d1e4266" data-origname="date">1879</tei-date>): <tei-biblScope unit="page" xml:id="d1e4269" id="d1e4269" data-origname="biblScope">267–70</tei-biblScope>. URL: <tei-ptr target="https://hdl.handle.net/2027/uc1.b3013858?urlappend=%3Bseq=317" xml:id="d1e4272" id="d1e4272" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Graindor" id="Graindor" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4278" id="d1e4278" data-origname="abbr">Graindor</tei-abbr> <tei-author xml:id="d1e4281" id="d1e4281" data-origname="author">Graindor,
-                        P</tei-author>. <tei-title xml:id="d1e4283" id="d1e4283" data-origname="title">La guerre d’Alexandrie</tei-title>.
-                        <tei-pubPlace xml:id="d1e4285" id="d1e4285" data-origname="pubPlace">Cairo</tei-pubPlace>. <tei-date xml:id="d1e4287" id="d1e4287" data-origname="date">1931</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Graindor" id="Graindor" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4277" id="d1e4277" data-origname="abbr">Graindor</tei-abbr> <tei-author xml:id="d1e4280" id="d1e4280" data-origname="author">Graindor,
+                        P</tei-author>. <tei-title xml:id="d1e4282" id="d1e4282" data-origname="title">La guerre d’Alexandrie</tei-title>.
+                        <tei-pubPlace xml:id="d1e4284" id="d1e4284" data-origname="pubPlace">Cairo</tei-pubPlace>. <tei-date xml:id="d1e4286" id="d1e4286" data-origname="date">1931</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Hedicke" id="Hedicke" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4291" id="d1e4291" data-origname="abbr">Hedicke</tei-abbr> <tei-author xml:id="d1e4294" id="d1e4294" data-origname="author">Hedicke,
-                        Edmundus</tei-author>. <tei-title level="a" xml:id="d1e4296" id="d1e4296" data-origname="title">Scholia in Caesarem et Sallustium (Varia
-                        II)</tei-title>. <tei-title level="j" xml:id="d1e4299" id="d1e4299" data-origname="title">Programm des königlichen Gymnasiums zu
-                        Quedlinburg</tei-title> (<tei-date xml:id="d1e4302" id="d1e4302" data-origname="date">1879</tei-date>): <tei-biblScope unit="page" xml:id="d1e4304" id="d1e4304" data-origname="biblScope">9–18</tei-biblScope>.</tei-bibl>
+                  <tei-bibl xml:id="Hedicke" id="Hedicke" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4290" id="d1e4290" data-origname="abbr">Hedicke</tei-abbr> <tei-author xml:id="d1e4293" id="d1e4293" data-origname="author">Hedicke,
+                        Edmundus</tei-author>. <tei-title level="a" xml:id="d1e4295" id="d1e4295" data-origname="title">Scholia in Caesarem et Sallustium (Varia
+                        II)</tei-title>. <tei-title level="j" xml:id="d1e4298" id="d1e4298" data-origname="title">Programm des königlichen Gymnasiums zu
+                        Quedlinburg</tei-title> (<tei-date xml:id="d1e4301" id="d1e4301" data-origname="date">1879</tei-date>): <tei-biblScope unit="page" xml:id="d1e4303" id="d1e4303" data-origname="biblScope">9–18</tei-biblScope>.</tei-bibl>
 
-                  <tei-bibl xml:id="Hering" id="Hering" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4309" id="d1e4309" data-origname="abbr">Hering</tei-abbr> <tei-author xml:id="d1e4312" id="d1e4312" data-origname="author">Hering,
-                        Wolfgang</tei-author>. <tei-title xml:id="d1e4314" id="d1e4314" data-origname="title">Die Recensio der Caesarhandschriften</tei-title>.
-                        <tei-pubPlace xml:id="d1e4316" id="d1e4316" data-origname="pubPlace">Berlin</tei-pubPlace>. <tei-date xml:id="d1e4318" id="d1e4318" data-origname="date">1963</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Hering" id="Hering" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4308" id="d1e4308" data-origname="abbr">Hering</tei-abbr> <tei-author xml:id="d1e4311" id="d1e4311" data-origname="author">Hering,
+                        Wolfgang</tei-author>. <tei-title xml:id="d1e4313" id="d1e4313" data-origname="title">Die Recensio der Caesarhandschriften</tei-title>.
+                        <tei-pubPlace xml:id="d1e4315" id="d1e4315" data-origname="pubPlace">Berlin</tei-pubPlace>. <tei-date xml:id="d1e4317" id="d1e4317" data-origname="date">1963</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Hübner" id="Hübner" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4322" id="d1e4322" data-origname="abbr">Hübner</tei-abbr> <tei-editor xml:id="d1e4325" id="d1e4325" data-origname="editor">Emil
-                        Hübner</tei-editor>, ed. <tei-title xml:id="d1e4327" id="d1e4327" data-origname="title">Inscriptiones Hispanie Latinae. Corpus
-                        Inscriptionum Latinarum. Vol. II</tei-title>. <tei-pubPlace xml:id="d1e4329" id="d1e4329" data-origname="pubPlace">Berlin</tei-pubPlace>:
-                        <tei-publisher xml:id="d1e4331" id="d1e4331" data-origname="publisher">G. Reimerum</tei-publisher>. <tei-date xml:id="d1e4333" id="d1e4333" data-origname="date">1869–92</tei-date>. URL: <tei-ptr target="http://arachne.uni-koeln.de/books/CILvII1869" xml:id="d1e4336" id="d1e4336" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Hübner" id="Hübner" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4321" id="d1e4321" data-origname="abbr">Hübner</tei-abbr> <tei-editor xml:id="d1e4324" id="d1e4324" data-origname="editor">Emil
+                        Hübner</tei-editor>, ed. <tei-title xml:id="d1e4326" id="d1e4326" data-origname="title">Inscriptiones Hispanie Latinae. Corpus
+                        Inscriptionum Latinarum. Vol. II</tei-title>. <tei-pubPlace xml:id="d1e4328" id="d1e4328" data-origname="pubPlace">Berlin</tei-pubPlace>:
+                        <tei-publisher xml:id="d1e4330" id="d1e4330" data-origname="publisher">G. Reimerum</tei-publisher>. <tei-date xml:id="d1e4332" id="d1e4332" data-origname="date">1869–92</tei-date>. URL: <tei-ptr target="http://arachne.uni-koeln.de/books/CILvII1869" xml:id="d1e4335" id="d1e4335" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Kraffert" id="Kraffert" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4340" id="d1e4340" data-origname="abbr">Kraffert</tei-abbr> <tei-author xml:id="d1e4343" id="d1e4343" data-origname="author">Kraffert,
-                        Hermann</tei-author>. <tei-title level="m" xml:id="d1e4345" id="d1e4345" data-origname="title">Beiträge zur Kritik und Erklärung
-                        lateinischer Autoren</tei-title>. <tei-pubPlace xml:id="d1e4348" id="d1e4348" data-origname="pubPlace">Aurich</tei-pubPlace>.
-                     <tei-date xml:id="d1e4350" id="d1e4350" data-origname="date">1882</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Kraffert" id="Kraffert" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4339" id="d1e4339" data-origname="abbr">Kraffert</tei-abbr> <tei-author xml:id="d1e4342" id="d1e4342" data-origname="author">Kraffert,
+                        Hermann</tei-author>. <tei-title level="m" xml:id="d1e4344" id="d1e4344" data-origname="title">Beiträge zur Kritik und Erklärung
+                        lateinischer Autoren</tei-title>. <tei-pubPlace xml:id="d1e4347" id="d1e4347" data-origname="pubPlace">Aurich</tei-pubPlace>.
+                     <tei-date xml:id="d1e4349" id="d1e4349" data-origname="date">1882</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Kübler1896b" id="Kübler1896b" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4354" id="d1e4354" data-origname="abbr">Kübler 1896b</tei-abbr> <tei-author xml:id="d1e4357" id="d1e4357" data-origname="author">Kübler,
-                        B.</tei-author>. <tei-title level="a" xml:id="d1e4359" id="d1e4359" data-origname="title">Recisamenta critica</tei-title>. <tei-title level="j" xml:id="d1e4362" id="d1e4362" data-origname="title">Philologus</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4365" id="d1e4365" data-origname="biblScope">55</tei-biblScope> (<tei-date xml:id="d1e4368" id="d1e4368" data-origname="date">1896</tei-date>): <tei-biblScope unit="page" xml:id="d1e4371" id="d1e4371" data-origname="biblScope">154–59</tei-biblScope>. URL: <tei-ptr target="https://hdl.handle.net/2027/mdp.39015029918151?urlappend=%3Bseq=214" xml:id="d1e4374" id="d1e4374" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Kübler1896b" id="Kübler1896b" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4353" id="d1e4353" data-origname="abbr">Kübler 1896b</tei-abbr> <tei-author xml:id="d1e4356" id="d1e4356" data-origname="author">Kübler,
+                        B.</tei-author>. <tei-title level="a" xml:id="d1e4358" id="d1e4358" data-origname="title">Recisamenta critica</tei-title>. <tei-title level="j" xml:id="d1e4361" id="d1e4361" data-origname="title">Philologus</tei-title>
+                     <tei-biblScope unit="volume" xml:id="d1e4364" id="d1e4364" data-origname="biblScope">55</tei-biblScope> (<tei-date xml:id="d1e4367" id="d1e4367" data-origname="date">1896</tei-date>): <tei-biblScope unit="page" xml:id="d1e4370" id="d1e4370" data-origname="biblScope">154–59</tei-biblScope>. URL: <tei-ptr target="https://hdl.handle.net/2027/mdp.39015029918151?urlappend=%3Bseq=214" xml:id="d1e4373" id="d1e4373" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Landgraf1888" id="Landgraf1888" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4379" id="d1e4379" data-origname="abbr">Landgraf
-                        1888</tei-abbr> <tei-author xml:id="d1e4382" id="d1e4382" data-origname="author">Landgraf, G</tei-author>. <tei-title xml:id="d1e4384" id="d1e4384" data-origname="title">Untersuchungen zu Caesar und
+                  <tei-bibl xml:id="Landgraf1888" id="Landgraf1888" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4378" id="d1e4378" data-origname="abbr">Landgraf
+                        1888</tei-abbr> <tei-author xml:id="d1e4381" id="d1e4381" data-origname="author">Landgraf, G</tei-author>. <tei-title xml:id="d1e4383" id="d1e4383" data-origname="title">Untersuchungen zu Caesar und
                         seinen Fortsetzern insbesondere über Autorschaft und Komposition des Bellum
-                        Alexandrinum und Africanum</tei-title>. <tei-pubPlace xml:id="d1e4386" id="d1e4386" data-origname="pubPlace">Erlangen</tei-pubPlace>.
-                        <tei-date xml:id="d1e4388" id="d1e4388" data-origname="date">1888</tei-date>. URL: <tei-ptr target="https://archive.org/details/untersuchungenzu00landuoft" xml:id="d1e4390" id="d1e4390" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                        Alexandrinum und Africanum</tei-title>. <tei-pubPlace xml:id="d1e4385" id="d1e4385" data-origname="pubPlace">Erlangen</tei-pubPlace>.
+                        <tei-date xml:id="d1e4387" id="d1e4387" data-origname="date">1888</tei-date>. URL: <tei-ptr target="https://archive.org/details/untersuchungenzu00landuoft" xml:id="d1e4389" id="d1e4389" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Landgraf1889" id="Landgraf1889" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4394" id="d1e4394" data-origname="abbr">Landgraf
-                        1889</tei-abbr> <tei-author xml:id="d1e4397" id="d1e4397" data-origname="author">Landgraf, G.</tei-author>
-                     <tei-title xml:id="d1e4399" id="d1e4399" data-origname="title">Der Bericht des C. Asinius Pollio über die spanischen Unruhen des Jahres
+                  <tei-bibl xml:id="Landgraf1889" id="Landgraf1889" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4393" id="d1e4393" data-origname="abbr">Landgraf
+                        1889</tei-abbr> <tei-author xml:id="d1e4396" id="d1e4396" data-origname="author">Landgraf, G.</tei-author>
+                     <tei-title xml:id="d1e4398" id="d1e4398" data-origname="title">Der Bericht des C. Asinius Pollio über die spanischen Unruhen des Jahres
                         48 v. Chr. (Bellum Alexandrinum 48–64) auf Grund des codex
-                        Ashburnhamensis</tei-title>. <tei-pubPlace xml:id="d1e4401" id="d1e4401" data-origname="pubPlace">Erlangen et Leipzig</tei-pubPlace>.
-                        <tei-date xml:id="d1e4403" id="d1e4403" data-origname="date">1889</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/hvd.32044085186245" xml:id="d1e4405" id="d1e4405" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                        Ashburnhamensis</tei-title>. <tei-pubPlace xml:id="d1e4400" id="d1e4400" data-origname="pubPlace">Erlangen et Leipzig</tei-pubPlace>.
+                        <tei-date xml:id="d1e4402" id="d1e4402" data-origname="date">1889</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/hvd.32044085186245" xml:id="d1e4404" id="d1e4404" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Landgraf1891a" id="Landgraf1891a" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4409" id="d1e4409" data-origname="abbr">Landgraf
-                        1891a</tei-abbr> <tei-author xml:id="d1e4412" id="d1e4412" data-origname="author">Landgraf, G.</tei-author>
-                     <tei-title level="a" xml:id="d1e4414" id="d1e4414" data-origname="title">Zum Bellum Alexandrinum</tei-title>. In <tei-title level="m" xml:id="d1e4417" id="d1e4417" data-origname="title">Commentationes Woelfflinianae</tei-title>. <tei-pubPlace xml:id="d1e4420" id="d1e4420" data-origname="pubPlace">Leipzig</tei-pubPlace>.
-                        <tei-date xml:id="d1e4422" id="d1e4422" data-origname="date">1891</tei-date>. <tei-biblScope unit="page" xml:id="d1e4425" id="d1e4425" data-origname="biblScope">15–21</tei-biblScope>. URL: <tei-ptr target="https://hdl.handle.net/2027/mdp.39015022622206?urlappend=%3Bseq=25" xml:id="d1e4428" id="d1e4428" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Landgraf1891a" id="Landgraf1891a" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4408" id="d1e4408" data-origname="abbr">Landgraf
+                        1891a</tei-abbr> <tei-author xml:id="d1e4411" id="d1e4411" data-origname="author">Landgraf, G.</tei-author>
+                     <tei-title level="a" xml:id="d1e4413" id="d1e4413" data-origname="title">Zum Bellum Alexandrinum</tei-title>. In <tei-title level="m" xml:id="d1e4416" id="d1e4416" data-origname="title">Commentationes Woelfflinianae</tei-title>. <tei-pubPlace xml:id="d1e4419" id="d1e4419" data-origname="pubPlace">Leipzig</tei-pubPlace>.
+                        <tei-date xml:id="d1e4421" id="d1e4421" data-origname="date">1891</tei-date>. <tei-biblScope unit="page" xml:id="d1e4424" id="d1e4424" data-origname="biblScope">15–21</tei-biblScope>. URL: <tei-ptr target="https://hdl.handle.net/2027/mdp.39015022622206?urlappend=%3Bseq=25" xml:id="d1e4427" id="d1e4427" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Landgraf1891b" id="Landgraf1891b" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4432" id="d1e4432" data-origname="abbr">Landgraf
-                        1891b</tei-abbr> <tei-author xml:id="d1e4435" id="d1e4435" data-origname="author">Landgraf, G</tei-author>. <tei-title level="a" xml:id="d1e4437" id="d1e4437" data-origname="title">Das Bellum
-                        Alexandrinum und der codex Ashburnhamensis</tei-title>. <tei-title level="j" xml:id="d1e4440" id="d1e4440" data-origname="title">Programm des Kgl. Wilhelmsgymnasiums in München für das Studienjahr
-                        1890/91</tei-title>. <tei-pubPlace xml:id="d1e4443" id="d1e4443" data-origname="pubPlace">Munich</tei-pubPlace>. <tei-date xml:id="d1e4445" id="d1e4445" data-origname="date">1891</tei-date>. <tei-biblScope unit="page" xml:id="d1e4448" id="d1e4448" data-origname="biblScope">1–23</tei-biblScope>. </tei-bibl>
+                  <tei-bibl xml:id="Landgraf1891b" id="Landgraf1891b" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4431" id="d1e4431" data-origname="abbr">Landgraf
+                        1891b</tei-abbr> <tei-author xml:id="d1e4434" id="d1e4434" data-origname="author">Landgraf, G</tei-author>. <tei-title level="a" xml:id="d1e4436" id="d1e4436" data-origname="title">Das Bellum
+                        Alexandrinum und der codex Ashburnhamensis</tei-title>. <tei-title level="j" xml:id="d1e4439" id="d1e4439" data-origname="title">Programm des Kgl. Wilhelmsgymnasiums in München für das Studienjahr
+                        1890/91</tei-title>. <tei-pubPlace xml:id="d1e4442" id="d1e4442" data-origname="pubPlace">Munich</tei-pubPlace>. <tei-date xml:id="d1e4444" id="d1e4444" data-origname="date">1891</tei-date>. <tei-biblScope unit="page" xml:id="d1e4447" id="d1e4447" data-origname="biblScope">1–23</tei-biblScope>. </tei-bibl>
 
-                  <tei-bibl xml:id="Larsen" id="Larsen" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4453" id="d1e4453" data-origname="abbr">Larsen</tei-abbr> <tei-author xml:id="d1e4456" id="d1e4456" data-origname="author">Larsen, Sophus
+                  <tei-bibl xml:id="Larsen" id="Larsen" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4452" id="d1e4452" data-origname="abbr">Larsen</tei-abbr> <tei-author xml:id="d1e4455" id="d1e4455" data-origname="author">Larsen, Sophus
                         C.</tei-author>
-                     <tei-title level="m" xml:id="d1e4458" id="d1e4458" data-origname="title">Studia in libellum incerti auctoris de bello
-                        Alexandrino</tei-title>. <tei-pubPlace xml:id="d1e4461" id="d1e4461" data-origname="pubPlace">Copenhagen</tei-pubPlace>. <tei-date xml:id="d1e4463" id="d1e4463" data-origname="date">1886</tei-date>.
-                     URL: <tei-ptr target="https://hdl.handle.net/2027/nnc2.ark:/13960/t3cz4fm0n" xml:id="d1e4465" id="d1e4465" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                     <tei-title level="m" xml:id="d1e4457" id="d1e4457" data-origname="title">Studia in libellum incerti auctoris de bello
+                        Alexandrino</tei-title>. <tei-pubPlace xml:id="d1e4460" id="d1e4460" data-origname="pubPlace">Copenhagen</tei-pubPlace>. <tei-date xml:id="d1e4462" id="d1e4462" data-origname="date">1886</tei-date>.
+                     URL: <tei-ptr target="https://hdl.handle.net/2027/nnc2.ark:/13960/t3cz4fm0n" xml:id="d1e4464" id="d1e4464" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Latinius" id="Latinius" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4469" id="d1e4469" data-origname="abbr">Latinius</tei-abbr> <tei-author xml:id="d1e4472" id="d1e4472" data-origname="author">Latinius,
-                        Latinus</tei-author>. <tei-title xml:id="d1e4474" id="d1e4474" data-origname="title">Bibliotheca sacra et profana: Sive, Observationes,
+                  <tei-bibl xml:id="Latinius" id="Latinius" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4468" id="d1e4468" data-origname="abbr">Latinius</tei-abbr> <tei-author xml:id="d1e4471" id="d1e4471" data-origname="author">Latinius,
+                        Latinus</tei-author>. <tei-title xml:id="d1e4473" id="d1e4473" data-origname="title">Bibliotheca sacra et profana: Sive, Observationes,
                         correctiones, coniecturae, &amp; variae lectiones in sacros et profanos
                         scriptores, e marginalibus notis codicum eiusdem a Dominico Macro ...
                         collectae et nunc primum ... editae</tei-title>. 2 vols.
-                        <tei-pubPlace xml:id="d1e4476" id="d1e4476" data-origname="pubPlace">Rome</tei-pubPlace>. <tei-date xml:id="d1e4478" id="d1e4478" data-origname="date">1677</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/njp.32101076454485" xml:id="d1e4480" id="d1e4480" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                        <tei-pubPlace xml:id="d1e4475" id="d1e4475" data-origname="pubPlace">Rome</tei-pubPlace>. <tei-date xml:id="d1e4477" id="d1e4477" data-origname="date">1677</tei-date>. URL: <tei-ptr target="https://hdl.handle.net/2027/njp.32101076454485" xml:id="d1e4479" id="d1e4479" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Leumann-Hofmann-Szantyr" id="Leumann-Hofmann-Szantyr" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4485" id="d1e4485" data-origname="abbr">Leumann-Hofmann-Szantyr</tei-abbr> <tei-author xml:id="d1e4488" id="d1e4488" data-origname="author">Leumann, Manu et al</tei-author>.
-                        <tei-title xml:id="d1e4490" id="d1e4490" data-origname="title">Lateinische Grammatik</tei-title>. 3 vols. <tei-pubPlace xml:id="d1e4492" id="d1e4492" data-origname="pubPlace">Munich</tei-pubPlace>.
-                        <tei-date xml:id="d1e4494" id="d1e4494" data-origname="date">1965-79</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Leumann-Hofmann-Szantyr" id="Leumann-Hofmann-Szantyr" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4484" id="d1e4484" data-origname="abbr">Leumann-Hofmann-Szantyr</tei-abbr> <tei-author xml:id="d1e4487" id="d1e4487" data-origname="author">Leumann, Manu et al</tei-author>.
+                        <tei-title xml:id="d1e4489" id="d1e4489" data-origname="title">Lateinische Grammatik</tei-title>. 3 vols. <tei-pubPlace xml:id="d1e4491" id="d1e4491" data-origname="pubPlace">Munich</tei-pubPlace>.
+                        <tei-date xml:id="d1e4493" id="d1e4493" data-origname="date">1965-79</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Löfstedt" id="Löfstedt" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4498" id="d1e4498" data-origname="abbr">Löfstedt</tei-abbr> <tei-author xml:id="d1e4501" id="d1e4501" data-origname="author">Löfstedt,
-                        Einar</tei-author>. <tei-title level="a" xml:id="d1e4503" id="d1e4503" data-origname="title">Vermischte Beiträge zur lateinische
-                        Sprachkunde</tei-title>. <tei-title level="j" xml:id="d1e4506" id="d1e4506" data-origname="title">Eranos</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4509" id="d1e4509" data-origname="biblScope">8</tei-biblScope> (<tei-date xml:id="d1e4512" id="d1e4512" data-origname="date">1908</tei-date>): <tei-biblScope unit="page" xml:id="d1e4515" id="d1e4515" data-origname="biblScope">86–87</tei-biblScope>.</tei-bibl>
+                  <tei-bibl xml:id="Löfstedt" id="Löfstedt" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4497" id="d1e4497" data-origname="abbr">Löfstedt</tei-abbr> <tei-author xml:id="d1e4500" id="d1e4500" data-origname="author">Löfstedt,
+                        Einar</tei-author>. <tei-title level="a" xml:id="d1e4502" id="d1e4502" data-origname="title">Vermischte Beiträge zur lateinische
+                        Sprachkunde</tei-title>. <tei-title level="j" xml:id="d1e4505" id="d1e4505" data-origname="title">Eranos</tei-title>
+                     <tei-biblScope unit="volume" xml:id="d1e4508" id="d1e4508" data-origname="biblScope">8</tei-biblScope> (<tei-date xml:id="d1e4511" id="d1e4511" data-origname="date">1908</tei-date>): <tei-biblScope unit="page" xml:id="d1e4514" id="d1e4514" data-origname="biblScope">86–87</tei-biblScope>.</tei-bibl>
 
-                  <tei-bibl xml:id="Madvig" id="Madvig" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4520" id="d1e4520" data-origname="abbr">Madvig</tei-abbr> <tei-author xml:id="d1e4523" id="d1e4523" data-origname="author">Madvig, J.
-                        N.</tei-author> “<tei-title level="a" xml:id="d1e4525" id="d1e4525" data-origname="title">Capitulum III: Caesar, Sallustius.</tei-title>” In
-                        <tei-title level="s" xml:id="d1e4528" id="d1e4528" data-origname="title">Adversaria critica ad scriptores graecos et
-                     latinos</tei-title>. Vol. <tei-biblScope unit="volume" xml:id="d1e4531" id="d1e4531" data-origname="biblScope">2</tei-biblScope>: <tei-title level="m" xml:id="d1e4534" id="d1e4534" data-origname="title">Emendationes latinae</tei-title>. <tei-pubPlace xml:id="d1e4538" id="d1e4538" data-origname="pubPlace">Copenhagen</tei-pubPlace>.
-                        <tei-date xml:id="d1e4540" id="d1e4540" data-origname="date">1873</tei-date>. <tei-biblScope unit="page" xml:id="d1e4542" id="d1e4542" data-origname="biblScope">281–85</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/coo.31924021596675" xml:id="d1e4545" id="d1e4545" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Madvig" id="Madvig" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4519" id="d1e4519" data-origname="abbr">Madvig</tei-abbr> <tei-author xml:id="d1e4522" id="d1e4522" data-origname="author">Madvig, J.
+                        N.</tei-author> “<tei-title level="a" xml:id="d1e4524" id="d1e4524" data-origname="title">Capitulum III: Caesar, Sallustius.</tei-title>” In
+                        <tei-title level="s" xml:id="d1e4527" id="d1e4527" data-origname="title">Adversaria critica ad scriptores graecos et
+                     latinos</tei-title>. Vol. <tei-biblScope unit="volume" xml:id="d1e4530" id="d1e4530" data-origname="biblScope">2</tei-biblScope>: <tei-title level="m" xml:id="d1e4533" id="d1e4533" data-origname="title">Emendationes latinae</tei-title>. <tei-pubPlace xml:id="d1e4537" id="d1e4537" data-origname="pubPlace">Copenhagen</tei-pubPlace>.
+                        <tei-date xml:id="d1e4539" id="d1e4539" data-origname="date">1873</tei-date>. <tei-biblScope unit="page" xml:id="d1e4541" id="d1e4541" data-origname="biblScope">281–85</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/coo.31924021596675" xml:id="d1e4544" id="d1e4544" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Markland" id="Markland" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4549" id="d1e4549" data-origname="abbr">Markland</tei-abbr> <tei-author xml:id="d1e4552" id="d1e4552" data-origname="author">Markland,
-                        Jeremiah</tei-author>. <tei-title level="m" xml:id="d1e4554" id="d1e4554" data-origname="title">Epistola critica ad eruditissimum virum
+                  <tei-bibl xml:id="Markland" id="Markland" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4548" id="d1e4548" data-origname="abbr">Markland</tei-abbr> <tei-author xml:id="d1e4551" id="d1e4551" data-origname="author">Markland,
+                        Jeremiah</tei-author>. <tei-title level="m" xml:id="d1e4553" id="d1e4553" data-origname="title">Epistola critica ad eruditissimum virum
                         Franciscum Hare ... in qua Horatii loca aliquot et aliorum veterum
-                        emendantur</tei-title>. <tei-pubPlace xml:id="d1e4557" id="d1e4557" data-origname="pubPlace">Cambridge</tei-pubPlace>. <tei-date xml:id="d1e4559" id="d1e4559" data-origname="date">1723</tei-date>. <tei-ptr target="https://books.google.com/books?id=7_JWAAAAcAAJ&amp;pg=PP3#v=onepage&amp;q&amp;f=false" xml:id="d1e4561" id="d1e4561" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                        emendantur</tei-title>. <tei-pubPlace xml:id="d1e4556" id="d1e4556" data-origname="pubPlace">Cambridge</tei-pubPlace>. <tei-date xml:id="d1e4558" id="d1e4558" data-origname="date">1723</tei-date>. <tei-ptr target="https://books.google.com/books?id=7_JWAAAAcAAJ&amp;pg=PP3#v=onepage&amp;q&amp;f=false" xml:id="d1e4560" id="d1e4560" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Menge" id="Menge" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4565" id="d1e4565" data-origname="abbr">Menge</tei-abbr> <tei-author xml:id="d1e4568" id="d1e4568" data-origname="author">Menge, R</tei-author>.
-                        <tei-title level="a" xml:id="d1e4570" id="d1e4570" data-origname="title">Bellum Alexandrinum: Erklärt von Rud. Schneider</tei-title>.
-                        <tei-title level="j" xml:id="d1e4573" id="d1e4573" data-origname="title">Neue philologische Rundschau</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4576" id="d1e4576" data-origname="biblScope">8</tei-biblScope>. <tei-date xml:id="d1e4579" id="d1e4579" data-origname="date">1889</tei-date>. <tei-biblScope unit="page" xml:id="d1e4582" id="d1e4582" data-origname="biblScope">120–27</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/hvd.32044098630197?urlappend=%3Bseq=154" xml:id="d1e4585" id="d1e4585" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Menge" id="Menge" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4564" id="d1e4564" data-origname="abbr">Menge</tei-abbr> <tei-author xml:id="d1e4567" id="d1e4567" data-origname="author">Menge, R</tei-author>.
+                        <tei-title level="a" xml:id="d1e4569" id="d1e4569" data-origname="title">Bellum Alexandrinum: Erklärt von Rud. Schneider</tei-title>.
+                        <tei-title level="j" xml:id="d1e4572" id="d1e4572" data-origname="title">Neue philologische Rundschau</tei-title>
+                     <tei-biblScope unit="volume" xml:id="d1e4575" id="d1e4575" data-origname="biblScope">8</tei-biblScope>. <tei-date xml:id="d1e4578" id="d1e4578" data-origname="date">1889</tei-date>. <tei-biblScope unit="page" xml:id="d1e4581" id="d1e4581" data-origname="biblScope">120–27</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/hvd.32044098630197?urlappend=%3Bseq=154" xml:id="d1e4584" id="d1e4584" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Mitchell" id="Mitchell" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4589" id="d1e4589" data-origname="abbr">Mitchell</tei-abbr> <tei-author xml:id="d1e4592" id="d1e4592" data-origname="author">Mitchell,
-                        S.</tei-author> “<tei-title level="a" xml:id="d1e4594" id="d1e4594" data-origname="title">The treaty between Rome and Lycia of 46 BC
-                        (MS2070).</tei-title>” In R. Pintaudi, ed., <tei-title level="s" xml:id="d1e4597" id="d1e4597" data-origname="title">Papyri graecae
-                        Schøyen (P. Schøyen I)</tei-title>. <tei-pubPlace xml:id="d1e4600" id="d1e4600" data-origname="pubPlace">Florence</tei-pubPlace>.
-                        <tei-date xml:id="d1e4602" id="d1e4602" data-origname="date">2005</tei-date>. <tei-biblScope unit="page" xml:id="d1e4605" id="d1e4605" data-origname="biblScope">161–259</tei-biblScope>.</tei-bibl>
+                  <tei-bibl xml:id="Mitchell" id="Mitchell" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4588" id="d1e4588" data-origname="abbr">Mitchell</tei-abbr> <tei-author xml:id="d1e4591" id="d1e4591" data-origname="author">Mitchell,
+                        S.</tei-author> “<tei-title level="a" xml:id="d1e4593" id="d1e4593" data-origname="title">The treaty between Rome and Lycia of 46 BC
+                        (MS2070).</tei-title>” In R. Pintaudi, ed., <tei-title level="s" xml:id="d1e4596" id="d1e4596" data-origname="title">Papyri graecae
+                        Schøyen (P. Schøyen I)</tei-title>. <tei-pubPlace xml:id="d1e4599" id="d1e4599" data-origname="pubPlace">Florence</tei-pubPlace>.
+                        <tei-date xml:id="d1e4601" id="d1e4601" data-origname="date">2005</tei-date>. <tei-biblScope unit="page" xml:id="d1e4604" id="d1e4604" data-origname="biblScope">161–259</tei-biblScope>.</tei-bibl>
 
-                  <tei-bibl xml:id="Müller" id="Müller" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4611" id="d1e4611" data-origname="abbr">Müller</tei-abbr> <tei-author xml:id="d1e4614" id="d1e4614" data-origname="author">Müller, H.
-                        J.</tei-author> Footnote to a Nachtrag on <tei-ref target="bibliography-modern-editions.html#Schneider">Schneider</tei-ref> (1888). <tei-title level="j" xml:id="d1e4619" id="d1e4619" data-origname="title">Jahresberichte des philologischen
+                  <tei-bibl xml:id="Müller" id="Müller" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4610" id="d1e4610" data-origname="abbr">Müller</tei-abbr> <tei-author xml:id="d1e4613" id="d1e4613" data-origname="author">Müller, H.
+                        J.</tei-author> Footnote to a Nachtrag on <tei-ref target="bibliography-modern-editions.html#Schneider">Schneider</tei-ref> (1888). <tei-title level="j" xml:id="d1e4618" id="d1e4618" data-origname="title">Jahresberichte des philologischen
                         Vereins zu Berlin</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4622" id="d1e4622" data-origname="biblScope">14</tei-biblScope> (<tei-date xml:id="d1e4625" id="d1e4625" data-origname="date">1888</tei-date>): <tei-biblScope unit="page" xml:id="d1e4628" id="d1e4628" data-origname="biblScope">348</tei-biblScope>. <tei-ptr target="https://books.google.com/books?id=9uToXfcovpwC&amp;pg=PA348#v=onepage&amp;q&amp;f=false" xml:id="d1e4631" id="d1e4631" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                     <tei-biblScope unit="volume" xml:id="d1e4621" id="d1e4621" data-origname="biblScope">14</tei-biblScope> (<tei-date xml:id="d1e4624" id="d1e4624" data-origname="date">1888</tei-date>): <tei-biblScope unit="page" xml:id="d1e4627" id="d1e4627" data-origname="biblScope">348</tei-biblScope>. <tei-ptr target="https://books.google.com/books?id=9uToXfcovpwC&amp;pg=PA348#v=onepage&amp;q&amp;f=false" xml:id="d1e4630" id="d1e4630" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Pinkster" id="Pinkster" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4635" id="d1e4635" data-origname="abbr">Pinkster</tei-abbr> <tei-author xml:id="d1e4638" id="d1e4638" data-origname="author">Pinkster,
-                        Harm</tei-author>. <tei-title xml:id="d1e4640" id="d1e4640" data-origname="title">The Oxford Latin Syntax. Volume 1, The Simple
-                        Clause</tei-title>. <tei-pubPlace xml:id="d1e4642" id="d1e4642" data-origname="pubPlace">Oxford</tei-pubPlace>. <tei-date xml:id="d1e4644" id="d1e4644" data-origname="date">2015</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Pinkster" id="Pinkster" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4634" id="d1e4634" data-origname="abbr">Pinkster</tei-abbr> <tei-author xml:id="d1e4637" id="d1e4637" data-origname="author">Pinkster,
+                        Harm</tei-author>. <tei-title xml:id="d1e4639" id="d1e4639" data-origname="title">The Oxford Latin Syntax. Volume 1, The Simple
+                        Clause</tei-title>. <tei-pubPlace xml:id="d1e4641" id="d1e4641" data-origname="pubPlace">Oxford</tei-pubPlace>. <tei-date xml:id="d1e4643" id="d1e4643" data-origname="date">2015</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Preuss" id="Preuss" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4648" id="d1e4648" data-origname="abbr">Preuss</tei-abbr> <tei-author xml:id="d1e4651" id="d1e4651" data-origname="author">Preuss,
-                        Siegmund</tei-author>. <tei-title level="m" xml:id="d1e4653" id="d1e4653" data-origname="title">Vollstandiges Lexicon zu den
-                        pseudo-casarianischen Schriftwerken</tei-title>. <tei-pubPlace xml:id="d1e4656" id="d1e4656" data-origname="pubPlace">Erlangen</tei-pubPlace>.
-                        <tei-date xml:id="d1e4658" id="d1e4658" data-origname="date">1884</tei-date>. <tei-ptr target="https://books.google.com/books?id=QlEIAAAAQAAJ&amp;newbks=1&amp;newbks_redir=0&amp;pg=PA1#v=onepage&amp;q&amp;f=false" xml:id="d1e4660" id="d1e4660" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Preuss" id="Preuss" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4647" id="d1e4647" data-origname="abbr">Preuss</tei-abbr> <tei-author xml:id="d1e4650" id="d1e4650" data-origname="author">Preuss,
+                        Siegmund</tei-author>. <tei-title level="m" xml:id="d1e4652" id="d1e4652" data-origname="title">Vollstandiges Lexicon zu den
+                        pseudo-casarianischen Schriftwerken</tei-title>. <tei-pubPlace xml:id="d1e4655" id="d1e4655" data-origname="pubPlace">Erlangen</tei-pubPlace>.
+                        <tei-date xml:id="d1e4657" id="d1e4657" data-origname="date">1884</tei-date>. <tei-ptr target="https://books.google.com/books?id=QlEIAAAAQAAJ&amp;newbks=1&amp;newbks_redir=0&amp;pg=PA1#v=onepage&amp;q&amp;f=false" xml:id="d1e4659" id="d1e4659" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Raaflaub" id="Raaflaub" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4664" id="d1e4664" data-origname="abbr">Raaflaub</tei-abbr> <tei-editor xml:id="d1e4667" id="d1e4667" data-origname="editor">Raaflaub, Kurt
-                        A., ed</tei-editor>. <tei-title level="m" xml:id="d1e4669" id="d1e4669" data-origname="title">The Landmark Julius Caesar. The complete
+                  <tei-bibl xml:id="Raaflaub" id="Raaflaub" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4663" id="d1e4663" data-origname="abbr">Raaflaub</tei-abbr> <tei-editor xml:id="d1e4666" id="d1e4666" data-origname="editor">Raaflaub, Kurt
+                        A., ed</tei-editor>. <tei-title level="m" xml:id="d1e4668" id="d1e4668" data-origname="title">The Landmark Julius Caesar. The complete
                         works: Gallic War, Civil War, Alexandrian War, African War, and Spanish
-                        War</tei-title>. <tei-pubPlace xml:id="d1e4672" id="d1e4672" data-origname="pubPlace">New York</tei-pubPlace>. <tei-date xml:id="d1e4674" id="d1e4674" data-origname="date">2017</tei-date>.</tei-bibl>
+                        War</tei-title>. <tei-pubPlace xml:id="d1e4671" id="d1e4671" data-origname="pubPlace">New York</tei-pubPlace>. <tei-date xml:id="d1e4673" id="d1e4673" data-origname="date">2017</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Rice-Holmes" id="Rice-Holmes" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4678" id="d1e4678" data-origname="abbr">Rice Holmes</tei-abbr> <tei-author xml:id="d1e4681" id="d1e4681" data-origname="author">Rice
-                        Holmes, T</tei-author>. <tei-title xml:id="d1e4683" id="d1e4683" data-origname="title">The Roman Republic and the Founder of the Empire
-                        Vol. 3</tei-title>. <tei-pubPlace xml:id="d1e4685" id="d1e4685" data-origname="pubPlace">Oxford</tei-pubPlace>. <tei-date xml:id="d1e4687" id="d1e4687" data-origname="date">1923</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Rice-Holmes" id="Rice-Holmes" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4677" id="d1e4677" data-origname="abbr">Rice Holmes</tei-abbr> <tei-author xml:id="d1e4680" id="d1e4680" data-origname="author">Rice
+                        Holmes, T</tei-author>. <tei-title xml:id="d1e4682" id="d1e4682" data-origname="title">The Roman Republic and the Founder of the Empire
+                        Vol. 3</tei-title>. <tei-pubPlace xml:id="d1e4684" id="d1e4684" data-origname="pubPlace">Oxford</tei-pubPlace>. <tei-date xml:id="d1e4686" id="d1e4686" data-origname="date">1923</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Schambach1879-1882" id="Schambach1879-1882" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4691" id="d1e4691" data-origname="abbr">Schambach
-                        1879–1882</tei-abbr> <tei-author xml:id="d1e4694" id="d1e4694" data-origname="author">Schambach, Otfried</tei-author>. <tei-title level="a" xml:id="d1e4696" id="d1e4696" data-origname="title">Zu
-                        Caesar und seinen Fortsetzern</tei-title>. <tei-title level="j" xml:id="d1e4699" id="d1e4699" data-origname="title">Jahrbücher für
+                  <tei-bibl xml:id="Schambach1879-1882" id="Schambach1879-1882" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4690" id="d1e4690" data-origname="abbr">Schambach
+                        1879–1882</tei-abbr> <tei-author xml:id="d1e4693" id="d1e4693" data-origname="author">Schambach, Otfried</tei-author>. <tei-title level="a" xml:id="d1e4695" id="d1e4695" data-origname="title">Zu
+                        Caesar und seinen Fortsetzern</tei-title>. <tei-title level="j" xml:id="d1e4698" id="d1e4698" data-origname="title">Jahrbücher für
                         klassische Philologie</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4702" id="d1e4702" data-origname="biblScope">119</tei-biblScope> (<tei-date xml:id="d1e4705" id="d1e4705" data-origname="date">1879</tei-date>): <tei-biblScope unit="page" xml:id="d1e4708" id="d1e4708" data-origname="biblScope">867–70</tei-biblScope>
-                     <tei-ptr target="https://hdl.handle.net/2027/iau.31858020803346?urlappend=%3Bseq=883" xml:id="d1e4711" id="d1e4711" data-origname="ptr" data-empty="">​</tei-ptr> and <tei-biblScope unit="volume" xml:id="d1e4713" id="d1e4713" data-origname="biblScope">125</tei-biblScope> (<tei-date xml:id="d1e4716" id="d1e4716" data-origname="date">1882</tei-date>): <tei-biblScope unit="page" xml:id="d1e4718" id="d1e4718" data-origname="biblScope">215–24</tei-biblScope>
-                     <tei-ptr target="https://hdl.handle.net/2027/iau.31858020803403?urlappend=%3Bseq=233" xml:id="d1e4721" id="d1e4721" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                     <tei-biblScope unit="volume" xml:id="d1e4701" id="d1e4701" data-origname="biblScope">119</tei-biblScope> (<tei-date xml:id="d1e4704" id="d1e4704" data-origname="date">1879</tei-date>): <tei-biblScope unit="page" xml:id="d1e4707" id="d1e4707" data-origname="biblScope">867–70</tei-biblScope>
+                     <tei-ptr target="https://hdl.handle.net/2027/iau.31858020803346?urlappend=%3Bseq=883" xml:id="d1e4710" id="d1e4710" data-origname="ptr" data-empty="">​</tei-ptr> and <tei-biblScope unit="volume" xml:id="d1e4712" id="d1e4712" data-origname="biblScope">125</tei-biblScope> (<tei-date xml:id="d1e4715" id="d1e4715" data-origname="date">1882</tei-date>): <tei-biblScope unit="page" xml:id="d1e4717" id="d1e4717" data-origname="biblScope">215–24</tei-biblScope>
+                     <tei-ptr target="https://hdl.handle.net/2027/iau.31858020803403?urlappend=%3Bseq=233" xml:id="d1e4720" id="d1e4720" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Schambach1881" id="Schambach1881" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4726" id="d1e4726" data-origname="abbr">Schambach
-                        1881</tei-abbr> <tei-author xml:id="d1e4729" id="d1e4729" data-origname="author">Schambach, Otfried</tei-author>. <tei-title level="a" xml:id="d1e4731" id="d1e4731" data-origname="title">Die
-                        Reiterei bei Caesar</tei-title>. <tei-pubPlace xml:id="d1e4734" id="d1e4734" data-origname="pubPlace">Mühlhausen in Thüringen</tei-pubPlace>.
-                        <tei-date xml:id="d1e4736" id="d1e4736" data-origname="date">1881</tei-date>. <tei-ptr target="https://hdl.handle.net/2027/hvd.32044080867435" xml:id="d1e4738" id="d1e4738" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Schambach1881" id="Schambach1881" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4725" id="d1e4725" data-origname="abbr">Schambach
+                        1881</tei-abbr> <tei-author xml:id="d1e4728" id="d1e4728" data-origname="author">Schambach, Otfried</tei-author>. <tei-title level="a" xml:id="d1e4730" id="d1e4730" data-origname="title">Die
+                        Reiterei bei Caesar</tei-title>. <tei-pubPlace xml:id="d1e4733" id="d1e4733" data-origname="pubPlace">Mühlhausen in Thüringen</tei-pubPlace>.
+                        <tei-date xml:id="d1e4735" id="d1e4735" data-origname="date">1881</tei-date>. <tei-ptr target="https://hdl.handle.net/2027/hvd.32044080867435" xml:id="d1e4737" id="d1e4737" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Schiller1883" id="Schiller1883" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4742" id="d1e4742" data-origname="abbr">Schiller
-                        1883</tei-abbr> <tei-author xml:id="d1e4745" id="d1e4745" data-origname="author">Schiller, Heinrich</tei-author>. <tei-title level="a" xml:id="d1e4747" id="d1e4747" data-origname="title">Zu Caesar
-                        Bell. Civ. III, 112, 2 und Hirtius Bell. Alex. 8, 2</tei-title>. <tei-title level="j" xml:id="d1e4750" id="d1e4750" data-origname="title">Philologus</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4753" id="d1e4753" data-origname="biblScope">42</tei-biblScope> (<tei-date xml:id="d1e4756" id="d1e4756" data-origname="date">1883</tei-date>): <tei-biblScope unit="page" xml:id="d1e4759" id="d1e4759" data-origname="biblScope">773–77</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/njp.32101076472131?urlappend=%3Bseq=785" xml:id="d1e4762" id="d1e4762" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Schiller1883" id="Schiller1883" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4741" id="d1e4741" data-origname="abbr">Schiller
+                        1883</tei-abbr> <tei-author xml:id="d1e4744" id="d1e4744" data-origname="author">Schiller, Heinrich</tei-author>. <tei-title level="a" xml:id="d1e4746" id="d1e4746" data-origname="title">Zu Caesar
+                        Bell. Civ. III, 112, 2 und Hirtius Bell. Alex. 8, 2</tei-title>. <tei-title level="j" xml:id="d1e4749" id="d1e4749" data-origname="title">Philologus</tei-title>
+                     <tei-biblScope unit="volume" xml:id="d1e4752" id="d1e4752" data-origname="biblScope">42</tei-biblScope> (<tei-date xml:id="d1e4755" id="d1e4755" data-origname="date">1883</tei-date>): <tei-biblScope unit="page" xml:id="d1e4758" id="d1e4758" data-origname="biblScope">773–77</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/njp.32101076472131?urlappend=%3Bseq=785" xml:id="d1e4761" id="d1e4761" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Schiller1889" id="Schiller1889" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4766" id="d1e4766" data-origname="abbr">Schiller
-                        1889</tei-abbr> <tei-author xml:id="d1e4769" id="d1e4769" data-origname="author">Schiller, Heinrich</tei-author>. Review of <tei-ref target="bibliography-modern-editions.html#Schneider">Schneider (1888)</tei-ref>. <tei-title level="j" xml:id="d1e4774" id="d1e4774" data-origname="title">Berliner
+                  <tei-bibl xml:id="Schiller1889" id="Schiller1889" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4765" id="d1e4765" data-origname="abbr">Schiller
+                        1889</tei-abbr> <tei-author xml:id="d1e4768" id="d1e4768" data-origname="author">Schiller, Heinrich</tei-author>. Review of <tei-ref target="bibliography-modern-editions.html#Schneider">Schneider (1888)</tei-ref>. <tei-title level="j" xml:id="d1e4773" id="d1e4773" data-origname="title">Berliner
                         philologische Wochenschrift</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4777" id="d1e4777" data-origname="biblScope">9</tei-biblScope> (<tei-date xml:id="d1e4780" id="d1e4780" data-origname="date">1889</tei-date>): <tei-biblScope unit="page" xml:id="d1e4783" id="d1e4783" data-origname="biblScope">306–10</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/inu.30000006512101?urlappend=%3Bseq=169" xml:id="d1e4786" id="d1e4786" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                     <tei-biblScope unit="volume" xml:id="d1e4776" id="d1e4776" data-origname="biblScope">9</tei-biblScope> (<tei-date xml:id="d1e4779" id="d1e4779" data-origname="date">1889</tei-date>): <tei-biblScope unit="page" xml:id="d1e4782" id="d1e4782" data-origname="biblScope">306–10</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/inu.30000006512101?urlappend=%3Bseq=169" xml:id="d1e4785" id="d1e4785" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Schiller1890a" id="Schiller1890a" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4790" id="d1e4790" data-origname="abbr">Schiller
-                        1890a</tei-abbr> <tei-author xml:id="d1e4793" id="d1e4793" data-origname="author">Schiller, Heinrich</tei-author>. <tei-title level="a" xml:id="d1e4795" id="d1e4795" data-origname="title">Vom
-                        Ursprung des Bellum Alexandrinum</tei-title>. <tei-title level="j" xml:id="d1e4798" id="d1e4798" data-origname="title">Blätter für das
+                  <tei-bibl xml:id="Schiller1890a" id="Schiller1890a" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4789" id="d1e4789" data-origname="abbr">Schiller
+                        1890a</tei-abbr> <tei-author xml:id="d1e4792" id="d1e4792" data-origname="author">Schiller, Heinrich</tei-author>. <tei-title level="a" xml:id="d1e4794" id="d1e4794" data-origname="title">Vom
+                        Ursprung des Bellum Alexandrinum</tei-title>. <tei-title level="j" xml:id="d1e4797" id="d1e4797" data-origname="title">Blätter für das
                         Bayerische Gymnasialschulwesen</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4801" id="d1e4801" data-origname="biblScope">26</tei-biblScope> (<tei-date xml:id="d1e4804" id="d1e4804" data-origname="date">1890</tei-date>): <tei-biblScope unit="page" xml:id="d1e4807" id="d1e4807" data-origname="biblScope">242–51, 393–400, 511–23</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/njp.32101073027086?urlappend=%3Bseq=256" xml:id="d1e4810" id="d1e4810" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                     <tei-biblScope unit="volume" xml:id="d1e4800" id="d1e4800" data-origname="biblScope">26</tei-biblScope> (<tei-date xml:id="d1e4803" id="d1e4803" data-origname="date">1890</tei-date>): <tei-biblScope unit="page" xml:id="d1e4806" id="d1e4806" data-origname="biblScope">242–51, 393–400, 511–23</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/njp.32101073027086?urlappend=%3Bseq=256" xml:id="d1e4809" id="d1e4809" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Schiller1890b" id="Schiller1890b" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4814" id="d1e4814" data-origname="abbr">Schiller
-                        1890b</tei-abbr> <tei-author xml:id="d1e4817" id="d1e4817" data-origname="author">Schiller, Heinrich</tei-author>. Review of <tei-ref target="bibliography-modern-editions.html#Hoffmann1890">Hoffmann (1890)</tei-ref>. <tei-title level="j" xml:id="d1e4822" id="d1e4822" data-origname="title">Blätter für
+                  <tei-bibl xml:id="Schiller1890b" id="Schiller1890b" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4813" id="d1e4813" data-origname="abbr">Schiller
+                        1890b</tei-abbr> <tei-author xml:id="d1e4816" id="d1e4816" data-origname="author">Schiller, Heinrich</tei-author>. Review of <tei-ref target="bibliography-modern-editions.html#Hoffmann1890">Hoffmann (1890)</tei-ref>. <tei-title level="j" xml:id="d1e4821" id="d1e4821" data-origname="title">Blätter für
                         das Bayerische Gymnasialschulwesen</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4825" id="d1e4825" data-origname="biblScope">26</tei-biblScope> (<tei-date xml:id="d1e4828" id="d1e4828" data-origname="date">1890</tei-date>): <tei-biblScope unit="page" xml:id="d1e4831" id="d1e4831" data-origname="biblScope">535–43</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/njp.32101073027086?urlappend=%3Bseq=549" xml:id="d1e4834" id="d1e4834" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                     <tei-biblScope unit="volume" xml:id="d1e4824" id="d1e4824" data-origname="biblScope">26</tei-biblScope> (<tei-date xml:id="d1e4827" id="d1e4827" data-origname="date">1890</tei-date>): <tei-biblScope unit="page" xml:id="d1e4830" id="d1e4830" data-origname="biblScope">535–43</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/njp.32101073027086?urlappend=%3Bseq=549" xml:id="d1e4833" id="d1e4833" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Stadler" id="Stadler" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4838" id="d1e4838" data-origname="abbr">Stadler</tei-abbr> <tei-author xml:id="d1e4841" id="d1e4841" data-origname="author">Stadler,
-                        O</tei-author>. <tei-title level="a" xml:id="d1e4843" id="d1e4843" data-origname="title">Zu lateinischen Schriftstellern</tei-title>. <tei-title level="j" xml:id="d1e4846" id="d1e4846" data-origname="title">Berliner philologische Wochenschrift</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4849" id="d1e4849" data-origname="biblScope">27.35</tei-biblScope> (<tei-date xml:id="d1e4852" id="d1e4852" data-origname="date">1907</tei-date>): <tei-biblScope unit="page" xml:id="d1e4855" id="d1e4855" data-origname="biblScope">1119</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/uiug.30112023962035?urlappend=%3Bseq=578" xml:id="d1e4858" id="d1e4858" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Stadler" id="Stadler" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4837" id="d1e4837" data-origname="abbr">Stadler</tei-abbr> <tei-author xml:id="d1e4840" id="d1e4840" data-origname="author">Stadler,
+                        O</tei-author>. <tei-title level="a" xml:id="d1e4842" id="d1e4842" data-origname="title">Zu lateinischen Schriftstellern</tei-title>. <tei-title level="j" xml:id="d1e4845" id="d1e4845" data-origname="title">Berliner philologische Wochenschrift</tei-title>
+                     <tei-biblScope unit="volume" xml:id="d1e4848" id="d1e4848" data-origname="biblScope">27.35</tei-biblScope> (<tei-date xml:id="d1e4851" id="d1e4851" data-origname="date">1907</tei-date>): <tei-biblScope unit="page" xml:id="d1e4854" id="d1e4854" data-origname="biblScope">1119</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/uiug.30112023962035?urlappend=%3Bseq=578" xml:id="d1e4857" id="d1e4857" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Stark" id="Stark" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4863" id="d1e4863" data-origname="abbr">Stark</tei-abbr> <tei-author xml:id="d1e4866" id="d1e4866" data-origname="author">Stark,
-                        Rudolf</tei-author>. <tei-title level="a" xml:id="d1e4868" id="d1e4868" data-origname="title"><tei-foreign xml:lang="la" xml:id="d1e4869" id="d1e4869" data-origname="foreign">Bellum
-                           Alexandrinum</tei-foreign> 19, 1</tei-title>. <tei-title level="j" xml:id="d1e4873" id="d1e4873" data-origname="title">Maia</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4876" id="d1e4876" data-origname="biblScope">16</tei-biblScope> (<tei-date xml:id="d1e4879" id="d1e4879" data-origname="date">1964</tei-date>): <tei-biblScope unit="page" xml:id="d1e4882" id="d1e4882" data-origname="biblScope">239–42</tei-biblScope>.</tei-bibl>
+                  <tei-bibl xml:id="Stark" id="Stark" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4862" id="d1e4862" data-origname="abbr">Stark</tei-abbr> <tei-author xml:id="d1e4865" id="d1e4865" data-origname="author">Stark,
+                        Rudolf</tei-author>. <tei-title level="a" xml:id="d1e4867" id="d1e4867" data-origname="title"><tei-foreign xml:lang="la" xml:id="d1e4868" id="d1e4868" data-origname="foreign">Bellum
+                           Alexandrinum</tei-foreign> 19, 1</tei-title>. <tei-title level="j" xml:id="d1e4872" id="d1e4872" data-origname="title">Maia</tei-title>
+                     <tei-biblScope unit="volume" xml:id="d1e4875" id="d1e4875" data-origname="biblScope">16</tei-biblScope> (<tei-date xml:id="d1e4878" id="d1e4878" data-origname="date">1964</tei-date>): <tei-biblScope unit="page" xml:id="d1e4881" id="d1e4881" data-origname="biblScope">239–42</tei-biblScope>.</tei-bibl>
 
-                  <tei-bibl xml:id="Stoffel" id="Stoffel" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4887" id="d1e4887" data-origname="abbr">Stoffel</tei-abbr> <tei-author xml:id="d1e4890" id="d1e4890" data-origname="author">Stoffel,
-                        E</tei-author>. <tei-title level="m" xml:id="d1e4892" id="d1e4892" data-origname="title">Histoire de Jules César, Guerre civile</tei-title>.
-                     2 vols. <tei-pubPlace xml:id="d1e4895" id="d1e4895" data-origname="pubPlace">Paris</tei-pubPlace>. <tei-date xml:id="d1e4897" id="d1e4897" data-origname="date">1887</tei-date>. <tei-ptr target="https://catalog.hathitrust.org/Record/001193303" xml:id="d1e4899" id="d1e4899" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Stoffel" id="Stoffel" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4886" id="d1e4886" data-origname="abbr">Stoffel</tei-abbr> <tei-author xml:id="d1e4889" id="d1e4889" data-origname="author">Stoffel,
+                        E</tei-author>. <tei-title level="m" xml:id="d1e4891" id="d1e4891" data-origname="title">Histoire de Jules César, Guerre civile</tei-title>.
+                     2 vols. <tei-pubPlace xml:id="d1e4894" id="d1e4894" data-origname="pubPlace">Paris</tei-pubPlace>. <tei-date xml:id="d1e4896" id="d1e4896" data-origname="date">1887</tei-date>. <tei-ptr target="https://catalog.hathitrust.org/Record/001193303" xml:id="d1e4898" id="d1e4898" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Talbert" id="Talbert" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4903" id="d1e4903" data-origname="abbr">Talbert</tei-abbr> <tei-editor xml:id="d1e4906" id="d1e4906" data-origname="editor">Talbert, R.J.A.,
+                  <tei-bibl xml:id="Talbert" id="Talbert" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4902" id="d1e4902" data-origname="abbr">Talbert</tei-abbr> <tei-editor xml:id="d1e4905" id="d1e4905" data-origname="editor">Talbert, R.J.A.,
                         ed.</tei-editor>
-                     <tei-title level="m" xml:id="d1e4908" id="d1e4908" data-origname="title">Barrington atlas of the Greek and Roman world</tei-title>.
-                        <tei-pubPlace xml:id="d1e4911" id="d1e4911" data-origname="pubPlace">Princeton</tei-pubPlace>. <tei-date xml:id="d1e4913" id="d1e4913" data-origname="date">2000</tei-date>.</tei-bibl>
+                     <tei-title level="m" xml:id="d1e4907" id="d1e4907" data-origname="title">Barrington atlas of the Greek and Roman world</tei-title>.
+                        <tei-pubPlace xml:id="d1e4910" id="d1e4910" data-origname="pubPlace">Princeton</tei-pubPlace>. <tei-date xml:id="d1e4912" id="d1e4912" data-origname="date">2000</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Townend" id="Townend" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4917" id="d1e4917" data-origname="abbr">Townend</tei-abbr> <tei-author xml:id="d1e4920" id="d1e4920" data-origname="author">Townend,
-                        G</tei-author>. <tei-title xml:id="d1e4922" id="d1e4922" data-origname="title">Caesar’s War in Alexandria</tei-title>.
-                        <tei-pubPlace xml:id="d1e4924" id="d1e4924" data-origname="pubPlace">Bristol</tei-pubPlace>. <tei-date xml:id="d1e4926" id="d1e4926" data-origname="date">1988</tei-date>.</tei-bibl>
+                  <tei-bibl xml:id="Townend" id="Townend" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4916" id="d1e4916" data-origname="abbr">Townend</tei-abbr> <tei-author xml:id="d1e4919" id="d1e4919" data-origname="author">Townend,
+                        G</tei-author>. <tei-title xml:id="d1e4921" id="d1e4921" data-origname="title">Caesar’s War in Alexandria</tei-title>.
+                        <tei-pubPlace xml:id="d1e4923" id="d1e4923" data-origname="pubPlace">Bristol</tei-pubPlace>. <tei-date xml:id="d1e4925" id="d1e4925" data-origname="date">1988</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Turnebus" id="Turnebus" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4930" id="d1e4930" data-origname="abbr">Turnebus</tei-abbr> <tei-author xml:id="d1e4933" id="d1e4933" data-origname="author">Turnèbe,
-                        Adrien</tei-author>. <tei-title level="m" xml:id="d1e4935" id="d1e4935" data-origname="title">Adriani Turnebi adversariorum tomus
-                        secundus duodecim libros continens</tei-title>. <tei-pubPlace xml:id="d1e4938" id="d1e4938" data-origname="pubPlace">Paris</tei-pubPlace>.
-                        <tei-date xml:id="d1e4940" id="d1e4940" data-origname="date">1565</tei-date>. 36. <tei-ptr target="https://hdl.handle.net/2027/ucm.5317950051?urlappend=%3Bseq=87" xml:id="d1e4942" id="d1e4942" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                  <tei-bibl xml:id="Turnebus" id="Turnebus" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4929" id="d1e4929" data-origname="abbr">Turnebus</tei-abbr> <tei-author xml:id="d1e4932" id="d1e4932" data-origname="author">Turnèbe,
+                        Adrien</tei-author>. <tei-title level="m" xml:id="d1e4934" id="d1e4934" data-origname="title">Adriani Turnebi adversariorum tomus
+                        secundus duodecim libros continens</tei-title>. <tei-pubPlace xml:id="d1e4937" id="d1e4937" data-origname="pubPlace">Paris</tei-pubPlace>.
+                        <tei-date xml:id="d1e4939" id="d1e4939" data-origname="date">1565</tei-date>. 36. <tei-ptr target="https://hdl.handle.net/2027/ucm.5317950051?urlappend=%3Bseq=87" xml:id="d1e4941" id="d1e4941" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
 
-                  <tei-bibl xml:id="Vielhaber1864" id="Vielhaber1864" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4946" id="d1e4946" data-origname="abbr">Vielhaber
-                        1864</tei-abbr> <tei-author xml:id="d1e4949" id="d1e4949" data-origname="author">Vielhaber, Leopold</tei-author>. <tei-title xml:id="d1e4951" id="d1e4951" data-origname="title">Beiträge zur Kritik
+                  <tei-bibl xml:id="Vielhaber1864" id="Vielhaber1864" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4945" id="d1e4945" data-origname="abbr">Vielhaber
+                        1864</tei-abbr> <tei-author xml:id="d1e4948" id="d1e4948" data-origname="author">Vielhaber, Leopold</tei-author>. <tei-title xml:id="d1e4950" id="d1e4950" data-origname="title">Beiträge zur Kritik
                         des Cäsarianischen Bellum ciuile und der Fortsetzungen desselben</tei-title>.
-                        <tei-pubPlace xml:id="d1e4953" id="d1e4953" data-origname="pubPlace">Vienna</tei-pubPlace>. <tei-date xml:id="d1e4955" id="d1e4955" data-origname="date">1864</tei-date>.</tei-bibl>
+                        <tei-pubPlace xml:id="d1e4952" id="d1e4952" data-origname="pubPlace">Vienna</tei-pubPlace>. <tei-date xml:id="d1e4954" id="d1e4954" data-origname="date">1864</tei-date>.</tei-bibl>
 
-                  <tei-bibl xml:id="Vielhaber1869" id="Vielhaber1869" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4960" id="d1e4960" data-origname="abbr">Vielhaber
-                        1869</tei-abbr> <tei-author xml:id="d1e4963" id="d1e4963" data-origname="author">Vielhaber, Leopold</tei-author>. Review of <tei-ref target="bibliography-modern-editions.html#Dübner">Dübner (1867)</tei-ref>. <tei-title level="j" xml:id="d1e4968" id="d1e4968" data-origname="title">Zeitschrift für die
+                  <tei-bibl xml:id="Vielhaber1869" id="Vielhaber1869" data-origname="bibl"><tei-abbr type="siglum" xml:id="d1e4959" id="d1e4959" data-origname="abbr">Vielhaber
+                        1869</tei-abbr> <tei-author xml:id="d1e4962" id="d1e4962" data-origname="author">Vielhaber, Leopold</tei-author>. Review of <tei-ref target="bibliography-modern-editions.html#Dübner">Dübner (1867)</tei-ref>. <tei-title level="j" xml:id="d1e4967" id="d1e4967" data-origname="title">Zeitschrift für die
                         österreichischen Gymnasien</tei-title>
-                     <tei-biblScope unit="volume" xml:id="d1e4971" id="d1e4971" data-origname="biblScope">20</tei-biblScope> (<tei-date xml:id="d1e4974" id="d1e4974" data-origname="date">1869</tei-date>): <tei-biblScope unit="page" xml:id="d1e4977" id="d1e4977" data-origname="biblScope">541–76</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/hvd.32044098632391?urlappend=%3Bseq=649" xml:id="d1e4980" id="d1e4980" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
+                     <tei-biblScope unit="volume" xml:id="d1e4970" id="d1e4970" data-origname="biblScope">20</tei-biblScope> (<tei-date xml:id="d1e4973" id="d1e4973" data-origname="date">1869</tei-date>): <tei-biblScope unit="page" xml:id="d1e4976" id="d1e4976" data-origname="biblScope">541–76</tei-biblScope>. <tei-ptr target="https://hdl.handle.net/2027/hvd.32044098632391?urlappend=%3Bseq=649" xml:id="d1e4979" id="d1e4979" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-bibl>
                </tei-listBibl>
             </tei-div></tei-div></tei-front></tei-text></tei-TEI></div>

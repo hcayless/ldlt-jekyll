@@ -86,9 +86,6 @@ var CETEI = (function () {
         let title = document.createElement("title");
         title.innerHTML = elt.innerText;
         document.querySelector("head").appendChild(title);
-      }]],
-      "cell": [["[cols]", function (elt) {
-        elt.setAttribute("style", "grid-column: " + this.getOrdinality(elt) + " / span " + elt.getAttribute("cols") + ";");
       }]]
     },
     "teieg": {
@@ -702,11 +699,11 @@ var CETEI = (function () {
         callback(this.dom, this);
 
         if (window) {
-          window.dispatchEvent(ceteiceanload);
+          window.dispatchEvent(ceteiceanLoad);
         }
       } else {
         if (window) {
-          window.dispatchEvent(ceteiceanload);
+          window.dispatchEvent(ceteiceanLoad);
         }
 
         return this.dom;
@@ -807,13 +804,17 @@ var CETEI = (function () {
       strings or an object with CSS selector keys and either functions
       or arrays as described above. Returns a closure around a function 
       that can be called in the element constructor or applied to an 
-      individual element.
+      individual element. An empty array is considered a no-op.
     
       Called by the getHandler() and getFallback() methods
     */
 
 
     decorator(template) {
+      if (Array.isArray(template) && template.length == 0) {
+        return function (e) {};
+      }
+
       if (Array.isArray(template) && !Array.isArray(template[0])) {
         return this.applyDecorator(template);
       }

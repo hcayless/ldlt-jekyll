@@ -147,9 +147,9 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
        </tei-refsDecl>
      </tei-encodingDesc>
    </tei-teiHeader><tei-TEI xml:id="d1e3" id="d1e3" data-origname="TEI"><tei-text xml:id="d1e277" id="d1e277" data-origname="text"><tei-front xml:id="front" id="front" data-origname="front"><tei-div type="section" xml:id="preface" id="preface" data-origname="div"><tei-div type="section" xml:id="preface-acknowledgements" id="preface-acknowledgements" data-origname="div">
-               <tei-head xml:id="d1e3206" id="d1e3206" data-origname="head">Acknowledgements</tei-head>
+               <tei-head xml:id="d1e3205" id="d1e3205" data-origname="head">Acknowledgements</tei-head>
 
-               <tei-p xml:id="d1e3208" id="d1e3208" data-origname="p">As we said at the outset, this edition rests on the work of many contributors. It
+               <tei-p xml:id="d1e3207" id="d1e3207" data-origname="p">As we said at the outset, this edition rests on the work of many contributors. It
                   couldn’t have been done without them, or without the financial and other forms of
                   support for research provided by the Andrew W. Mellon Foundation and our two home
                   institutions, the University of Pennsylvania and the University of Oklahoma. Our
@@ -157,10 +157,10 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                   grateful to all who kept us company along the way, even on the “paths not (or not
                   yet) taken” that are an inevitable part of a project as complex as this one proved
                   to be. Information on the collaborations and support that resulted in the platform
-                  and protocols that host and govern this edition can be found at the <tei-ref target="https://digitallatin.org/" xml:id="d1e3210" id="d1e3210" data-origname="ref">Digital Latin Library</tei-ref> and the <tei-ref target="https://ldlt.digitallatin.org/" xml:id="d1e3213" id="d1e3213" data-origname="ref">Library of Digital Latin
+                  and protocols that host and govern this edition can be found at the <tei-ref target="https://digitallatin.org/" xml:id="d1e3209" id="d1e3209" data-origname="ref">Digital Latin Library</tei-ref> and the <tei-ref target="https://ldlt.digitallatin.org/" xml:id="d1e3212" id="d1e3212" data-origname="ref">Library of Digital Latin
                   Texts</tei-ref>.</tei-p>
 
-               <tei-p xml:id="d1e3217" id="d1e3217" data-origname="p">Students at the University of Pennsylvania transcribed and collated the manuscript
+               <tei-p xml:id="d1e3216" id="d1e3216" data-origname="p">Students at the University of Pennsylvania transcribed and collated the manuscript
                   witnesses and produced the text, critical apparatus, appendix critica, and
                   translation. The contributors were undergraduates, students in the Postbac
                   program, and graduate students in Classical Studies and Ancient History, along
@@ -186,10 +186,10 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                   Lewis, who helped edit the apparatus notes and appendix critica; and Zachary
                   Elliott, who along with his wife Molly Cowan tested approaches to automating the
                   conversion of traditional apparatus notes into spreadsheet form. Support both
-                  financial and technical was provided by Penn’s <tei-ref target="https://pricelab.sas.upenn.edu/fellows/damon-cynthia" xml:id="d1e3219" id="d1e3219" data-origname="ref">Price Lab for
+                  financial and technical was provided by Penn’s <tei-ref target="https://pricelab.sas.upenn.edu/fellows/damon-cynthia" xml:id="d1e3218" id="d1e3218" data-origname="ref">Price Lab for
                      Digital Humanities</tei-ref>.</tei-p>
 
-               <tei-p xml:id="d1e3223" id="d1e3223" data-origname="p">We owe a debt of gratitude to many people at the University of Oklahoma. Virginia
+               <tei-p xml:id="d1e3222" id="d1e3222" data-origname="p">We owe a debt of gratitude to many people at the University of Oklahoma. Virginia
                   K. Felkner perfected the scripts used to reduce the amount of manual encoding we
                   had to do. Mark Laufersweiler and Tyler Pearson of the Data Analytics,
                   Visualization, and Informatics Syndicate provided invaluable advice on that and
@@ -199,9 +199,9 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                   Vice President for Research supported this and other DLL projects by providing
                   physical and virtual spaces for them.</tei-p>
 
-               <tei-p xml:id="d1e3225" id="d1e3225" data-origname="p">Several people beyond the walls of the University of Pennsylvania and the
+               <tei-p xml:id="d1e3224" id="d1e3224" data-origname="p">Several people beyond the walls of the University of Pennsylvania and the
                   University of Oklahoma deserve special mention. Hugh Cayless (Duke University),
-                  co-author of the "<tei-ref target="https://digitallatin.github.io/guidelines/LDLT-Guidelines.html" xml:id="d1e3227" id="d1e3227" data-origname="ref">Guidelines for Encoding Critical Editions for the Library of Digital Latin
+                  co-author of the "<tei-ref target="https://digitallatin.github.io/guidelines/LDLT-Guidelines.html" xml:id="d1e3226" id="d1e3226" data-origname="ref">Guidelines for Encoding Critical Editions for the Library of Digital Latin
                      Texts</tei-ref>" and architect of the application for reading this edition online,
                   has been instrumental in all aspects of this project. Tom Elliott (New York
                   University) and Alex Ward provided advice on scholarly and technical matters.

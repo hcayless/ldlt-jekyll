@@ -147,9 +147,9 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
        </tei-refsDecl>
      </tei-encodingDesc>
    </tei-teiHeader><tei-TEI xml:id="d1e3" id="d1e3" data-origname="TEI"><tei-text xml:id="d1e277" id="d1e277" data-origname="text"><tei-front xml:id="front" id="front" data-origname="front"><tei-div type="section" xml:id="preface" id="preface" data-origname="div"><tei-div type="section" xml:id="preface-using-this-edition" id="preface-using-this-edition" data-origname="div">
-               <tei-head xml:id="d1e2741" id="d1e2741" data-origname="head">III. Using this edition</tei-head>
+               <tei-head xml:id="d1e2740" id="d1e2740" data-origname="head">III. Using this edition</tei-head>
 
-               <tei-p xml:id="d1e2743" id="d1e2743" data-origname="p">The <tei-title xml:id="d1e2745" id="d1e2745" data-origname="title">Bellum Alexandrinum</tei-title> has come down to us in a very imperfect
+               <tei-p xml:id="d1e2742" id="d1e2742" data-origname="p">The <tei-title xml:id="d1e2744" id="d1e2744" data-origname="title">Bellum Alexandrinum</tei-title> has come down to us in a very imperfect
                   state. The ongoing process of rendering it readable and at least arguably
                   authentic has resulted in a text that differs in hundreds of spots from that
                   transmitted by the manuscripts. The critical apparatus of this edition is designed
@@ -157,52 +157,52 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                   repairs not because they are there but because they are persuasive, or better than
                   others, or better than nothing. Some of the damage incurred in the text's
                   transmission seems irreparable: where text has been lost, for example, or where
-                  rival repairs are equally (im)plausible. These spots are marked with <tei-gap reason="lost" xml:id="d1e2747" id="d1e2747" data-origname="gap" data-empty="">​</tei-gap> and †† respectively. But the vast majority of the problem spots
+                  rival repairs are equally (im)plausible. These spots are marked with <tei-gap reason="lost" xml:id="d1e2746" id="d1e2746" data-origname="gap" data-empty="">​</tei-gap> and †† respectively. But the vast majority of the problem spots
                   are amenable to emendation, and the apparatus presents the evidence and (in brief)
                   the arguments for the repairs adopted or proposed.</tei-p>
 
                
                <tei-div type="section" xml:id="preface-using-this-edition-text" id="preface-using-this-edition-text" data-origname="div">
-                  <tei-head xml:id="d1e2754" id="d1e2754" data-origname="head">A. Text</tei-head>
+                  <tei-head xml:id="d1e2753" id="d1e2753" data-origname="head">A. Text</tei-head>
 
-                  <tei-p xml:id="d1e2756" id="d1e2756" data-origname="p">In general terms the text of this edition aims to reproduce the text of the
+                  <tei-p xml:id="d1e2755" id="d1e2755" data-origname="p">In general terms the text of this edition aims to reproduce the text of the
                      archetype of our tradition, as emended where it seems possible to restore a
                      text closer to the original. However, several expedients adopted to improve the
                      legibility of the text constitute exceptions to this policy.</tei-p>
 
-                  <tei-p xml:id="d1e2758" id="d1e2758" data-origname="p">The spelling of names and common Latin words and forms is silently regularized
+                  <tei-p xml:id="d1e2757" id="d1e2757" data-origname="p">The spelling of names and common Latin words and forms is silently regularized
                      where the manuscript variants are not relevant to understanding the text or its
                      transmission. The lemmata in the critical apparatus match the reading in the
                      text (except in capitalization) and therefore do not necessarily represent the
                      spelling in the manuscripts cited.</tei-p>
 
-                  <tei-p xml:id="d1e2760" id="d1e2760" data-origname="p">Abbreviations and symbols are silently spelled out where there is no ambiguity
+                  <tei-p xml:id="d1e2759" id="d1e2759" data-origname="p">Abbreviations and symbols are silently spelled out where there is no ambiguity
                      about the full form of the word. (For the special case of numbers see below.)
                      Roman praenomina are an exception to this general rule, since we use the
                      standard abbreviations (C. for Gaius, Cn. for Gnaeus, L. for Lucius, and so
-                     on), regardless of what is in the text. The phrase <tei-hi rend="italic" xml:id="d1e2762" id="d1e2762" data-origname="hi">per
+                     on), regardless of what is in the text. The phrase <tei-hi rend="italic" xml:id="d1e2761" id="d1e2761" data-origname="hi">per
                         compendium</tei-hi> in the apparatus indicates that a manuscript contains an
                      abbreviation when this information is helpful for understanding the
                      transmission of the text. But the absence of such an indication should not be
                      taken to imply that the text is written in full. All of the manuscripts cited
-                     here use abbreviations to a greater (<tei-hi rend="bold" xml:id="d1e2765" id="d1e2765" data-origname="hi">U</tei-hi>) or lesser (<tei-hi rend="bold" xml:id="d1e2768" id="d1e2768" data-origname="hi">TV</tei-hi>) or variable (<tei-hi rend="bold" xml:id="d1e2771" id="d1e2771" data-origname="hi">MS</tei-hi>) degree. The
-                     phrase <tei-hi rend="italic" xml:id="d1e2774" id="d1e2774" data-origname="hi">compendio indicato</tei-hi> indicates that a word is
+                     here use abbreviations to a greater (<tei-hi rend="bold" xml:id="d1e2764" id="d1e2764" data-origname="hi">U</tei-hi>) or lesser (<tei-hi rend="bold" xml:id="d1e2767" id="d1e2767" data-origname="hi">TV</tei-hi>) or variable (<tei-hi rend="bold" xml:id="d1e2770" id="d1e2770" data-origname="hi">MS</tei-hi>) degree. The
+                     phrase <tei-hi rend="italic" xml:id="d1e2773" id="d1e2773" data-origname="hi">compendio indicato</tei-hi> indicates that a word is
                      presented as an abbreviation in the manuscript but that the significance of the
                      abbreviation is unclear. </tei-p>
 
-                  <tei-p xml:id="d1e2778" id="d1e2778" data-origname="p">We have silently regularized the manuscripts' inconsistent and discrepant
+                  <tei-p xml:id="d1e2777" id="d1e2777" data-origname="p">We have silently regularized the manuscripts' inconsistent and discrepant
                      representations of cardinal and ordinal numbers. For one, two, and three we use
                      the inflected forms, and for most cardinal numbers higher than three we use
                      Roman numerals, since the inflected forms of large numerical adjectives and
                      adverbs are cumbersome in Latin and less perspicuous than their symbolic
-                     counterparts. However, we do spell out <tei-hi rend="italic" xml:id="d1e2780" id="d1e2780" data-origname="hi">mille</tei-hi> and the
-                     inflected forms of <tei-hi rend="italic" xml:id="d1e2783" id="d1e2783" data-origname="hi">milia</tei-hi>. Ordinal numbers are spelled
+                     counterparts. However, we do spell out <tei-hi rend="italic" xml:id="d1e2779" id="d1e2779" data-origname="hi">mille</tei-hi> and the
+                     inflected forms of <tei-hi rend="italic" xml:id="d1e2782" id="d1e2782" data-origname="hi">milia</tei-hi>. Ordinal numbers are spelled
                      out; this is particularly useful in connection with legions, where the
                      difference between, say, “five legions” and “the fifth legion” is significant.
                      Distributive numbers, which are infrequent in this text, are also spelled
                      out.</tei-p>
 
-                  <tei-p xml:id="d1e2788" id="d1e2788" data-origname="p">We used modern punctuation in the text since the punctuation in the manuscripts
+                  <tei-p xml:id="d1e2787" id="d1e2787" data-origname="p">We used modern punctuation in the text since the punctuation in the manuscripts
                      is neither consistent nor reliable. The terminal punctuation for main clauses
                      is generally a full stop. Where a series of actions seems to gain from
                      presentation as a series, on the other hand, we use commas instead of full
@@ -212,7 +212,7 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                      order are not sufficient (see further below). We occasionally use paired dashes
                      to indicate a gap between the narrative and an embedded utterance such as an
                      editorializing comment by the author, an afterthought, or a “snippet” of
-                     indirect statement, where commas don't suffice.<tei-note place="bottom" xml:id="ftn28" id="ftn28" n="28" data-origname="note"><tei-p xml:id="d1e2791" id="d1e2791" data-origname="p">See Damon (2020) on such parentheses. </tei-p></tei-note>
+                     indirect statement, where commas don't suffice.<tei-note place="foot" xml:id="ftn28" id="ftn28" n="28" data-origname="note"><tei-p xml:id="d1e2790" id="d1e2790" data-origname="p">See Damon (2020) on such parentheses. </tei-p></tei-note>
                      Where such utterances extend for a sentence or more and full stops don't
                      suffice we use parentheses rather than dashes. Single dashes precede instances
                      of anacoluthon. Pointed and square brackets indicate additions to (⟨ ⟩) and
@@ -221,19 +221,19 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                      but the relevant information can be found in the apparatus. In general
                      Incertus’ prose requires more punctuation than Caesar’s. For passages where the
                      periodic style consists of a heavily punctuated accumulation of clauses see,
-                     e.g., 1.4-5 (<tei-hi rend="italic" xml:id="d1e2793" id="d1e2793" data-origname="hi">Caesar … poterat</tei-hi>), 14.5 (<tei-hi rend="italic" xml:id="d1e2796" id="d1e2796" data-origname="hi">Erant … uidebantur</tei-hi>), 24.1-2 (<tei-hi rend="italic" xml:id="d1e2799" id="d1e2799" data-origname="hi">Caesar … puerum</tei-hi>),
-                     35.2 (<tei-hi rend="italic" xml:id="d1e2802" id="d1e2802" data-origname="hi">Domitius … fuisset</tei-hi>), 42.2-3 (<tei-hi rend="italic" xml:id="d1e2806" id="d1e2806" data-origname="hi">Namque … sociorum</tei-hi>), 43.1 (<tei-hi rend="italic" xml:id="d1e2809" id="d1e2809" data-origname="hi">Gabinius … gerebat</tei-hi>),
-                     44.1 (<tei-hi rend="italic" xml:id="d1e2812" id="d1e2812" data-origname="hi">Vatinius … praeparationis</tei-hi>), 44.3-4 (<tei-hi rend="italic" xml:id="d1e2815" id="d1e2815" data-origname="hi">Quod … persequeretur</tei-hi>), 48.1 (<tei-hi rend="italic" xml:id="d1e2818" id="d1e2818" data-origname="hi">Iis …
+                     e.g., 1.4-5 (<tei-hi rend="italic" xml:id="d1e2792" id="d1e2792" data-origname="hi">Caesar … poterat</tei-hi>), 14.5 (<tei-hi rend="italic" xml:id="d1e2795" id="d1e2795" data-origname="hi">Erant … uidebantur</tei-hi>), 24.1-2 (<tei-hi rend="italic" xml:id="d1e2798" id="d1e2798" data-origname="hi">Caesar … puerum</tei-hi>),
+                     35.2 (<tei-hi rend="italic" xml:id="d1e2801" id="d1e2801" data-origname="hi">Domitius … fuisset</tei-hi>), 42.2-3 (<tei-hi rend="italic" xml:id="d1e2805" id="d1e2805" data-origname="hi">Namque … sociorum</tei-hi>), 43.1 (<tei-hi rend="italic" xml:id="d1e2808" id="d1e2808" data-origname="hi">Gabinius … gerebat</tei-hi>),
+                     44.1 (<tei-hi rend="italic" xml:id="d1e2811" id="d1e2811" data-origname="hi">Vatinius … praeparationis</tei-hi>), 44.3-4 (<tei-hi rend="italic" xml:id="d1e2814" id="d1e2814" data-origname="hi">Quod … persequeretur</tei-hi>), 48.1 (<tei-hi rend="italic" xml:id="d1e2817" id="d1e2817" data-origname="hi">Iis …
                         cupiebat</tei-hi>).</tei-p>
 
-                  <tei-p xml:id="d1e2822" id="d1e2822" data-origname="p">Paragraphs are generally those established by Jungermann's 1606 edition, which
+                  <tei-p xml:id="d1e2821" id="d1e2821" data-origname="p">Paragraphs are generally those established by Jungermann's 1606 edition, which
                      serve as the basis for the modern citation system. Units within the paragraphs
                      are numbered as in Andrieu 1954.</tei-p>
 
-                  <tei-p xml:id="d1e2824" id="d1e2824" data-origname="p">The features of the text described so far are available in both online and
-                     print versions of the LDLT edition.<tei-note place="bottom" xml:id="ftn29" id="ftn29" n="29" data-origname="note">Since the edition itself is an XML file, it is important to note that
+                  <tei-p xml:id="d1e2823" id="d1e2823" data-origname="p">The features of the text described so far are available in both online and
+                     print versions of the LDLT edition.<tei-note place="foot" xml:id="ftn29" id="ftn29" n="29" data-origname="note">Since the edition itself is an XML file, it is important to note that
                         “online and print versions” refer to visualizations of the data in that
-                        file. The LDLT's official online reading application is based on the <tei-ref target="https://github.com/TEIC/CETEIcean" xml:id="d1e2828" id="d1e2828" data-origname="ref">CETEIcean</tei-ref> application
+                        file. The LDLT's official online reading application is based on the <tei-ref target="https://github.com/TEIC/CETEIcean" xml:id="d1e2827" id="d1e2827" data-origname="ref">CETEIcean</tei-ref> application
                         developed by Hugh Cayless and Raffaele Viglianti. This edition can be viewed
                         in the LDLT's online reading application at 
                         The print version is available as a PDF in the code repository for this
@@ -243,7 +243,7 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                      apparatus at the bottom of each page, the LDLT's online reading application not
                      only places the critical apparatus in the margin where the variation occurs,
                      but also allows readers to swap variant readers into the text so that they can
-                     be evaluated <tei-foreign xml:lang="lat" xml:id="d1e2834" id="d1e2834" data-origname="foreign">in situ</tei-foreign>. Every attempt has been
+                     be evaluated <tei-foreign xml:lang="lat" xml:id="d1e2833" id="d1e2833" data-origname="foreign">in situ</tei-foreign>. Every attempt has been
                      made to eliminate the possibility of introducing novel readings into the text.
                      This is a hazard when variants in two places are related to each other: If a
                      reader swaps one of the variants into the text, the one related to it elsewhere
@@ -257,52 +257,52 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
 
                
                <tei-div type="section" xml:id="preface-using-this-edition-critical-apparatus" id="preface-using-this-edition-critical-apparatus" data-origname="div">
-                  <tei-head xml:id="d1e2846" id="d1e2846" data-origname="head">B. Critical apparatus</tei-head>
+                  <tei-head xml:id="d1e2845" id="d1e2845" data-origname="head">B. Critical apparatus</tei-head>
 
-                  <tei-p xml:id="d1e2848" id="d1e2848" data-origname="p">There is an entry in the apparatus criticus if any of the following
-                     circumstances applies for a word or phrase in the text:<tei-list rend="ordered" style="1" xml:id="d1e2850" id="d1e2850" data-origname="list">
+                  <tei-p xml:id="d1e2847" id="d1e2847" data-origname="p">There is an entry in the apparatus criticus if any of the following
+                     circumstances applies for a word or phrase in the text:<tei-list rend="ordered" style="1" xml:id="d1e2849" id="d1e2849" data-origname="list">
 
-                        <tei-item n="1" xml:id="d1e2852" id="d1e2852" data-origname="item">If the reading of the archetype is uncertain: <tei-hi rend="bold" xml:id="d1e2854" id="d1e2854" data-origname="hi">μ</tei-hi>≠<tei-hi rend="bold" xml:id="d1e2857" id="d1e2857" data-origname="hi">ν</tei-hi>, or <tei-hi rend="bold" xml:id="d1e2860" id="d1e2860" data-origname="hi">MS</tei-hi>≠<tei-hi rend="bold" xml:id="d1e2863" id="d1e2863" data-origname="hi">Uπ</tei-hi>, etc. In choices between equally authoritative
+                        <tei-item n="1" xml:id="d1e2851" id="d1e2851" data-origname="item">If the reading of the archetype is uncertain: <tei-hi rend="bold" xml:id="d1e2853" id="d1e2853" data-origname="hi">μ</tei-hi>≠<tei-hi rend="bold" xml:id="d1e2856" id="d1e2856" data-origname="hi">ν</tei-hi>, or <tei-hi rend="bold" xml:id="d1e2859" id="d1e2859" data-origname="hi">MS</tei-hi>≠<tei-hi rend="bold" xml:id="d1e2862" id="d1e2862" data-origname="hi">Uπ</tei-hi>, etc. In choices between equally authoritative
                            variants we have put in the text the one that offers the best sense and
-                           style. Or, if these criteria fail, the <tei-hi rend="italic" xml:id="d1e2866" id="d1e2866" data-origname="hi">lectio
-                              difficilior.</tei-hi> If no other criterion suffices, we follow <tei-hi rend="bold" xml:id="d1e2870" id="d1e2870" data-origname="hi">U</tei-hi>, which is the least deviant manuscript. In some
+                           style. Or, if these criteria fail, the <tei-hi rend="italic" xml:id="d1e2865" id="d1e2865" data-origname="hi">lectio
+                              difficilior.</tei-hi> If no other criterion suffices, we follow <tei-hi rend="bold" xml:id="d1e2869" id="d1e2869" data-origname="hi">U</tei-hi>, which is the least deviant manuscript. In some
                            places these criteria pull in different directions.</tei-item>
 
-                        <tei-item n="2" xml:id="d1e2874" id="d1e2874" data-origname="item">If there may be a disagreement between <tei-hi rend="bold" xml:id="d1e2876" id="d1e2876" data-origname="hi">μ</tei-hi>
-                           and <tei-hi rend="bold" xml:id="d1e2879" id="d1e2879" data-origname="hi">ν</tei-hi>: <tei-hi rend="bold" xml:id="d1e2882" id="d1e2882" data-origname="hi">μS</tei-hi>≠<tei-hi rend="bold" xml:id="d1e2885" id="d1e2885" data-origname="hi">π</tei-hi>, <tei-hi rend="bold" xml:id="d1e2888" id="d1e2888" data-origname="hi">U</tei-hi>≠<tei-hi rend="bold" xml:id="d1e2892" id="d1e2892" data-origname="hi">Mν</tei-hi>, etc. We list
+                        <tei-item n="2" xml:id="d1e2873" id="d1e2873" data-origname="item">If there may be a disagreement between <tei-hi rend="bold" xml:id="d1e2875" id="d1e2875" data-origname="hi">μ</tei-hi>
+                           and <tei-hi rend="bold" xml:id="d1e2878" id="d1e2878" data-origname="hi">ν</tei-hi>: <tei-hi rend="bold" xml:id="d1e2881" id="d1e2881" data-origname="hi">μS</tei-hi>≠<tei-hi rend="bold" xml:id="d1e2884" id="d1e2884" data-origname="hi">π</tei-hi>, <tei-hi rend="bold" xml:id="d1e2887" id="d1e2887" data-origname="hi">U</tei-hi>≠<tei-hi rend="bold" xml:id="d1e2891" id="d1e2891" data-origname="hi">Mν</tei-hi>, etc. We list
                            this category separately from (1) because it is often difficult, owing to
-                           the waywardness of <tei-hi rend="bold" xml:id="d1e2895" id="d1e2895" data-origname="hi">S</tei-hi>, to determine the reading of
-                              <tei-hi rend="bold" xml:id="d1e2898" id="d1e2898" data-origname="hi">ν</tei-hi>. The same is true, but to a much lesser extent,
-                           about <tei-hi rend="bold" xml:id="d1e2901" id="d1e2901" data-origname="hi">μ</tei-hi>, owing to <tei-hi rend="bold" xml:id="d1e2904" id="d1e2904" data-origname="hi">M</tei-hi>'s
+                           the waywardness of <tei-hi rend="bold" xml:id="d1e2894" id="d1e2894" data-origname="hi">S</tei-hi>, to determine the reading of
+                              <tei-hi rend="bold" xml:id="d1e2897" id="d1e2897" data-origname="hi">ν</tei-hi>. The same is true, but to a much lesser extent,
+                           about <tei-hi rend="bold" xml:id="d1e2900" id="d1e2900" data-origname="hi">μ</tei-hi>, owing to <tei-hi rend="bold" xml:id="d1e2903" id="d1e2903" data-origname="hi">M</tei-hi>'s
                            propensity to stray.</tei-item>
 
-                        <tei-item n="3" xml:id="d1e2908" id="d1e2908" data-origname="item">If the manuscript evidence warrants display for some other
-                           reason. Readings unique to a particular manuscript—<tei-foreign xml:lang="lat" xml:id="d1e2910" id="d1e2910" data-origname="foreign">lectiones singulares</tei-foreign> or singular readings—are
+                        <tei-item n="3" xml:id="d1e2907" id="d1e2907" data-origname="item">If the manuscript evidence warrants display for some other
+                           reason. Readings unique to a particular manuscript—<tei-foreign xml:lang="lat" xml:id="d1e2909" id="d1e2909" data-origname="foreign">lectiones singulares</tei-foreign> or singular readings—are
                            generally recorded in the <tei-ref target=".html#appendix-critica">Appendix
                               critica</tei-ref> if the text is not in doubt, but multi-word omissions
                            are also reported in the apparatus since they provide crucial information
                            about the shape of hyparchetype families. When other sorts of singular
                            readings are reported in the apparatus, they are mentioned for their
                            value as emendations. Where two manuscripts have different singular
-                           readings at the same spot we generally record this in the apparatus.<tei-note place="bottom" xml:id="ftn30" id="ftn30" n="30" data-origname="note"><tei-p xml:id="d1e2917" id="d1e2917" data-origname="p">In some cases the <tei-ref target=".html#appendix-critica">Appendix critica</tei-ref> seemed the
+                           readings at the same spot we generally record this in the apparatus.<tei-note place="foot" xml:id="ftn30" id="ftn30" n="30" data-origname="note"><tei-p xml:id="d1e2916" id="d1e2916" data-origname="p">In some cases the <tei-ref target=".html#appendix-critica">Appendix critica</tei-ref> seemed the
                                  more appropriate home for the information, especially when
                                  unrelated errors were typical of their manuscripts or where one of
                                  the two errors has been corrected by the scribe.</tei-p></tei-note></tei-item>
 
-                        <tei-item n="4" xml:id="d1e2923" id="d1e2923" data-origname="item">If the syntax is faulty, showing omissions, problems of
+                        <tei-item n="4" xml:id="d1e2922" id="d1e2922" data-origname="item">If the syntax is faulty, showing omissions, problems of
                            agreement, etc. The problem is fixed in the text if possible, even if the
                            solution adopted is only one of several possible solutions. But sometimes
-                           a lacuna (indicated by <tei-gap reason="lost" xml:id="d1e2925" id="d1e2925" data-origname="gap" data-empty="">​</tei-gap>) is indicated instead.<tei-note place="bottom" xml:id="ftn31" id="ftn31" n="31" data-origname="note"><tei-p xml:id="d1e2928" id="d1e2928" data-origname="p">For the more difficult
+                           a lacuna (indicated by <tei-gap reason="lost" xml:id="d1e2924" id="d1e2924" data-origname="gap" data-empty="">​</tei-gap>) is indicated instead.<tei-note place="foot" xml:id="ftn31" id="ftn31" n="31" data-origname="note"><tei-p xml:id="d1e2927" id="d1e2927" data-origname="p">For the more difficult
                                  examples of categories (4)–(7) there are notes explaining our
-                                 reasoning in <tei-ref target=".html#commentary"><tei-title xml:id="d1e2931" id="d1e2931" data-origname="title">Studies on the Text
+                                 reasoning in <tei-ref target=".html#commentary"><tei-title xml:id="d1e2930" id="d1e2930" data-origname="title">Studies on the Text
                                        of the Bellum Alexandrinum</tei-title></tei-ref>. These are signaled
                                  by a diamond (◊) in the apparatus note.</tei-p></tei-note></tei-item>
 
-                        <tei-item n="5" xml:id="d1e2934" id="d1e2934" data-origname="item">If the usage is or appears to be problematic. In this situation,
+                        <tei-item n="5" xml:id="d1e2933" id="d1e2933" data-origname="item">If the usage is or appears to be problematic. In this situation,
                            the problem is usually fixed in the text, unless it can be attributed to
                            the author himself. This large category is subject to some limitations.
-                              <tei-list rend="ordered" style="a" xml:id="d1e2936" id="d1e2936" data-origname="list">
-                              <tei-item n="a" xml:id="d1e2938" id="d1e2938" data-origname="item">We rarely make notes involving the regularization of
+                              <tei-list rend="ordered" style="a" xml:id="d1e2935" id="d1e2935" data-origname="list">
+                              <tei-item n="a" xml:id="d1e2937" id="d1e2937" data-origname="item">We rarely make notes involving the regularization of
                                  acceptable syntax. A very common type of emendation involves verb
                                  forms. E.g., where in a series of historical present tense verbs
                                  one finds a perfect. These generally require trivial textual
@@ -311,37 +311,37 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                                  reading and the repairs available. The fact that someone before
                                  them has also queried the text is unlikely to help resolve the
                                  problem, and such notes, which would be very very numerous, would
-                                 clog the apparatus.<tei-note place="bottom" xml:id="ftn32" id="ftn32" n="32" data-origname="note"><tei-p xml:id="d1e2941" id="d1e2941" data-origname="p">The <tei-hi rend="bold" xml:id="d1e2943" id="d1e2943" data-origname="hi">α</tei-hi> and <tei-hi rend="bold" xml:id="d1e2946" id="d1e2946" data-origname="hi">β</tei-hi>
-                                       branches of the tradition of the <tei-hi rend="italic" xml:id="d1e2949" id="d1e2949" data-origname="hi">BG</tei-hi>
+                                 clog the apparatus.<tei-note place="foot" xml:id="ftn32" id="ftn32" n="32" data-origname="note"><tei-p xml:id="d1e2940" id="d1e2940" data-origname="p">The <tei-hi rend="bold" xml:id="d1e2942" id="d1e2942" data-origname="hi">α</tei-hi> and <tei-hi rend="bold" xml:id="d1e2945" id="d1e2945" data-origname="hi">β</tei-hi>
+                                       branches of the tradition of the <tei-hi rend="italic" xml:id="d1e2948" id="d1e2948" data-origname="hi">BG</tei-hi>
                                        frequently differ over verb tenses, which leads one to
-                                       suspect that in our tradition, which is limited to the <tei-hi rend="bold" xml:id="d1e2952" id="d1e2952" data-origname="hi">β</tei-hi> branch, tense errors will be numerous
+                                       suspect that in our tradition, which is limited to the <tei-hi rend="bold" xml:id="d1e2951" id="d1e2951" data-origname="hi">β</tei-hi> branch, tense errors will be numerous
                                        (see further Damon 2015b, 100-104). </tei-p></tei-note> Emendations
                                  of this sort (and of those discussed below) can be seen in the
                                  Conspectus editionum. However, where such emendations remove a
                                  contradiction within the text they are usually either accepted or
                                  at least reported. Similarly if they help address an otherwise
                                  problematic passage or draw attention to a notable feature of the
-                                 text such as a <tei-foreign xml:lang="lat" xml:id="d1e2956" id="d1e2956" data-origname="foreign">constructio ad
+                                 text such as a <tei-foreign xml:lang="lat" xml:id="d1e2955" id="d1e2955" data-origname="foreign">constructio ad
                                     sensum</tei-foreign>. (This logic and these exceptions also apply to
                                  the following two categories.)</tei-item>
-                              <tei-item n="b" xml:id="d1e2960" id="d1e2960" data-origname="item">We rarely make notes involving the addition or excision or
+                              <tei-item n="b" xml:id="d1e2959" id="d1e2959" data-origname="item">We rarely make notes involving the addition or excision or
                                  interchange of verb prefixes. </tei-item>
-                              <tei-item n="c" xml:id="d1e2963" id="d1e2963" data-origname="item">We rarely make notes involving the addition or excision of
-                                 the connectives <tei-hi rend="italic" xml:id="d1e2965" id="d1e2965" data-origname="hi">et</tei-hi> and -<tei-hi rend="italic" xml:id="d1e2968" id="d1e2968" data-origname="hi">que</tei-hi>, or the interchange of -<tei-hi rend="italic" xml:id="d1e2971" id="d1e2971" data-origname="hi">que</tei-hi> and
-                                    -<tei-hi rend="italic" xml:id="d1e2974" id="d1e2974" data-origname="hi">ue</tei-hi>. A glance at the apparatus will show
+                              <tei-item n="c" xml:id="d1e2962" id="d1e2962" data-origname="item">We rarely make notes involving the addition or excision of
+                                 the connectives <tei-hi rend="italic" xml:id="d1e2964" id="d1e2964" data-origname="hi">et</tei-hi> and -<tei-hi rend="italic" xml:id="d1e2967" id="d1e2967" data-origname="hi">que</tei-hi>, or the interchange of -<tei-hi rend="italic" xml:id="d1e2970" id="d1e2970" data-origname="hi">que</tei-hi> and
+                                    -<tei-hi rend="italic" xml:id="d1e2973" id="d1e2973" data-origname="hi">ue</tei-hi>. A glance at the apparatus will show
                                  that these words are frequently overlooked or added by our
                                  manuscripts.</tei-item>
-                              <tei-item n="d" xml:id="d1e2978" id="d1e2978" data-origname="item">We rarely make notes involving diction. Unlike categories
+                              <tei-item n="d" xml:id="d1e2977" id="d1e2977" data-origname="item">We rarely make notes involving diction. Unlike categories
                                  (a)–(c), such notes sometimes involve substantial changes to the
                                  text, and the presumed innovations have to be explained as
-                                 substitutions (deliberate or unconscious) by the scribe.<tei-note place="foot" xml:id="ftn33" id="ftn33" n="33" data-origname="note"><tei-p xml:id="d1e2981" id="d1e2981" data-origname="p">Or additions. We also
+                                 substitutions (deliberate or unconscious) by the scribe.<tei-note place="foot" xml:id="ftn33" id="ftn33" n="33" data-origname="note"><tei-p xml:id="d1e2980" id="d1e2980" data-origname="p">Or additions. We also
                                        refrain from making notes about possible intrusive glosses,
                                        as long as they don't interfere with the comprehension of the
                                        text.</tei-p></tei-note> Spotting this sort of problem is an almost
                                  infinite task, as there are many words in the text for which one
                                  could think of a more apt, a more common, or at least a different
-                                 expression. The fact that in the <tei-hi rend="italic" xml:id="d1e2983" id="d1e2983" data-origname="hi">BG</tei-hi>
-                                 tradition there are numerous synonym-variants between the <tei-hi rend="bold" xml:id="d1e2986" id="d1e2986" data-origname="hi">α</tei-hi> and <tei-hi rend="bold" xml:id="d1e2989" id="d1e2989" data-origname="hi">β</tei-hi> branches (see
+                                 expression. The fact that in the <tei-hi rend="italic" xml:id="d1e2982" id="d1e2982" data-origname="hi">BG</tei-hi>
+                                 tradition there are numerous synonym-variants between the <tei-hi rend="bold" xml:id="d1e2985" id="d1e2985" data-origname="hi">α</tei-hi> and <tei-hi rend="bold" xml:id="d1e2988" id="d1e2988" data-origname="hi">β</tei-hi> branches (see
                                  Damon 2015b, 100-104) almost guarantees that some of the
                                  expressions in our text were not those originally chosen by the
                                  author, and one advantage of notes on diction would be to call
@@ -354,63 +354,63 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                            </tei-list>
                         </tei-item>
 
-                        <tei-item n="6" xml:id="d1e2996" id="d1e2996" data-origname="item">If the sense is or appears to be problematic on grounds of
+                        <tei-item n="6" xml:id="d1e2995" id="d1e2995" data-origname="item">If the sense is or appears to be problematic on grounds of
                            either history or logic. Such a problem is fixed in the text unless it
                            can be attributed to the author himself. A number of these passages
-                           involve names.<tei-note place="bottom" xml:id="ftn34" id="ftn34" n="34" data-origname="note"><tei-p xml:id="d1e2999" id="d1e2999" data-origname="p">For example,
+                           involve names.<tei-note place="foot" xml:id="ftn34" id="ftn34" n="34" data-origname="note"><tei-p xml:id="d1e2998" id="d1e2998" data-origname="p">For example,
                                  we printed the transmitted spelling, even though epigraphic
-                                 evidence suggests that it is wrong, at 42.3 <tei-foreign xml:lang="lat" xml:id="d1e3001" id="d1e3001" data-origname="foreign">Iadertinorum</tei-foreign> and 48.2 <tei-foreign xml:lang="lat" xml:id="d1e3004" id="d1e3004" data-origname="foreign">Medobrigam</tei-foreign>. Incertus might not have known the local
+                                 evidence suggests that it is wrong, at 42.3 <tei-foreign xml:lang="lat" xml:id="d1e3000" id="d1e3000" data-origname="foreign">Iadertinorum</tei-foreign> and 48.2 <tei-foreign xml:lang="lat" xml:id="d1e3003" id="d1e3003" data-origname="foreign">Medobrigam</tei-foreign>. Incertus might not have known the local
                                  or accepted spelling of these rather out of the way toponyms. Like
-                                 Caesar, Incertus is inconsistent in his use of the <tei-foreign xml:lang="lat" xml:id="d1e3007" id="d1e3007" data-origname="foreign">tria nomina</tei-foreign>, both at an individual’s
-                                 introduction, where he sometimes supplies the <tei-foreign xml:lang="lat" xml:id="d1e3010" id="d1e3010" data-origname="foreign">praenomen</tei-foreign> and sometimes doesn’t, and
+                                 Caesar, Incertus is inconsistent in his use of the <tei-foreign xml:lang="lat" xml:id="d1e3006" id="d1e3006" data-origname="foreign">tria nomina</tei-foreign>, both at an individual’s
+                                 introduction, where he sometimes supplies the <tei-foreign xml:lang="lat" xml:id="d1e3009" id="d1e3009" data-origname="foreign">praenomen</tei-foreign> and sometimes doesn’t, and
                                  subsequently. Q. Cassius Longinus, for example, is sometimes called
                                  Cassius, sometimes Longinus. </tei-p></tei-note>
                         </tei-item>
 
-                        <tei-item n="7" xml:id="d1e3015" id="d1e3015" data-origname="item">If the text is or appears to be suspect on other grounds.
+                        <tei-item n="7" xml:id="d1e3014" id="d1e3014" data-origname="item">If the text is or appears to be suspect on other grounds.
                            Numbers are responsible for most of this category. Sometimes no solution
                            can be proposed but it still seems worth marking the problem.</tei-item>
                      </tei-list></tei-p>
 
-                  <tei-p xml:id="d1e3019" id="d1e3019" data-origname="p">Parallel passages are often cited in the apparatus to defend the text, a
+                  <tei-p xml:id="d1e3018" id="d1e3018" data-origname="p">Parallel passages are often cited in the apparatus to defend the text, a
                      variant, or an emendation, but only when the available parallels are rare;
                      regular usage speaks for itself. In directing the reader to parallels we use
-                        <tei-foreign xml:lang="lat" xml:id="d1e3021" id="d1e3021" data-origname="foreign">uide</tei-foreign> [<tei-hi rend="italic" xml:id="d1e3024" id="d1e3024" data-origname="hi">u</tei-hi>.] for
-                     passages illustrating the matter, <tei-foreign xml:lang="lat" xml:id="d1e3027" id="d1e3027" data-origname="foreign">confer</tei-foreign> [<tei-hi rend="italic" xml:id="d1e3030" id="d1e3030" data-origname="hi">cf</tei-hi>.] for passages illustrating the expression. If a
+                        <tei-foreign xml:lang="lat" xml:id="d1e3020" id="d1e3020" data-origname="foreign">uide</tei-foreign> [<tei-hi rend="italic" xml:id="d1e3023" id="d1e3023" data-origname="hi">u</tei-hi>.] for
+                     passages illustrating the matter, <tei-foreign xml:lang="lat" xml:id="d1e3026" id="d1e3026" data-origname="foreign">confer</tei-foreign> [<tei-hi rend="italic" xml:id="d1e3029" id="d1e3029" data-origname="hi">cf</tei-hi>.] for passages illustrating the expression. If a
                      parallel from the Caesarian corpus is given, it is the best one, and often the
                      only one, unless “etc.” follows, in which case there are up to five or so
                      pertinent parallels. If parallels are given for distinct aspects of the phrase
-                     in question, <tei-foreign xml:lang="lat" xml:id="d1e3033" id="d1e3033" data-origname="foreign">et</tei-foreign> is interposed between
+                     in question, <tei-foreign xml:lang="lat" xml:id="d1e3032" id="d1e3032" data-origname="foreign">et</tei-foreign> is interposed between
                      citations. If a parallel is given from outside of the Caesarian corpus, no
                      adequate parallel exists within the corpus. Where the cited parallel
                      nevertheless provides only indifferent support for the reading it defends, the
                      reading can be assessed accordingly.</tei-p>
 
-                  <tei-p xml:id="d1e3037" id="d1e3037" data-origname="p">In this edition the readings of all of the principal manuscripts are stated for
+                  <tei-p xml:id="d1e3036" id="d1e3036" data-origname="p">In this edition the readings of all of the principal manuscripts are stated for
                      every lemma. This makes it easy for the reader to follow the behavior and
                      affiliations of the manuscripts over large stretches of text. It also
                      facilitates the task of assessing the arguments about readings in the text,
                      since the lemmata and the evidence for them are listed alongside the
                      conflicting evidence.</tei-p>
 
-                  <tei-p xml:id="d1e3039" id="d1e3039" data-origname="p">Orthographical variants and the related category of abbreviations abound in
+                  <tei-p xml:id="d1e3038" id="d1e3038" data-origname="p">Orthographical variants and the related category of abbreviations abound in
                      this tradition (see Damon 2015a, xxiii). They are generally ignored in the
                      apparatus, unless a variant helps explain subsequent innovations, as is
                      sometimes the case for abbreviations in particular. </tei-p>
 
-                  <tei-p xml:id="d1e3042" id="d1e3042" data-origname="p">Citations for works of classical literature are given in the abbreviated forms
-                     standardized by the <tei-hi rend="italic" xml:id="d1e3044" id="d1e3044" data-origname="hi">OLD</tei-hi> and Liddell-Scott-Jones. (With
-                     space-saving exceptions for the six works in the <tei-title xml:id="d1e3047" id="d1e3047" data-origname="title">corpus
-                        Caesarianum</tei-title>, which appear as <tei-hi rend="italic" xml:id="d1e3049" id="d1e3049" data-origname="hi">BG</tei-hi>, Hirt., <tei-hi rend="italic" xml:id="d1e3052" id="d1e3052" data-origname="hi">BC</tei-hi>, <tei-hi rend="italic" xml:id="d1e3055" id="d1e3055" data-origname="hi">BAlex</tei-hi>, <tei-hi rend="italic" xml:id="d1e3059" id="d1e3059" data-origname="hi">BAfr</tei-hi>, <tei-hi rend="italic" xml:id="d1e3062" id="d1e3062" data-origname="hi">BHisp</tei-hi>.) Citations without titles refer to
-                     the <tei-title xml:id="d1e3065" id="d1e3065" data-origname="title">Bellum Alexandrinum.</tei-title></tei-p>
+                  <tei-p xml:id="d1e3041" id="d1e3041" data-origname="p">Citations for works of classical literature are given in the abbreviated forms
+                     standardized by the <tei-hi rend="italic" xml:id="d1e3043" id="d1e3043" data-origname="hi">OLD</tei-hi> and Liddell-Scott-Jones. (With
+                     space-saving exceptions for the six works in the <tei-title xml:id="d1e3046" id="d1e3046" data-origname="title">corpus
+                        Caesarianum</tei-title>, which appear as <tei-hi rend="italic" xml:id="d1e3048" id="d1e3048" data-origname="hi">BG</tei-hi>, Hirt., <tei-hi rend="italic" xml:id="d1e3051" id="d1e3051" data-origname="hi">BC</tei-hi>, <tei-hi rend="italic" xml:id="d1e3054" id="d1e3054" data-origname="hi">BAlex</tei-hi>, <tei-hi rend="italic" xml:id="d1e3058" id="d1e3058" data-origname="hi">BAfr</tei-hi>, <tei-hi rend="italic" xml:id="d1e3061" id="d1e3061" data-origname="hi">BHisp</tei-hi>.) Citations without titles refer to
+                     the <tei-title xml:id="d1e3064" id="d1e3064" data-origname="title">Bellum Alexandrinum.</tei-title></tei-p>
 
-                  <tei-p xml:id="d1e3067" id="d1e3067" data-origname="p">Scholars are cited by name only, or by name and date if it is necessary to
+                  <tei-p xml:id="d1e3066" id="d1e3066" data-origname="p">Scholars are cited by name only, or by name and date if it is necessary to
                      distinguish among their works. Full bibliographic information is given in the
-                        <tei-ref target=".html#bibliography">List of works cited</tei-ref>.<tei-note place="bottom" xml:id="ftn35" id="ftn35" n="35" data-origname="note"><tei-p xml:id="d1e3073" id="d1e3073" data-origname="p">In the long history of work on the text of the
-                              <tei-title xml:id="d1e3075" id="d1e3075" data-origname="title">Bellum Alexandrinum</tei-title> some emendations have lost their
-                           source. Where other editors ascribe a reading to “<tei-hi rend="italic" xml:id="d1e3077" id="d1e3077" data-origname="hi">edd</tei-hi>.,” we have named the earliest source we can find. We use <tei-hi rend="italic bold" xml:id="d1e3080" id="d1e3080" data-origname="hi">ς</tei-hi> if we can verify that a reading is in a
+                        <tei-ref target=".html#bibliography">List of works cited</tei-ref>.<tei-note place="foot" xml:id="ftn35" id="ftn35" n="35" data-origname="note"><tei-p xml:id="d1e3072" id="d1e3072" data-origname="p">In the long history of work on the text of the
+                              <tei-title xml:id="d1e3074" id="d1e3074" data-origname="title">Bellum Alexandrinum</tei-title> some emendations have lost their
+                           source. Where other editors ascribe a reading to “<tei-hi rend="italic" xml:id="d1e3076" id="d1e3076" data-origname="hi">edd</tei-hi>.,” we have named the earliest source we can find. We use <tei-hi rend="italic bold" xml:id="d1e3079" id="d1e3079" data-origname="hi">ς</tei-hi> if we can verify that a reading is in a
                            manuscript other than those used here to constitute the text. (This
-                           usually means that the reading is in <tei-hi rend="bold" xml:id="d1e3083" id="d1e3083" data-origname="hi">L</tei-hi> or <tei-hi rend="bold" xml:id="d1e3086" id="d1e3086" data-origname="hi">N</tei-hi> or <tei-hi rend="bold" xml:id="d1e3090" id="d1e3090" data-origname="hi">R.</tei-hi>) Otherwise we give the
+                           usually means that the reading is in <tei-hi rend="bold" xml:id="d1e3082" id="d1e3082" data-origname="hi">L</tei-hi> or <tei-hi rend="bold" xml:id="d1e3085" id="d1e3085" data-origname="hi">N</tei-hi> or <tei-hi rend="bold" xml:id="d1e3089" id="d1e3089" data-origname="hi">R.</tei-hi>) Otherwise we give the
                            earliest edition in which it appears. Emendations credited to the first
                            edition (“ed. pr.”) are presumably drawn from a manuscript source.
                         </tei-p></tei-note></tei-p>
@@ -421,9 +421,9 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
 
                
                <tei-div type="section" xml:id="preface-using-this-edition-appendix-critica" id="preface-using-this-edition-appendix-critica" data-origname="div">
-                  <tei-head xml:id="d1e3103" id="d1e3103" data-origname="head">C. Appendix critica</tei-head>
+                  <tei-head xml:id="d1e3102" id="d1e3102" data-origname="head">C. Appendix critica</tei-head>
 
-                  <tei-p xml:id="d1e3105" id="d1e3105" data-origname="p">In the Appendix critica we record the singular readings of the principal
+                  <tei-p xml:id="d1e3104" id="d1e3104" data-origname="p">In the Appendix critica we record the singular readings of the principal
                      manuscripts in passages where the text is not in doubt. (Where a singular
                      reading is useful for the constitution of the text it is recorded in the
                      critical apparatus.) This collection of readings illustrates the character of
@@ -431,9 +431,9 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                      the types of errors in each. Lemmata are provided to show the nature of the
                      error. The spelling of the lemma is that of the printed text. Orthographical
                      variants are not registered in the Appendix. An erroneous reading ascribed to
-                        <tei-hi rend="bold" xml:id="d1e3107" id="d1e3107" data-origname="hi">M</tei-hi><tei-hi rend="bold superscript" xml:id="d1e3109" id="d1e3109" data-origname="hi">ac</tei-hi> (or <tei-hi rend="bold" xml:id="d1e3112" id="d1e3112" data-origname="hi">M</tei-hi><tei-hi rend="bold superscript" xml:id="d1e3114" id="d1e3114" data-origname="hi">c</tei-hi>) implies that <tei-hi rend="bold" xml:id="d1e3117" id="d1e3117" data-origname="hi">M</tei-hi><tei-hi rend="bold superscript" xml:id="d1e3119" id="d1e3119" data-origname="hi">c</tei-hi> (or <tei-hi rend="bold" xml:id="d1e3122" id="d1e3122" data-origname="hi">M</tei-hi><tei-hi rend="bold superscript" xml:id="d1e3125" id="d1e3125" data-origname="hi">ac</tei-hi>) has the reading of the lemma.
+                        <tei-hi rend="bold" xml:id="d1e3106" id="d1e3106" data-origname="hi">M</tei-hi><tei-hi rend="bold superscript" xml:id="d1e3108" id="d1e3108" data-origname="hi">ac</tei-hi> (or <tei-hi rend="bold" xml:id="d1e3111" id="d1e3111" data-origname="hi">M</tei-hi><tei-hi rend="bold superscript" xml:id="d1e3113" id="d1e3113" data-origname="hi">c</tei-hi>) implies that <tei-hi rend="bold" xml:id="d1e3116" id="d1e3116" data-origname="hi">M</tei-hi><tei-hi rend="bold superscript" xml:id="d1e3118" id="d1e3118" data-origname="hi">c</tei-hi> (or <tei-hi rend="bold" xml:id="d1e3121" id="d1e3121" data-origname="hi">M</tei-hi><tei-hi rend="bold superscript" xml:id="d1e3124" id="d1e3124" data-origname="hi">ac</tei-hi>) has the reading of the lemma.
                      All singular omissions are listed. Omissions notable for length or content are
-                     also reported in the apparatus criticus. An asterisk marks errors in <tei-hi rend="bold" xml:id="d1e3128" id="d1e3128" data-origname="hi">M</tei-hi> that prompted a correction—not necessarily a successful
-                     one—by <tei-hi rend="bold" xml:id="d1e3131" id="d1e3131" data-origname="hi">M</tei-hi><tei-hi rend="bold superscript" xml:id="d1e3133" id="d1e3133" data-origname="hi">mr</tei-hi>.</tei-p>
+                     also reported in the apparatus criticus. An asterisk marks errors in <tei-hi rend="bold" xml:id="d1e3127" id="d1e3127" data-origname="hi">M</tei-hi> that prompted a correction—not necessarily a successful
+                     one—by <tei-hi rend="bold" xml:id="d1e3130" id="d1e3130" data-origname="hi">M</tei-hi><tei-hi rend="bold superscript" xml:id="d1e3132" id="d1e3132" data-origname="hi">mr</tei-hi>.</tei-p>
                </tei-div>
             </tei-div></tei-div></tei-front></tei-text></tei-TEI></div>

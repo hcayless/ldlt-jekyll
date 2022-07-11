@@ -1815,7 +1815,7 @@
       for (let i = 0; i < links.length; i++) {
         if (links[i].getAttribute('href') == pg) {
           if (i > 0) {
-            prevNext.innerHTML += "↤ "
+            prevNext.innerHTML += "↤ "
             prevNext.innerHTML += links[i-1].outerHTML;
             if (i < links.length) {
               prevNext.innerHTML += " | ";
@@ -1823,7 +1823,7 @@
           }
           if (i < links.length) {
             prevNext.innerHTML += links[i+1].outerHTML;
-            prevNext.innerHTML += " ↦";
+            prevNext.innerHTML += " ↦";
           }
         }
       }
