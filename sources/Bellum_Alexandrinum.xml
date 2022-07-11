@@ -372,7 +372,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    <p>More detailed versions of the following paragraphs are given in <hi
                      rend="background(yellow)">Damon 2015a, xxii-xxvi and 2015b,
                      55-61</hi>.</p></note></head>
-
                   
                   <!-- Beginning a sub-sub-subsection on the archetype. -->
                   <div type="section" xml:id="preface-constituting-the-text-witnesses-archetype">
