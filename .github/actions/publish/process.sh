@@ -18,4 +18,5 @@ do
   convert "$f"
 done  
 
+bundle update
 jekyll build

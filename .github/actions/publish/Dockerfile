@@ -12,7 +12,6 @@ RUN wget -O SaxonHE10.zip https://downloads.sourceforge.net/project/saxon/Saxon-
   echo "#! /bin/bash" > /usr/local/bin/saxon \
     && echo "java -jar /usr/share/java/saxon-he-10.jar \$*" >> /usr/local/bin/saxon \
     && chmod 755 /usr/local/bin/saxon; \
-  mkdir /opt/actions; \
-  bundle update
+  mkdir /opt/actions
 COPY process.sh /opt/actions/process.sh
 ENTRYPOINT ["/opt/actions/process.sh"]
