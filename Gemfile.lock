@@ -85,6 +85,8 @@ GEM
     minitest (5.15.0)
     nokogiri (1.13.3-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.3-x86_64-linux)
+      racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     popper_js (2.9.3)
@@ -140,6 +142,7 @@ GEM
 PLATFORMS
   x86_64-darwin-19
   x86_64-darwin-21
+  x86_64-linux-musl
 
 DEPENDENCIES
   bootstrap (~> 5.1.3)

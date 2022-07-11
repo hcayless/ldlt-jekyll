@@ -173,7 +173,6 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
                  <tei-head xml:id="head-witnesses" id="head-witnesses" data-origname="head">B. The witnesses<tei-note target="#head-witnesses" place="foot" xml:id="ftn12" id="ftn12" n="12" data-origname="note">
                    <tei-p xml:id="d1e602" id="d1e602" data-origname="p">More detailed versions of the following paragraphs are given in <tei-hi rend="background(yellow)" xml:id="d1e604" id="d1e604" data-origname="hi">Damon 2015a, xxii-xxvi and 2015b,
                      55-61</tei-hi>.</tei-p></tei-note></tei-head>
-
                   
                   
                   <tei-div type="section" xml:id="preface-constituting-the-text-witnesses-archetype" id="preface-constituting-the-text-witnesses-archetype" data-origname="div">
