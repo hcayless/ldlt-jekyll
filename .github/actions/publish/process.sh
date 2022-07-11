@@ -17,6 +17,3 @@ do
   echo "Processing file $f"
   convert "$f"
 done  
-
-bundle update
-jekyll build
