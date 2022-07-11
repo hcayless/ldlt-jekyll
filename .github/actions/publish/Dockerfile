@@ -1,5 +1,5 @@
 FROM jekyll/jekyll
-RUN apt-get update && apt-get -y install openjdk-11-jdk-headless \
+RUN apk add openjdk-11-jdk-headless \
   wget \
   zip \
   git 
