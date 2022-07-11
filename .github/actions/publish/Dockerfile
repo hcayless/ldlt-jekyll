@@ -1,5 +1,5 @@
 FROM jekyll/jekyll
-RUN apk add openjdk-11-jdk-headless \
+RUN apk add openjdk11-jre-headless \
   wget \
   zip \
   git 
