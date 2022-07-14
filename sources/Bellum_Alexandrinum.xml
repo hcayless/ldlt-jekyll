@@ -2177,7 +2177,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <head>List of People Cited by Name</head>
                <listPerson>
                   <person xml:id="Atkins">
-                     <persName><abbr type="siglum">Atkins</abbr> Adrienne Atkins</persName>
+                    <name type="label"><abbr type="siglum">Atkins</abbr></name>
+                     <persName>Adrienne Atkins</persName>
                      <note>Member of the Latin 540 class (spring 2015).</note>
                   </person>
                   <person xml:id="Bensch-Schaus">
