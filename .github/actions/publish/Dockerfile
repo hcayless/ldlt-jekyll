@@ -17,4 +17,4 @@ RUN wget -O SaxonHE10.zip https://downloads.sourceforge.net/project/saxon/Saxon-
   mkdir /opt/actions; \
   gem install bundler
 COPY process.sh /opt/actions/process.sh
-#ENTRYPOINT ["/opt/actions/process.sh"]
+ENTRYPOINT ["/opt/actions/process.sh"]
