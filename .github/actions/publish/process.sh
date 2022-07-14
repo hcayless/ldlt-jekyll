@@ -17,3 +17,6 @@ do
   echo "Processing file $f"
   convert "$f"
 done  
+
+bundle install
+jekyll build
