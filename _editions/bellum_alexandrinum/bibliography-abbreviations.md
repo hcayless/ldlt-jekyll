@@ -148,9 +148,9 @@ citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html
      </tei-encodingDesc>
    </tei-teiHeader><tei-TEI xml:id="d1e3" id="d1e3" data-origname="TEI"><tei-text xml:id="d1e277" id="d1e277" data-origname="text"><tei-front xml:id="front" id="front" data-origname="front"><tei-div type="section" xml:id="bibliography" id="bibliography" data-origname="div"><tei-div type="section" xml:id="bibliography-abbreviations" id="bibliography-abbreviations" data-origname="div">
                
-               <tei-head xml:id="d1e5359" id="d1e5359" data-origname="head">Abbreviations and Other Notations</tei-head>
-               <tei-list xml:id="d1e5361" id="d1e5361" data-origname="list">
-                  <tei-item xml:id="scripsimus" id="scripsimus" data-origname="item"><tei-abbr type="siglum" xml:id="d1e5364" id="d1e5364" data-origname="abbr">scripsimus</tei-abbr> = denotes changes
+               <tei-head xml:id="d1e5361" id="d1e5361" data-origname="head">Abbreviations and Other Notations</tei-head>
+               <tei-list xml:id="d1e5363" id="d1e5363" data-origname="list">
+                  <tei-item xml:id="scripsimus" id="scripsimus" data-origname="item"><tei-abbr type="siglum" xml:id="d1e5366" id="d1e5366" data-origname="abbr">scripsimus</tei-abbr> = denotes changes
                      made collectively by <tei-ref target="bibliography-list-of-people.html#Damon">Damon</tei-ref> and members of the Latin
                      540 classes taught at the University of Pennsylvania.</tei-item>
                </tei-list>
