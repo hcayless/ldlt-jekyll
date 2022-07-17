@@ -18,5 +18,8 @@ do
   convert "$f"
 done  
 
-bundle install
-jekyll build
+if [ ! -z "$FILES" ]
+then
+  bundle install
+  jekyll build
+fi
