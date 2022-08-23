@@ -146,6 +146,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <citeStructure match=".//seg" use="@n" delim="." unit="part"/>
            </citeStructure>
          </citeStructure>
+          <citeStructure match="//back/div[@type='commentary'][@xml:id='appendix-critica']" use="head">
+             <citeData property="dc:identifier" use="@xml:id"/>
+             <citeData property="dc:title" use="head"/>
+             <citeData property="function" use="'toc-entry'"/>
+             <citeData property="function" use="'split'"/>
+          </citeStructure>
+         <citeStructure match="//back/div[@type='commentary'][@xml:id='commentary']" use="head">
+           <citeData property="dc:identifier" use="@xml:id"/>
+           <citeData property="dc:title" use="head"/>
+           <citeData property="function" use="'toc-entry'"/>
+            <citeStructure match="./div[@type='section']" use="head">
+               <citeData property="dc:identifier" use="@xml:id"/>
+               <citeData property="dc:title" use="head"/>
+               <citeData property="function" use="'toc-entry'"/>
+               <citeData property="function" use="'split'"/>
+            </citeStructure>
+         </citeStructure>
        </refsDecl>
      </encodingDesc>
    </teiHeader>
