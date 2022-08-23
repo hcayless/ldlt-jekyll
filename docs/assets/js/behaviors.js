@@ -27,6 +27,9 @@ let behaviors = {
     "l": function(elt) {
       this.add_anchor(elt);
     },
+    "lem": [
+      ['div.apparatus tei-lem', [' ']]
+    ],
     "note": [
       ["[place=foot]", function(elt) {
         if (!this.noteIndex){
@@ -43,15 +46,23 @@ let behaviors = {
         content.appendChild(link);
         let notes = document.querySelector("ol.notes");
         if (!notes) {
+          const noteDiv = document.createElement('div');
+          noteDiv.classList.add('notes');
           notes = document.createElement("ol");
-          notes.setAttribute("class", "notes");
-          document.querySelector('main.container').appendChild(notes);
+          notes.classList.add("class", "notes");
+          noteDiv.appendChild(notes);
+          document.querySelector('main').appendChild(noteDiv);
         }
         let note = document.createElement("li");
         note.id = "dest" + id;
         note.innerHTML = `<a href="#${"src" + id}">${this.noteIndex}.</a>` + elt.innerHTML;
         notes.appendChild(note);
         return content;
+      }],
+      ['tei-app>tei-note', (elt) => {
+        if (!elt.innerHTML.match(/^[,;:.]/)) {
+          elt.insertAdjacentText('afterbegin', ' ');
+        }
       }],
       ["_", []]
     ],
@@ -67,10 +78,14 @@ let behaviors = {
       link.href = elt.getAttribute("target");
       return link;
     },
+    "rdg": [
+      ['div.apparatus tei-rdg:not(:first-of-type)', [' | ']]
+    ],
     "seg": function(elt) {
       elt.insertAdjacentHTML('beforebegin', "<sup>" + elt.getAttribute("n") + " </sup>");
     },
     "supplied": ["&lt;","&gt;"],
+    "surplus": ["[","]"],
     "table": function(elt) {
       let table = document.createElement("table");
       table.innerHTML = elt.innerHTML;
