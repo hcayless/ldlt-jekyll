@@ -1,16 +1,10 @@
-html { padding: 0; margin: 0; }
+html { padding: 0; margin: 0; scroll-padding-top: 87px; }
 
 a:link { color: #005cb9; }
 
 a:visited { color: #005cb9; }
 
 a:hover { color: #a33701; }
-
-a[name] { scroll-margin-top: 87px; }
-
-ol.notes > li { display: inline; scroll-margin-top: 87px; }
-
-ol.notes > li > a { float: left; margin-left: -2em; }
 
 .navbar { background-color: #005cb9; }
 
