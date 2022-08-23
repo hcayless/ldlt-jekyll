@@ -1,94 +1,14 @@
 ---
 ---
 
-.note-like {
-    display: block;
-    margin: 1.5em auto 1.5em auto;
-    padding: 0.5em 1.5em 1.5em 1.5em;
-    border: 1px solid black;
-    border-radius: 15px;
-    width: 325px;
-    position: relative;
-    border: 1px solid #aaaaaa;
-    background: #fafafa;
-    /* reset text-indent for note with <l> ancestors. */
-    text-indent: 0;
-    font-size: 85%;
-    text-align: justify;
-    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-}
-
-
-/* US Style Quotes */
-
-.quotesUS {
-    quotes: "\201c""\201d""\2018""\2019""\201c""\201d""\2018""\2019""\201c""\201d""\2018""\2019""\201c""\201d";
-}
-
-
-/* UK-Style Quotes */
-
-.quotesUK {
-    quotes: "\2018""\2019""\201c""\201d""\2018""\2019""\201c""\201d""\2018""\2019""\201c""\201d""\2018""\2019";
-}
-
-.quotes {
-    quotes: "\201c""\201d""\2018""\2019""\201c""\201d""\2018""\2019""\201c""\201d""\2018""\2019""\201c""\201d";
-}
-
-.block-margins {
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-.box-shadow {
-    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-}
-
-.hide {
-    display: none;
-}
-
-.mono {
-    font-family: Courier, monospace;
-}
-
-.page-setup {
-    margin-left: 2em;
-    margin-right: 4em;
-    padding: 2.5em;
-    font-family: Cochin, Georgia, Serif;
-    font-size: 14pt;
-    background-color: #ebebeb;
-    color: #292929;
-    width: 33em;
-}
-
-.table-border {
-    /*
-border-left: 2px solid @border-color;
-border-top:2px solid @border-color;
-*/
-    border: 1px dotted #aaaaaa;
-}
-
-.clicked {
-    font-weight: bold;
-}
-
-
 /* Controls */
 
 div#controls {
     position: fixed;
-    top: 6rem;
+    top: 7rem;
     right: 1rem;
     font-size: 80%;
+    height: 94vh;
     width: 18%;
 }
 
@@ -105,13 +25,21 @@ div#controls ul {
 
 div#navigation {
     border: thin solid gray;
-    max-height: 40em;
-    overflow:scroll;
+    overflow-x: auto;
+    overflow-y: auto;
     padding: 0.5em;
+    position: absolute;
+    top: 8rem;
+    bottom: 5rem;
 }
 
 div#navigation li {
     margin-left: 1em;
+}
+
+div#navigation ul.inline {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 div#navigation a {
@@ -154,12 +82,11 @@ div.apparatus tei-app.app-copy {
 
 div.apparatus tei-app span.source {
     font-weight: normal;
-    margin-right: 0.3em;
+    font-style: italic;
 }
 
 div.apparatus tei-app>span.lem {
     font-weight: bold;
-    margin-right: 0.5em;
 }
 
 div.apparatus tei-app>span.lem:before {
@@ -181,13 +108,11 @@ div.apparatus span.note {
 
 div.apparatus tei-app>tei-lem {
     font-weight: bold;
-    margin-left: 0.2em;
     display: inline;
 }
 
 div.apparatus tei-app tei-rdg {
     display: inline;
-    font-style: italic;
 }
 
 div.apparatus tei-app tei-rdg.hidden {
@@ -205,13 +130,11 @@ div.apparatus tei-rdgGrp {
 div.apparatus tei-app tei-wit {
     display: inline;
     font-style: italic;
-    margin-right: 0.3em;
 }
 
 div.apparatus tei-app>tei-note {
     display: inline;
     font-style: italic;
-    margin-right: 0.5em;
 }
 
 
@@ -245,7 +168,7 @@ button:focus {
 tei-div span.apps {
     display: inline;
     position: absolute;
-    right: 25%;
+    right: 1em;
 }
 
 tei-p span.apps {
@@ -268,8 +191,8 @@ div.apparatus span.lineref {
 }
 
 .ui-tooltip-content div.apparatus span.source {
+    font-style: italic;
     font-weight: normal;
-    margin-right: 0.3em;
 }
 
 .ui-tooltip-content div.apparatus>span.lem {
@@ -285,7 +208,6 @@ div.apparatus span.lineref {
 }
 
 .ui-tooltip-content div.apparatus tei-rdg {
-    font-style: italic;
     display: inline;
 }
 
@@ -303,6 +225,7 @@ div.apparatus span.lineref {
 
 .ui-tooltip-content div.apparatus tei-wit {
     display: inline;
+    font-style: italic;
     margin-right: 0.3em;
 }
 
@@ -312,6 +235,7 @@ div.apparatus span.lineref {
 
 .ui-tooltip-content div.apparatus tei-note {
     display: inline;
+    font-style: italic;
     margin-right: 0.3em;
 }
 
@@ -319,6 +243,9 @@ div.apparatus span.lineref {
     display: inline;
 }
 
+.ui-tooltip-content span.separator {
+    display: none;
+}
 
 /* lists in tooltips */
 
@@ -376,7 +303,6 @@ div.apparatus span.lineref {
 
 .ui-dialog-content tei-rdg {
     display: inline;
-    font-style: italic;
 }
 
 .ui-dialog-content tei-rdg.hidden {
@@ -424,7 +350,6 @@ div.apparatus span.lineref {
 
 .ui-dialog-content span.source {
     font-weight: normal;
-    margin-right: 0.3em;
 }
 
 
@@ -857,7 +782,6 @@ tei-head {
 
 div>tei-head {
     font-size: 180%;
-    text-indent: -0.5em;
 }
 
 tei-div.textpart {
@@ -866,7 +790,6 @@ tei-div.textpart {
 
 tei-div>tei-head {
     font-size: 170%;
-    text-indent: -0.5em;
 }
 
 tei-div>tei-div>tei-head {
@@ -910,6 +833,10 @@ tei-figure>tei-head {
     width: 85%;
     font-family: Georgia, Serif;
     font-size: 13pt;
+}
+
+tei-foreign {
+    font-style: italic;
 }
 
 tei-hi[rend="bold"] {
@@ -971,19 +898,27 @@ tei-cell item {
 
 tei-l {
     display: block;
-    width: 35em;
-    margin-left: 3em;
+    margin-left: 4em;
 }
 
 tei-l[data-num]:before {
+    bottom: -.3em;
     content: attr(data-num);
-    position: absolute;
-    left: 1em;
+    display: block;
+    float: left;
+    font-size: .8em;
+    margin-left: -4em;
+    position: relative;
+    text-align: right;
+    width: 3em;
 }
 
 tei-l tei-label {
-    position: absolute;
-    left: 4em;
+    display: block;
+    float: left;
+    margin-left: -7em;
+    text-align: right;
+    width: 4em;
     font-weight: bold;
 }
 
@@ -1204,13 +1139,10 @@ tei-p {
     margin-top: 1em;
     margin-bottom: 1em;
     text-align: justify;
-    // To give the eyes less to see per line.
-    width: 80%;
 }
 
 tei-text tei-p {
     position: relative;
-    width: 90%;
 }
 
 *[data-tei-rendition~="#center"] p {
@@ -1312,6 +1244,12 @@ tei-q[data-tei-prev]:before {
 
 tei-quote {
     font-style: italic;
+}
+
+tei-quote[rend="blockquote"] {
+    display: block;
+    margin: 1em;
+    text-align: justify;
 }
 
 
@@ -1530,16 +1468,6 @@ tei-stamp:before {
     content: "Stamped: ";
 }
 
-tei-surplus>*:first-child:before {
-    content: "\a[";
-    white-space: pre;
-}
-
-tei-surplus>*:last-child:after {
-    content: "]\a\a";
-    white-space: pre;
-}
-
 
 /* t */
 
@@ -1599,7 +1527,8 @@ tei-teiHeader {
 tei-tei>tei-text {
     display: block;
     line-height: 1.5;
-    width: 80%;
+    margin: auto;
+    max-width: 50vw;
 }
 
 tei-textclass {
@@ -1690,8 +1619,8 @@ html {
 }
 
 div#tei {
-    margin-top: 3rem;
-    margin-right: 30vw;
+    margin-top: 1rem;
+    position: relative;
     width: 70vw;
 }
 
@@ -1707,7 +1636,7 @@ div#teia:active {
 }
 
 div#prevNext {
-    width: 50vw;
+    width: 70vw;
     text-align: center;
     font-size: larger;
 }
@@ -1726,6 +1655,33 @@ div#prevNext a {
 
 .hidden {
     display: none;
+}
+
+div.notes {
+    max-width: 70vw;
+}
+
+ol.notes {
+    list-style: none;
+    margin: auto;
+    max-width: 50vw;
+}
+
+ol.notes>li>a {
+    display: block;
+    float: left;
+    font-family: Courier, monospace;
+    margin-left: -4em;
+    text-align: right;
+    width: 3em;
+}
+
+ol.notes tei-p {
+    text-align: left;
+}
+
+ol.notes a {    
+    color: black;
 }
 
 
@@ -1753,32 +1709,6 @@ div#prevNext a {
     color: #292929;
 }
 
-
-/* loading animation */
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-#loading p {
-    font-size: 128px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-left: -0.5em;
-    margin-top: -0.5em;
-    animation: 2s rotate linear infinite;
-}
-
-.head-font {
-    font-family: Arvo, sans-serif;
-    font-weight: normal;
-}
 
 
 /* -----
