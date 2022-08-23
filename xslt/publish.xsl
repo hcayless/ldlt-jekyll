@@ -62,7 +62,8 @@ citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure"
   <xsl:template name="index">
     <ul>
       <xsl:for-each select="uri-collection('../sources?select=*.xml')">
-        <li><a href="/editions/{lower-case(replace(.,'.*/([^/]+).xml','$1'))}">{translate(replace(.,'.*/([^/]+).xml','$1'),'_',' ')}</a></li>
+        <xsl:variable name="name" select="translate(replace(.,'.*/([^/]+).xml','$1'),'_',' ')"/>
+        <li><a href="/editions/{lower-case(replace(.,'.*/([^/]+).xml','$1'))}">{$name}</a></li>
       </xsl:for-each>
     </ul>
   </xsl:template>
@@ -242,9 +243,28 @@ citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure"
 layout: edition
 title: "{$doc//text/front/titlePage/docTitle/titlePart}: {head}"
 citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure" mode="citations"/>}}"
----
- 
-  <div id="controls">
+--- 
+  <div id="prevNext">
+    -
+  </div>
+
+  <div class="TEI" id="tei">
+    <xsl:apply-templates select="$doc//teiHeader"/>
+    <xsl:variable name="id" select="./@xml:id"/>
+    <xsl:variable name="tree">
+      <xsl:call-template name="ancestors-and-self">
+        <xsl:with-param name="elt" select="$doc-with-ids/id($id)/parent::*"/>
+        <xsl:with-param name="newtree" select="."/>
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:apply-templates select="$tree/*"/>
+    <xsl:for-each select="dts:resolve_citedata($doc,$current,'dc:requires')">
+      <div style="display:none;">
+        <xsl:apply-templates select="."/>
+      </div>
+    </xsl:for-each>
+  </div>
+  <div id="controls" class="">
     <div id="citesearch">
       <form>
         <label for="getcite">Find citation</label><xsl:text> </xsl:text><input type="text" name="getcite"/><xsl:text> </xsl:text><button onclick="resolveCite(); return false;">Go</button>
@@ -279,25 +299,7 @@ citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure"
       <xsl:copy-of select="$toc"/>
     </div>
   </div>
-  <div id="prevNext">
-    -
-  </div>
-  <div class="TEI" id="tei">
-    <xsl:apply-templates select="$doc//teiHeader"/>
-    <xsl:variable name="id" select="./@xml:id"/>
-    <xsl:variable name="tree">
-      <xsl:call-template name="ancestors-and-self">
-        <xsl:with-param name="elt" select="$doc-with-ids/id($id)/parent::*"/>
-        <xsl:with-param name="newtree" select="."/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:apply-templates select="$tree/*"/>
-    <xsl:for-each select="dts:resolve_citedata($doc,$current,'dc:requires')">
-      <div style="display:none;">
-        <xsl:apply-templates select="."/>
-      </div>
-    </xsl:for-each>
-  </div>
+    
       </xsl:result-document>
     </xsl:for-each>
   </xsl:template>
