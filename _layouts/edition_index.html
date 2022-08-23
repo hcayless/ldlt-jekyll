@@ -17,18 +17,14 @@
     </script>
 </head>
 
-<body>
-    {% include navbar.html %}
-    <div id="mainwrapper" class="d-flex flex-column min-vh-100">
-        <div class="container flex-grow-1">
-            <main role="main">
-                {{ content }}
-            </main>
+    <body>
+        {% include navbar.html %}
+        <div id="mainwrapper" class="d-flex flex-column min-vh-100">
+            <div class="container flex-grow-1">
+                <main role="main">
+                    {{ content }}
+                </main>
+            </div>
         </div>
-    </div>
-</body>
-<xsl:result-document href="../index.html" method="html" html-version="5">
-    <xsl:call-template name="index" />
-</xsl:result-document>
-
+    </body>
 </html>

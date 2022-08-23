@@ -20,15 +20,13 @@
   <body>
     {% include svgs.html %}
     {% include navbar.html %}
-    <div id="mainwrapper" class="d-flex flex-column min-vh-100">
-      <div class="container flex-grow-1">
-        <main role="main" class="container">
-          {{ content }}
-        </main>
+    <div id="mainwrapper" class="container-fluid">
+      <main role="main" class="container container-fluid">
+        {{ content }}
       </div>
     </div>
     <script>
-      let c = new CETEI();
+      let c = new CETEI({'ignoreFragmentId':true});
       let app = new appcrit(c);
       c.addBehaviors(behaviors);
       c.processPage();
@@ -42,14 +40,14 @@
           }
         }
       });
-      let tei = document.querySelector('div>tei-div[type="textpart"],[type="edition"]');
+      let tei = document.querySelector('div>tei-div[type="textpart"],[type="edition"],[type="section"],[type="commentary"]');
       app.loadData(tei);
       app.doSection($(tei));
       let citables = {{ page.citables }};
       let resolveCite = function() {
         window.location = citables[document.querySelector("input[name=getcite]").value.toString()];
       }
-      const links = Array.from(document.getElementById('navigation').querySelectorAll('a')); 
+      const links = Array.from(document.getElementById('navigation').querySelectorAll('a:not([href*="#"])')); 
       const pg = window.location.pathname.replace(/.*\/([^\/]+)$/,'$1');
       const prevNext = document.getElementById('prevNext');
       prevNext.innerHTML = "";
@@ -58,14 +56,18 @@
           if (i > 0) {
             prevNext.innerHTML += "↤ "
             prevNext.innerHTML += links[i-1].outerHTML;
-            if (i < links.length) {
+            if (i < links.length - 1) {
               prevNext.innerHTML += " | ";
             }
           }
-          if (i < links.length) {
+          if (i < links.length - 1) {
             prevNext.innerHTML += links[i+1].outerHTML;
             prevNext.innerHTML += " ↦";
           }
+        }
+        if (links[i].innerHTML.length < 4) {
+          links[i].parentElement.parentElement.classList.add('inline');
+
         }
       }
     </script>
